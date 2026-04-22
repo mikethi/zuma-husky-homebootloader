@@ -1,0 +1,65 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         FBPK v2  –  Pixel bootloader container  –  parse / extract          ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  CONTAINER HEADER  (0x68 bytes, offset 0x00)                                 ║
+║  ┌──────────┬──────┬──────────────────────────────────────────────────────┐  ║
+║  │ offset   │ size │ field                                                │  ║
+║  ├──────────┼──────┼──────────────────────────────────────────────────────┤  ║
+║  │ 0x00     │  4   │ magic        – ASCII "FBPK"                          │  ║
+║  │ 0x04     │  4   │ version      – uint32 LE  (2 for this image)         │  ║
+║  │ 0x08     │  4   │ entry_count  – uint32 LE  (112 for this image)       │  ║
+║  │ 0x0C     │  4   │ (reserved / file-size hint)                          │  ║
+║  │ 0x10     │ 16   │ platform     – null-padded ASCII  ("zuma")           │  ║
+║  │ 0x20     │ 32   │ build_id     – null-padded ASCII  ("ripcurrent-…")   │  ║
+║  │ 0x40     │ 40   │ (reserved zeros)                                     │  ║
+║  └──────────┴──────┴──────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  ENTRY TABLE  (entry_count × 0x68 bytes, starting at offset 0x68)           ║
+║  Each entry record is 0x68 bytes:                                            ║
+║  ┌──────────┬──────┬──────────────────────────────────────────────────────┐  ║
+║  │ +0x00    │  4   │ flags / index  (uint32 LE)                           │  ║
+║  │ +0x04    │  4   │ extra field    (uint32 LE, 0 in most entries)        │  ║
+║  │ +0x08    │  4   │ type           (uint32 LE:                           │  ║
+║  │          │      │   0 = raw / partition-table block                   │  ║
+║  │          │      │   1 = firmware blob (ELF / flat binary)             │  ║
+║  │          │      │   2 = UFS firmware update package)                  │  ║
+║  │ +0x0C    │ 76   │ name           (null-terminated ASCII string)        │  ║
+║  │ +0x58    │  8   │ data_offset    (uint64 LE – byte offset in file)     │  ║
+║  │ +0x60    │  8   │ data_size      (uint64 LE – payload length in bytes) │  ║
+║  └──────────┴──────┴──────────────────────────────────────────────────────┘  ║
+║                                                                              ║
+║  EXTRACTION ALGORITHM                                                        ║
+║  1. Read 4-byte magic at offset 0 → must be "FBPK".                         ║
+║  2. Read entry_count (uint32 LE) at offset 0x08.                            ║
+║  3. Read platform (bytes 0x10-0x1F) and build_id (bytes 0x20-0x3F).         ║
+║  4. For each entry i  in  range(entry_count):                                ║
+║       a. entry_base = 0x68  +  i × 0x68                                     ║
+║       b. name       = entry_base + 0x0C  (null-terminated string)           ║
+║       c. data_offset= uint64 LE at entry_base + 0x58                        ║
+║       d. data_size  = uint64 LE at entry_base + 0x60                        ║
+║       e. if data_size > 0 and data_offset > 0:                              ║
+║              output_file = <name>.bin                                        ║
+║              write file[data_offset : data_offset + data_size]              ║
+║                                                                              ║
+║  PARTITION MAP (this specific build)                                         ║
+║   ufs           – UFS device descriptor / partition-table metadata          ║
+║   partition:0‒3 – raw GPT partition-table blocks (one per UFS namespace)    ║
+║   bl1 / bl1_a/b – Boot ROM second-stage loader  (Samsung BL1)               ║
+║   pbl / pbl_a/b – Primary Boot Loader                                        ║
+║   bl2 / bl2_a/b – Secondary Boot Loader                                      ║
+║   abl / abl_a/b – Android Bootloader  (fastboot / recovery entry)           ║
+║   bl31          – ARM Trusted Firmware BL31  (EL3 runtime firmware)         ║
+║   tzsw          – TrustZone secure-world image                               ║
+║   gsa           – Google Security chip Application firmware                  ║
+║   gsa_bl1       – GSA first-stage loader                                     ║
+║   ldfw          – Late-dispatch firmware                                     ║
+║   gcf / gcf_a/b – Google Compute Firmware                                    ║
+║   ufsfwupdate   – UFS firmware update payload                                ║
+║   dpm_a/b       – Dynamic Power Manager                                      ║
+║   dram_train    – DRAM training blob                                         ║
+║   blenv         – Bootloader environment / variables partition               ║
+║   vbmeta_*      – Android Verified Boot metadata (AVB)                      ║
+║   boot_a/b      – Android boot partition placeholder                         ║
+║   (and more A/B slot mirrors of the above)                                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
