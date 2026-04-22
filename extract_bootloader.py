@@ -27,6 +27,8 @@ ENTRY_NAME_OFFSET = 0x0C          # byte offset of name inside an entry
 ENTRY_NAME_LEN    = 0x4C          # max name length (up to +0x58)
 ENTRY_DOFF_OFFSET = 0x58          # uint64 LE – payload offset in file
 ENTRY_DSIZ_OFFSET = 0x60          # uint64 LE – payload size in bytes
+ENTRY_TYPE_OFFSET = 0x08          # uint32 LE – entry type
+VALID_ENTRY_TYPES = {1, 2}
 
 ALGORITHM_TEXT = """\
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -108,6 +110,13 @@ def parse_cstr(buf: bytes, offset: int, max_len: int) -> str:
     return raw.split(b"\x00")[0].decode("ascii", errors="replace")
 
 
+def is_plausible_name(name: str) -> bool:
+    if not name:
+        return False
+    allowed = set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789:_-.")
+    return all(ch in allowed for ch in name)
+
+
 # ── main ─────────────────────────────────────────────────────────────────────
 
 def main() -> None:
@@ -163,10 +172,24 @@ def main() -> None:
             print(f"[!] Entry {i} out of bounds – truncated image?")
             break
 
+        entry_type = struct.unpack_from("<I", data, base + ENTRY_TYPE_OFFSET)[0]
         name = parse_cstr(data, base + ENTRY_NAME_OFFSET, ENTRY_NAME_LEN)
         data_offset, data_size = struct.unpack_from("<QQ", data, base + ENTRY_DOFF_OFFSET)
 
-        if not name or data_size == 0 or data_offset == 0:
+        if (
+            entry_type not in VALID_ENTRY_TYPES
+            and not name
+            and data_offset == 0
+            and data_size == 0
+        ):
+            break
+
+        if (
+            entry_type not in VALID_ENTRY_TYPES
+            or not is_plausible_name(name)
+            or data_size == 0
+            or data_offset == 0
+        ):
             skipped += 1
             continue
 
