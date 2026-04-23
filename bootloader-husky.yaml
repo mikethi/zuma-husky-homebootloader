@@ -1,0 +1,80 @@
+architecture: arm64
+
+# Google Pixel 8 Pro (husky) – bootloader recipe
+#
+# The Pixel 8 Pro uses Android boot image header v4 with an A/B partition
+# scheme.  There is no SD card slot: the image is flashed to internal storage
+# via fastboot.
+#
+# Boot parameters (from deviceinfo / husky.dts):
+#   pagesize:        2048
+#   base:            0x01000000
+#   kernel_offset:   0x00008000
+#   ramdisk_offset:  0x01000000
+#   tags_offset:     0x00000100
+#   dtb_offset:      0x01f00000
+#   header_version:  4
+#
+# Flash commands (after unlocking the bootloader):
+#   fastboot flash boot    nethunterpro-husky-boot.img
+#   fastboot flash userdata nethunterpro-husky.img
+#   fastboot reboot
+
+actions:
+  # ── Locate kernel and DTB inside the rootfs ───────────────────────────────
+  - action: run
+    description: Identify installed kernel version
+    chroot: true
+    command: |
+      KVER=$(linux-version list | sort -V | tail -1)
+      echo "${KVER}" > /tmp/kver.txt
+      echo "[husky] kernel version: ${KVER}"
+
+  # ── Build Android boot image (header v4) ─────────────────────────────────
+  - action: run
+    description: Create Android boot.img (header v4) with Sultan kernel
+    chroot: true
+    command: |
+      set -e
+      KVER=$(cat /tmp/kver.txt)
+      KERNEL="/boot/vmlinuz-${KVER}"
+      DTB="/usr/lib/linux-image-${KVER}/google/husky.dtb"
+      RAMDISK="/boot/initrd.img-${KVER}"
+
+      # Decompress kernel to raw Image.gz expected by mkbootimg
+      if file "${KERNEL}" | grep -q "gzip"; then
+        cp "${KERNEL}" /tmp/kernel.gz
+      else
+        gzip -9 -c "${KERNEL}" > /tmp/kernel.gz
+      fi
+
+      # Append DTB to kernel image (required for header v4 combined image)
+      if [ -f "${DTB}" ]; then
+        cat /tmp/kernel.gz "${DTB}" > /tmp/kernel-dtb.gz
+      else
+        echo "[husky] WARNING: DTB not found at ${DTB}, using kernel only"
+        cp /tmp/kernel.gz /tmp/kernel-dtb.gz
+      fi
+
+      mkbootimg \
+        --header_version 4 \
+        --kernel      /tmp/kernel-dtb.gz \
+        --ramdisk     "${RAMDISK}" \
+        --cmdline     "earlycon=exynos4210,mmio32,0x10870000 console=ttySAC0,115200n8 clk_ignore_unused swiotlb=noforce androidboot.hardware=zuma" \
+        --base        0x01000000 \
+        --pagesize    2048 \
+        --kernel_offset    0x00008000 \
+        --ramdisk_offset   0x01000000 \
+        --tags_offset      0x00000100 \
+        --dtb_offset       0x01f00000 \
+        --output      /boot/nethunterpro-husky-boot.img
+
+      echo "[husky] boot.img built: /boot/nethunterpro-husky-boot.img"
+
+  # ── Extract boot image out of the chroot ─────────────────────────────────
+  - action: run
+    description: Copy boot.img to recipe working directory
+    chroot: false
+    command: |
+      cp "${ROOTDIR}/boot/nethunterpro-husky-boot.img" "nethunterpro-husky-boot.img"
+      echo "[husky] nethunterpro-husky-boot.img ready for fastboot flash"
