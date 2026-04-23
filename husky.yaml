@@ -1,0 +1,58 @@
+architecture: arm64
+
+# ── Kali NetHunter Pro – Pixel 8 Pro (husky / zuma / ripcurrent) ─────────────
+#
+# Main Debos recipe.  Runs all sub-recipes in order:
+#
+#   1. base-system.yaml      – debootstrap arm64 Debian 12 (bookworm) rootfs
+#   2. packages.yaml         – install runtime + build-time packages
+#   3. kernel.yaml           – fetch & install Sultan kernel (zuma / husky)
+#   4. bootloader-husky.yaml – build Android boot.img  (header v4)
+#   5. image.yaml            – pack rootfs into flashable userdata image
+#
+# Usage:
+#   debos husky.yaml
+#
+# Variables (all optional, defaults shown):
+#   -var sultan_tag=latest        Sultan kernel release tag  (e.g. "v6.6.30-sultan-husky")
+#   -var rootfs_size=8GiB         Userdata image size
+#
+# Output artifacts (written to the current working directory):
+#   nethunterpro-husky-boot.img   flash with: fastboot flash boot
+#   nethunterpro-husky.img        flash with: fastboot flash userdata
+#
+# Requirements on the build host:
+#   • debos >= 1.1  (https://github.com/go-debos/debos)
+#   • qemu-user-static  (for arm64 chroot emulation)
+#   • curl, python3  (used by kernel.yaml download step)
+#   • android-sdk-libsparse-utils, mkbootimg  (for bootloader-husky.yaml)
+#
+# Quick-start on a Debian/Ubuntu host:
+#   sudo apt-get install debos qemu-user-static binfmt-support
+#   debos husky.yaml
+
+actions:
+  # ── Stage 1: base rootfs ─────────────────────────────────────────────────
+  - action: recipe
+    description: Bootstrap base Debian 12 arm64 rootfs
+    recipe: base-system.yaml
+
+  # ── Stage 2: packages ────────────────────────────────────────────────────
+  - action: recipe
+    description: Install runtime and build-time packages
+    recipe: packages.yaml
+
+  # ── Stage 3: kernel ──────────────────────────────────────────────────────
+  - action: recipe
+    description: Fetch and install Sultan kernel for husky (zuma)
+    recipe: kernel.yaml
+
+  # ── Stage 4: boot image ──────────────────────────────────────────────────
+  - action: recipe
+    description: Build Android boot.img (header v4)
+    recipe: bootloader-husky.yaml
+
+  # ── Stage 5: userdata image ──────────────────────────────────────────────
+  - action: recipe
+    description: Pack rootfs into flashable nethunterpro-husky.img
+    recipe: image.yaml

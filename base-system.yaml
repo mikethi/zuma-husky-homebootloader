@@ -1,0 +1,69 @@
+architecture: arm64
+
+# ── Base system ──────────────────────────────────────────────────────────────
+# Bootstraps a minimal Debian 12 (bookworm) arm64 rootfs inside
+# ${ROOTDIR} using debootstrap.  This is the first stage of the pipeline
+# and every subsequent recipe builds on top of this rootfs.
+#
+# Mirror: use the Debian CDN mirror; override with -var mirror=... if needed.
+# Suite:  bookworm (Debian 12 stable)
+
+actions:
+  # Debootstrap the base system
+  - action: debootstrap
+    suite:        bookworm
+    components:   [main, contrib, non-free, non-free-firmware]
+    mirror:       https://deb.debian.org/debian
+    variant:      minbase
+    keyring-package: debian-archive-keyring
+
+  # Write /etc/hostname
+  - action: run
+    description: Set hostname
+    chroot: true
+    command: echo "nethunterpro-husky" > /etc/hostname
+
+  # Write /etc/hosts
+  - action: run
+    description: Write /etc/hosts
+    chroot: true
+    command: |
+      cat > /etc/hosts <<'HOSTS'
+      127.0.0.1   localhost
+      127.0.1.1   nethunterpro-husky
+      ::1         localhost ip6-localhost ip6-loopback
+      HOSTS
+
+  # Configure locale so later dpkg-reconfigure calls do not complain
+  - action: run
+    description: Configure en_US.UTF-8 locale
+    chroot: true
+    command: |
+      echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
+      locale-gen
+
+  # Set timezone to UTC
+  - action: run
+    description: Set timezone to UTC
+    chroot: true
+    command: |
+      ln -sf /usr/share/zoneinfo/UTC /etc/localtime
+      echo "UTC" > /etc/timezone
+
+  # Write apt sources (bookworm + security + updates)
+  - action: run
+    description: Write /etc/apt/sources.list
+    chroot: true
+    command: |
+      cat > /etc/apt/sources.list <<'SOURCES'
+      deb https://deb.debian.org/debian            bookworm          main contrib non-free non-free-firmware
+      deb https://deb.debian.org/debian            bookworm-updates  main contrib non-free non-free-firmware
+      deb https://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+      SOURCES
+      apt-get update -qq
+
+  # Set root password to "kali" (change before production use)
+  - action: run
+    description: Set root password
+    chroot: true
+    command: echo "root:kali" | chpasswd

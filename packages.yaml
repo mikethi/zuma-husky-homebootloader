@@ -1,0 +1,103 @@
+architecture: arm64
+
+# ── Package installation ──────────────────────────────────────────────────────
+# Installs all packages required to:
+#   • Build an Android boot image  (android-sdk-libsparse-utils, mkbootimg)
+#   • Support the Sultan kernel module tree at boot  (linux-base, initramfs-tools)
+#   • Run a usable Kali NetHunter Pro environment
+#   • Support USB networking and ADB
+
+actions:
+  # Refresh package lists (sources were written in base-system.yaml)
+  - action: run
+    description: apt-get update
+    chroot: true
+    command: apt-get update -qq
+
+  # ── Core runtime packages ─────────────────────────────────────────────────
+  - action: apt
+    description: Install core runtime packages
+    recommends: false
+    packages:
+      # Shell & utilities
+      - bash
+      - busybox
+      - coreutils
+      - util-linux
+      - procps
+      - psmisc
+      - less
+      - nano
+      - vim-tiny
+      - file
+      - curl
+      - wget
+      - ca-certificates
+      - rsync
+      # Networking
+      - iproute2
+      - net-tools
+      - iputils-ping
+      - iptables
+      - nftables
+      - openssh-server
+      - dnsutils
+      # Filesystem tools
+      - e2fsprogs
+      - f2fs-tools
+      - dosfstools
+      - parted
+      # Init & boot
+      - systemd
+      - systemd-sysv
+      - udev
+      - initramfs-tools
+      - linux-base
+      - kmod
+      # Timezone / locale
+      - tzdata
+      - locales
+      # Python (used by helper scripts in this repo)
+      - python3
+      - python3-pip
+
+  # ── Android boot image toolchain ─────────────────────────────────────────
+  - action: apt
+    description: Install mkbootimg and sparse image utilities
+    recommends: false
+    packages:
+      - android-sdk-libsparse-utils
+      - mkbootimg
+
+  # ── USB networking / ADB support ─────────────────────────────────────────
+  - action: apt
+    description: Install USB networking helpers
+    recommends: false
+    packages:
+      - usbutils
+      - android-tools-adb
+      - android-tools-fastboot
+      - rndis-host
+
+  # ── Kali NetHunter Pro extras ─────────────────────────────────────────────
+  - action: apt
+    description: Install NetHunter Pro wireless and pentest meta-packages
+    recommends: false
+    packages:
+      - aircrack-ng
+      - nmap
+      - tcpdump
+      - wireshark-common
+      - tshark
+      - hcxdumptool
+      - hcxtools
+      - hostapd
+      - dnsmasq
+
+  # ── Clean up ──────────────────────────────────────────────────────────────
+  - action: run
+    description: Clean apt cache
+    chroot: true
+    command: |
+      apt-get clean
+      rm -rf /var/lib/apt/lists/*

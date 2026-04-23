@@ -1,0 +1,98 @@
+architecture: arm64
+
+# ── Final image packing ──────────────────────────────────────────────────────
+#
+# Produces two flashable artifacts:
+#
+#   nethunterpro-husky-boot.img    – Android boot partition  (built by bootloader-husky.yaml)
+#   nethunterpro-husky.img         – Userdata ext4 image containing the rootfs
+#
+# The userdata image is sized to ROOTFS_SIZE (default 8 GiB) to fit the
+# Pixel 8 Pro's 128 GB / 256 GB userdata partition.  Adjust with
+#   debos -var rootfs_size=12G ...
+#
+# Partition layout on device after flashing:
+#   fastboot flash boot     nethunterpro-husky-boot.img
+#   fastboot flash userdata nethunterpro-husky.img
+#   fastboot reboot
+
+actions:
+  # ── Place device-specific overlay files ──────────────────────────────────
+  # Copy fstab.husky into the rootfs so Android init can mount partitions.
+  - action: overlay
+    description: Install fstab.husky
+    source: .
+    destination: /
+
+  # Copy init.rc into the rootfs (used as first-stage init override).
+  - action: overlay
+    description: Install init.rc
+    source: .
+    destination: /
+
+  # ── Enable critical services ──────────────────────────────────────────────
+  - action: run
+    description: Enable systemd services
+    chroot: true
+    command: |
+      systemctl enable ssh        || true
+      systemctl enable networking || true
+      systemctl enable udev       || true
+
+  # ── Write /etc/fstab (Linux-side) ─────────────────────────────────────────
+  # Android's fstab.husky handles the Android partitions; this /etc/fstab
+  # covers the Linux view of the same block devices.
+  - action: run
+    description: Write Linux /etc/fstab
+    chroot: true
+    command: |
+      cat > /etc/fstab <<'FSTAB'
+      # <file system>                                          <mount pt>  <type>  <options>               <dump> <pass>
+      /dev/block/platform/13200000.ufs/by-name/userdata       /           ext4    errors=remount-ro        0      1
+      /dev/block/platform/13200000.ufs/by-name/metadata       /metadata   f2fs    noatime,nosuid,nodev     0      2
+      tmpfs                                                    /tmp        tmpfs   nosuid,nodev             0      0
+      FSTAB
+
+  # ── Create the ext4 userdata image ────────────────────────────────────────
+  - action: image-partition
+    description: Create nethunterpro-husky.img (ext4, 8 GiB)
+    imagename:   nethunterpro-husky.img
+    imagesize:   8GiB
+    partitiontype: gpt
+    mountpoints:
+      - mountpoint: /
+        partition:  rootfs
+    partitions:
+      - name:       rootfs
+        fs:         ext4
+        start:      0%
+        end:        100%
+        flags:      []
+
+  # ── Populate the image with the rootfs ────────────────────────────────────
+  - action: filesystem-deploy
+    description: Deploy rootfs into nethunterpro-husky.img
+    setup-fstab:    false
+    setup-kernel-cmdline: false
+
+  # ── Report artifact sizes ──────────────────────────────────────────────────
+  - action: run
+    description: Print artifact sizes
+    chroot: false
+    command: |
+      echo "──────────────────────────────────────────────"
+      echo "[image] Build artifacts:"
+      for f in nethunterpro-husky-boot.img nethunterpro-husky.img; do
+        if [ -f "${f}" ]; then
+          SIZE=$(du -sh "${f}" | cut -f1)
+          echo "  ${SIZE}   ${f}"
+        else
+          echo "  MISSING: ${f}"
+        fi
+      done
+      echo "──────────────────────────────────────────────"
+      echo "[image] Flash with:"
+      echo "  fastboot flash boot     nethunterpro-husky-boot.img"
+      echo "  fastboot flash userdata nethunterpro-husky.img"
+      echo "  fastboot reboot"
+      echo "──────────────────────────────────────────────"
