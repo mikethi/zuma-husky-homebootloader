@@ -4,10 +4,10 @@ Tools for extracting and inspecting Pixel 8 / 8 Pro (`zuma` / `husky`) bootloade
 
 ## Repository path
 
-Use this absolute repository path:
+Use an absolute repository path:
 
 ```text
-/home/runner/work/zuma-husky-homebootloader/zuma-husky-homebootloader
+/absolute/path/to/zuma-husky-homebootloader
 ```
 
 ## Extract FBPK bootloader partitions
@@ -22,7 +22,8 @@ Run with a heredoc command block:
 
 ```bash
 cat <<'EOF' | bash
-cd /home/runner/work/zuma-husky-homebootloader/zuma-husky-homebootloader
+REPO_DIR="/absolute/path/to/zuma-husky-homebootloader"
+cd "$REPO_DIR"
 python3 extract_bootloader.py
 EOF
 ```
@@ -39,7 +40,8 @@ Run with a heredoc command block:
 
 ```bash
 cat <<'EOF' | bash
-cd /home/runner/work/zuma-husky-homebootloader/zuma-husky-homebootloader
-python3 parse_abl.py --abl /home/runner/work/zuma-husky-homebootloader/zuma-husky-homebootloader/abl.bin
+REPO_DIR="/absolute/path/to/zuma-husky-homebootloader"
+cd "$REPO_DIR"
+python3 parse_abl.py --abl ~/bootloader-extract/abl.bin
 EOF
 ```
