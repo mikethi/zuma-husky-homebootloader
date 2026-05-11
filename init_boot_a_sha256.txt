@@ -1,0 +1,4 @@
+### init_boot_a_sha256
+### sha256sum '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/init_boot_a.img'
+
+6203ce62f4b0f3573b933fbe7439337d0cad6136e3190cfbc133866522bdb90a  /data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/init_boot_a.img

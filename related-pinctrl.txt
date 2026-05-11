@@ -1,0 +1,56 @@
+=== related pinctrl ===
+/sys/kernel/debug/pinctrl/154e0000.pinctrl-samsung-pinctrl/pinmux-pins:pin 180 (gpa5-2): spi19.0 (GPIO UNCLAIMED) function cs35l41-1-irq group gpa5-2
+/sys/kernel/debug/pinctrl/154e0000.pinctrl-samsung-pinctrl/pinmux-functions:function 2: cs35l41-1-irq, groups = [ gpa5-2 ]
+/sys/kernel/debug/pinctrl/154e0000.pinctrl-samsung-pinctrl/pinmux-functions:function 3: ldaf-irq, groups = [ gpa5-4 ]
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-pins:pin 151 (gpa6-3): 0-0043 (GPIO UNCLAIMED) function hapt-amp1-irq group gpa6-3
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-pins:pin 156 (gpa7-2): spi19.1 (GPIO UNCLAIMED) function cs35l41-2-irq group gpa7-2
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-pins:pin 157 (gpa7-3): odm:goodixfp (GPIO UNCLAIMED) function fp-irq group gpa7-3
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-pins:pin 158 (gpa7-4): 11-0057 (GPIO UNCLAIMED) function dc-charger-irq group gpa7-4
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-pins:pin 161 (gpa7-7): 11-0036 (GPIO UNCLAIMED) function if-pmic-fg-irq group gpa7-7
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-pins:pin 162 (gpa8-0): 11-0066 (GPIO UNCLAIMED) function if-pmic-irq group gpa8-0
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-pins:pin 163 (gpa8-1): 9-003c (GPIO UNCLAIMED) function wc_irq group gpa8-1
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-pins:pin 164 (gpa8-2): 9-003c (GPIO UNCLAIMED) function wc_pdet_irq group gpa8-2
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-pins:pin 165 (gpa8-3): i2c-max77759tcpc (GPIO UNCLAIMED) function usb-pd-irq group gpa8-3
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-functions:function 14: fp-irq, groups = [ gpa7-3 ]
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-functions:function 15: if-pmic-fg-irq, groups = [ gpa7-7 ]
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-functions:function 16: if-pmic-irq, groups = [ gpa8-0 ]
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-functions:function 17: dc-charger-irq, groups = [ gpa7-4 ]
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-functions:function 18: usb-pd-irq, groups = [ gpa8-3 ]
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-functions:function 20: cs35l41-2-irq, groups = [ gpa7-2 ]
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-functions:function 21: hapt-amp1-irq, groups = [ gpa6-3 ]
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-functions:function 24: wc_irq, groups = [ gpa8-1 ]
+/sys/kernel/debug/pinctrl/154d0000.pinctrl-samsung-pinctrl/pinmux-functions:function 25: wc_pdet_irq, groups = [ gpa8-2 ]
+/sys/kernel/debug/pinctrl/15060000.pinctrl-samsung-pinctrl/pinmux-pins:pin 123 (gpn5-0): spi18.0 (GPIO UNCLAIMED) function qm35-irq group gpn5-0
+/sys/kernel/debug/pinctrl/15060000.pinctrl-samsung-pinctrl/pinmux-functions:function 3: qm35-irq, groups = [ gpn5-0 ]
+/sys/kernel/debug/pinctrl/10840000.pinctrl-samsung-pinctrl/pinmux-pins:pin 5 (gpp1-0): odm:goodixfp (GPIO UNCLAIMED) function fp-rst group gpp1-0
+/sys/kernel/debug/pinctrl/pinctrl-handles:    type: MUX_GROUP controller samsung-pinctrl group: gpa7-7 (33) function: if-pmic-fg-irq (15)
+/sys/kernel/debug/pinctrl/pinctrl-handles:    type: MUX_GROUP controller samsung-pinctrl group: gpa8-0 (34) function: if-pmic-irq (16)
+/sys/kernel/debug/pinctrl/pinctrl-handles:    type: MUX_GROUP controller samsung-pinctrl group: gpa7-4 (30) function: dc-charger-irq (17)
+/sys/kernel/debug/pinctrl/pinctrl-handles:    type: MUX_GROUP controller samsung-pinctrl group: gpa8-2 (36) function: wc_pdet_irq (25)
+/sys/kernel/debug/pinctrl/pinctrl-handles:    type: MUX_GROUP controller samsung-pinctrl group: gpa8-1 (35) function: wc_irq (24)
+/sys/kernel/debug/pinctrl/pinctrl-handles:    type: MUX_GROUP controller samsung-pinctrl group: gpa8-3 (37) function: usb-pd-irq (18)
+/sys/kernel/debug/pinctrl/pinctrl-handles:device: odm:goodixfp current state: default
+/sys/kernel/debug/pinctrl/pinctrl-handles:    type: MUX_GROUP controller samsung-pinctrl group: gpa7-3 (29) function: fp-irq (14)
+/sys/kernel/debug/pinctrl/pinctrl-handles:    type: MUX_GROUP controller samsung-pinctrl group: gpa5-2 (2) function: cs35l41-1-irq (2)
+/sys/kernel/debug/pinctrl/pinctrl-handles:    type: MUX_GROUP controller samsung-pinctrl group: gpa7-2 (28) function: cs35l41-2-irq (20)
+/sys/kernel/debug/pinctrl/pinctrl-handles:    type: MUX_GROUP controller samsung-pinctrl group: gpn5-0 (5) function: qm35-irq (3)
+/sys/kernel/debug/pinctrl/pinctrl-handles:device: spi20.0 current state: pmx_ts_active
+/sys/kernel/debug/pinctrl/pinctrl-handles:    type: MUX_GROUP controller samsung-pinctrl group: gpa6-3 (23) function: hapt-amp1-irq (21)
+/sys/kernel/debug/pinctrl/pinctrl-maps:function if-pmic-fg-irq
+/sys/kernel/debug/pinctrl/pinctrl-maps:function if-pmic-irq
+/sys/kernel/debug/pinctrl/pinctrl-maps:function dc-charger-irq
+/sys/kernel/debug/pinctrl/pinctrl-maps:function wc_pdet_irq
+/sys/kernel/debug/pinctrl/pinctrl-maps:function wc_irq
+/sys/kernel/debug/pinctrl/pinctrl-maps:function usb-pd-irq
+/sys/kernel/debug/pinctrl/pinctrl-maps:device odm:goodixfp
+/sys/kernel/debug/pinctrl/pinctrl-maps:function fp-irq
+/sys/kernel/debug/pinctrl/pinctrl-maps:device odm:goodixfp
+/sys/kernel/debug/pinctrl/pinctrl-maps:device odm:goodixfp
+/sys/kernel/debug/pinctrl/pinctrl-maps:device odm:goodixfp
+/sys/kernel/debug/pinctrl/pinctrl-maps:function cs35l41-1-irq
+/sys/kernel/debug/pinctrl/pinctrl-maps:function cs35l41-2-irq
+/sys/kernel/debug/pinctrl/pinctrl-maps:function qm35-irq
+/sys/kernel/debug/pinctrl/pinctrl-maps:device spi20.0
+/sys/kernel/debug/pinctrl/pinctrl-maps:device spi20.0
+/sys/kernel/debug/pinctrl/pinctrl-maps:device spi20.0
+/sys/kernel/debug/pinctrl/pinctrl-maps:function hapt-amp1-irq

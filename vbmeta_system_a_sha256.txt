@@ -1,0 +1,4 @@
+### vbmeta_system_a_sha256
+### sha256sum '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/vbmeta_system_a.img'
+
+907f2e58c06b70e86ab751fd94e2f16652bee1370f9a6ae9e0ed991bd6638053  /data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/vbmeta_system_a.img

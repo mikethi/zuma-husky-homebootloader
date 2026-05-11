@@ -1,0 +1,32 @@
+=== related debugfs gpio ===
+ gpio-5   (                    |goodix_reset        ) out hi 
+ gpio-6   (                    |reset               ) out hi 
+ gpio-38  (                    |timesync            ) in  lo IRQ 
+ gpio-44  (                    |exton               ) in  lo IRQ 
+ gpio-45  (                    |reset               ) out lo ACTIVE LOW
+ gpio-46  (                    |bbd_pps             ) in  lo IRQ 
+ gpio-69  (                    |fts_gpio_69
+ gpio-94  (                    |pidle               ) in  lo IRQ 
+ gpio-96  (                    |esereset            ) out hi 
+ gpio-97  (                    |reset               ) out hi 
+ gpio-98  (                    |AP2CP_NRESET        ) out hi 
+ gpio-100 (                    |reset               ) out hi 
+ gpio-102 (                    |reset               ) out hi ACTIVE LOW
+ gpio-118 (                    |fts_gpio_118
+       ) in  hi IRQ 
+ gpio-122 (                    |ss-ready            ) in  lo IRQ 
+ gpio-123 (                    |ss-irq              ) in  lo IRQ 
+ gpio-124 (                    |host-wakeup         ) in  lo IRQ 
+ gpio-129 (                    |CP2AP_CP_WRST_N     ) in  hi IRQ 
+ gpio-146 (                    |gpio-keys: KEY_POWER) in  hi IRQ ACTIVE LOW
+ gpio-147 (                    |gpio-keys: KEY_VOLUM) in  hi IRQ ACTIVE LOW
+ gpio-148 (                    |reset               ) in  hi 
+ gpio-149 (                    |gsc,ctdl_ap_irq     ) in  lo IRQ 
+ gpio-150 (                    |gpio-keys: KEY_VOLUM) in  hi IRQ ACTIVE LOW
+ gpio-153 (                    |CP2AP_WAKEUP        ) in  lo IRQ 
+ gpio-154 (                    |CP2AP_CP_ACTIVE     ) in  hi IRQ 
+ gpio-157 (                    |goodix_irq          ) in  lo IRQ 
+ gpio-158 (                    |pca9468             ) in  hi IRQ 
+ gpio-160 (                    |irq                 ) in  lo IRQ 
+ gpio-181 (                    |HOST REQ            ) in  lo IRQ 
+ gpio-182 (                    |irq                 ) in  lo IRQ ACTIVE LOW

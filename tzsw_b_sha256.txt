@@ -1,0 +1,4 @@
+### tzsw_b_sha256
+### sha256sum '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/tzsw_b.img'
+
+a7af2b869ae2bb9cc4a4147c31276f6aefa861ec63bee7f28ecebe6f08a97b15  /data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/tzsw_b.img

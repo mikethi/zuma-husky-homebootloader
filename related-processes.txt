@@ -1,0 +1,11 @@
+=== related processes ===
+u:r:kernel:s0                  root           171     2          0      0 kthread_worker_fn   0 S [spi12]
+u:r:kernel:s0                  root           176     2          0      0 kthread_worker_fn   0 S [spi18]
+u:r:kernel:s0                  root           185     2          0      0 kthread_worker_fn   0 S [spi19]
+u:r:kernel:s0                  root           187     2          0      0 kthread_worker_fn   0 S [spi20]
+u:r:kernel:s0                  root           191     2          0      0 kthread_worker_fn   0 S [spi21]
+u:r:kernel:s0                  root           651     2          0      0 hsspi_thread_fn     0 S [hsspi]
+u:r:hal_secure_element_st54spi_aidl:s0 secure_element 999 1 10887180 5200 binder_thread_read  0 S android.hardware.secure_element-service.thales
+u:r:hal_face_default:s0        system        1222     1   11310044  11936 binder_thread_read  0 S android.hardware.biometrics.face-service.pixel
+u:r:kernel:s0                  root          1679     2          0      0 irq_thread          0 S [irq/480-fts]
+u:r:hal_fingerprint_default:s0 system        1883     1   11061108   4364 binder_thread_read  0 S android.hardware.biometrics.fingerprint-service.goodix

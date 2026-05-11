@@ -1,0 +1,64 @@
+=== services ===
+[init.svc.vendor.power-hal-aidl]: [running]
+[init.svc.vendor.power.stats]: [running]
+[init.svc.vendor.thermal-hal]: [running]
+[init.svc.vendor.thermal.symlinks]: [stopped]
+[init.svc_debug_pid.vendor.power-hal-aidl]: [652]
+[init.svc_debug_pid.vendor.power.stats]: [986]
+[init.svc_debug_pid.vendor.thermal-hal]: [1836]
+[init.svc_debug_pid.vendor.thermal.symlinks]: []
+
+=== powerhal props ===
+[debug.hwui.skia_use_perfetto_track_events]: [false]
+[debug.perfetto.sdk_sysprop_guard_generation]: [0]
+[debug.renderengine.skia_use_perfetto_track_events]: [false]
+[debug.sf.enable_adpf_cpu_hint]: [true]
+[init.svc.perfetto_persistent_sysui_tracing_for_bugreport]: [stopped]
+[init.svc.traced_perf]: [stopped]
+[init.svc_debug_pid.perfetto_persistent_sysui_tracing_for_bugreport]: []
+[init.svc_debug_pid.traced_perf]: []
+[persist.device_config.runtime_native_boot.iorap_perfetto_enable]: [false]
+[persist.device_config.vendor_system_native_boot.boost_adpf_prio]: [-1]
+[ro.odm.build.media_performance_class]: [34]
+[security.perf_harden]: [1]
+[sys.init.perf_lsm_hooks]: [1]
+[vendor.edgetpu.cpu_scheduler.policy]: [FIFO]
+[vendor.edgetpu.cpu_scheduler.priority]: [99]
+[vendor.pixel.system.phenotype.Perf__proxy_execution_experiment]: [default]
+[vendor.pixel.system.phenotype.Perf__zram_comp_algorithm_experiment]: [default]
+[vendor.powerhal.adpf.rate]: [16666666]
+[vendor.powerhal.apf_disabled]: [false]
+[vendor.powerhal.apf_enabled]: [true]
+[vendor.powerhal.camerarunning]: [0]
+[vendor.powerhal.dalvik.vm.dex2oat-cpu-set]: [0,1,2,3,4,5,6,7]
+[vendor.powerhal.dalvik.vm.dex2oat-threads]: [6]
+[vendor.powerhal.init]: [1]
+[vendor.powerhal.mode.aa]: [0]
+[vendor.powerhal.rendering]: []
+
+=== processes ===
+u:r:kernel:s0                  root           126     2          0      0 perf_mon_task       0 S [perf_mon_update_client_task]
+u:r:kernel:s0                  root           246     2          0      0 kthread_worker_fn   0 S [thermal_pressure]
+u:r:hal_bootctl_default:s0     root           536     1   10826584   5396 binder_thread_read  0 S android.hardware.boot-service.default-pixel
+u:r:hal_graphics_composer_default:s0 system   547     1   11704312  24296 binder_thread_read  0 S android.hardware.composer.hwc3-service.pixel
+u:r:kernel:s0                  root           619     2          0      0 rescuer_thread      0 I [gxp_power_work_]
+u:r:hal_power_default:s0       root           652     1   11017480   9172 binder_thread_read  0 S android.hardware.power-service.pixel-libperfmgr
+u:r:hal_power_stats_default:s0 system         986     1   10842092   6372 binder_thread_read  0 S android.hardware.power.stats-service.pixel
+u:r:hal_memtrack_default:s0    graphics      1009     1   10892536   5272 binder_thread_read  0 S android.hardware.memtrack-service.pixel
+u:r:hal_face_default:s0        system        1222     1   11310044  15220 binder_thread_read  0 S android.hardware.biometrics.face-service.pixel
+u:r:hal_thermal_default:s0     system        1836     1   10956468   7080 binder_thread_read  0 S android.hardware.thermal-service.pixel
+u:r:pixelsystemservice_app:s0:c13,c257,c512,c768 u0_a269 2320 947 17205316 144504 do_epoll_wait 0 S com.google.android.pixelsystemservice
+u:r:vendor_pbcs_app:s0:c232,c259,c512,c768 system 2326 947 16764160 122884 do_epoll_wait      0 S com.google.pixel.camera.services
+u:r:cccdktimesync_app:s0:c234,c256,c512,c768 u0_a234 2336 947 16676068 118504 do_epoll_wait   0 S com.google.pixel.digitalkey.timesync
+u:r:pixeldisplayservice_app:s0:c239,c256,c512,c768 u0_a239 2383 947 16733044 137876 do_epoll_wait 0 S com.android.pixeldisplayservice
+u:r:pixelstats_vendor:s0       system        2960     1   10938284   6884 do_wait_intr_irq    0 S pixelstats-vendor
+u:r:euiccpixel_app:s0:c6,c257,c512,c768 u0_a262 3094 947  16923320 123796 do_freezer_trap     0 S com.google.euiccpixel
+u:r:connectivity_thermal_power_manager:s0:c236,c256,c512,c768 u0_a236 3513 947 16877412 137792 do_epoll_wait 0 S com.google.android.connectivitythermalpowermanager
+u:r:pixelsystemservice_app:s0:c13,c257,c512,c768 u0_a269 3826 947 16834120 117536 do_freezer_trap 0 S com.google.android.pixelsystemservice:ephemeral
+u:r:priv_app:s0:c512,c768      u0_a182       4343   947   17164044 146128 do_freezer_trap     0 S com.google.android.apps.pixel.customizationbundle
+u:r:priv_app:s0:c512,c768      u0_a168       4535   947   16839308 122556 do_freezer_trap     0 S com.google.pixel.livewallpaper
+u:r:pixelsupport_app:s0:c512,c768 u0_a151    5605   947   18238992 228328 do_freezer_trap     0 S com.google.android.apps.pixel.support
+u:r:priv_app:s0:c512,c768      u0_a264      10385   947   16917556 128504 do_freezer_trap     0 S com.google.android.apps.pixel.dcservice:projection
+u:r:priv_app:s0:c512,c768      u0_a151      10386   947   16885584 123972 do_freezer_trap     0 S com.google.android.apps.pixel.support:projection
+u:r:perfetto:s0                statsd       15144     1   10902580   6712 do_sys_poll         0 S perfetto
+u:r:dcservice_app:s0:c512,c768 u0_a264      30657   947   17198400 134716 do_freezer_trap     0 S com.google.android.apps.pixel.dcservice

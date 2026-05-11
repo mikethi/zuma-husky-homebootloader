@@ -1,0 +1,6 @@
+node raw percent_of_1024
+/proc/vendor_sched/ug_bg_group_throttle 0 0.00%
+/proc/vendor_sched/groups/fg/uclamp_min 768 75.00%
+/proc/vendor_sched/groups/ta/uclamp_min 512 50.00%
+/proc/vendor_sched/groups/bg/uclamp_max 130 12.70%
+/proc/vendor_sched/groups/sysbg/uclamp_max MISSING MISSING

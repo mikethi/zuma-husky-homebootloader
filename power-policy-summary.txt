@@ -1,0 +1,15 @@
+POWER POLICY SUMMARY
+time=Tue May  5 22:48:03 EDT 2026
+slot=_b
+build=google/husky/husky:16/CP1A.260405.005/15001963:user/release-keys
+
+UG background throttle raw=0 percent_of_1024=0.00% node=/proc/vendor_sched/ug_bg_group_throttle
+Foreground uclamp min raw=768 percent_of_1024=75.00% node=/proc/vendor_sched/groups/fg/uclamp_min
+Top-app uclamp min raw=512 percent_of_1024=50.00% node=/proc/vendor_sched/groups/ta/uclamp_min
+Background uclamp max raw=130 percent_of_1024=12.70% node=/proc/vendor_sched/groups/bg/uclamp_max
+System-background uclamp max MISSING node=/proc/vendor_sched/groups/sysbg/uclamp_max
+
+PowerHAL service=running
+PowerHAL pid=652
+Thermal service=running
+Thermal pid=1836

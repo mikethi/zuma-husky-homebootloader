@@ -1,0 +1,4 @@
+### devinfo_sha256
+### sha256sum '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/devinfo.img'
+
+62acba0d291d03946c458d83b7a22d9d692c13e83e6dc4e3eb79a5730474b753  /data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/devinfo.img

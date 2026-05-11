@@ -1,0 +1,12 @@
+2026/05/03 20.10.28 MODEM boot up: active slot num=2, logic_slot1=sim_2, logic_slot2=sim_1
+2026/05/03 20.10.28 Update confpack name: wildcard in stack: 1
+2026/05/03 20.10.28 Update confpack name: ca_freedom in stack: 0
+05-04 12:18:41.394
+2026/05/04 12.18.49 MODEM boot up: active slot num=2, logic_slot1=sim_2, logic_slot2=sim_1
+2026/05/04 12.18.49 Update confpack name: wildcard in stack: 1
+2026/05/04 12.18.50 Update confpack name: ca_freedom in stack: 0
+05-04 15:07:30.251
+2026/05/04 15.07.36 MODEM boot up: active slot num=2, logic_slot1=sim_2, logic_slot2=sim_1
+2026/05/04 15.07.36 Update confpack name: wildcard in stack: 1
+2026/05/04 15.07.37 Update confpack name: ca_freedom in stack: 0
+05-05 18:32:18.468
