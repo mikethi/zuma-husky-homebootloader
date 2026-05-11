@@ -1,49 +1,97 @@
 registered pin groups:
-group: gph0-0
-pin 87 (gph0-0)
+group: gpp19-0
+pin 55 (gpp19-0)
 
-group: gph0-1
-pin 88 (gph0-1)
+group: gpp19-1
+pin 56 (gpp19-1)
 
-group: gph0-2
-pin 89 (gph0-2)
+group: gpp19-2
+pin 57 (gpp19-2)
 
-group: gph0-3
-pin 90 (gph0-3)
+group: gpp19-3
+pin 58 (gpp19-3)
 
-group: gph1-0
-pin 91 (gph1-0)
+group: gpp19-4
+pin 59 (gpp19-4)
 
-group: gph1-1
-pin 92 (gph1-1)
+group: gpp19-5
+pin 60 (gpp19-5)
 
-group: gph1-2
-pin 93 (gph1-2)
+group: gpp19-6
+pin 61 (gpp19-6)
 
-group: gph1-3
-pin 94 (gph1-3)
+group: gpp19-7
+pin 62 (gpp19-7)
 
-group: gph1-4
-pin 95 (gph1-4)
+group: gpp20-0
+pin 63 (gpp20-0)
 
-group: gph1-5
-pin 96 (gph1-5)
+group: gpp20-1
+pin 64 (gpp20-1)
 
-group: gph1-6
-pin 97 (gph1-6)
+group: gpp20-2
+pin 65 (gpp20-2)
 
-group: gph1-7
-pin 98 (gph1-7)
+group: gpp20-3
+pin 66 (gpp20-3)
 
-group: gph2-0
-pin 99 (gph2-0)
+group: gpp21-0
+pin 67 (gpp21-0)
 
-group: gph2-1
-pin 100 (gph2-1)
+group: gpp21-1
+pin 68 (gpp21-1)
 
-group: gph2-2
-pin 101 (gph2-2)
+group: gpp21-2
+pin 69 (gpp21-2)
 
-group: gph2-3
-pin 102 (gph2-3)
+group: gpp21-3
+pin 70 (gpp21-3)
+
+group: gpp21-4
+pin 71 (gpp21-4)
+
+group: gpp21-5
+pin 72 (gpp21-5)
+
+group: gpp21-6
+pin 73 (gpp21-6)
+
+group: gpp21-7
+pin 74 (gpp21-7)
+
+group: gpp24-0
+pin 75 (gpp24-0)
+
+group: gpp24-1
+pin 76 (gpp24-1)
+
+group: gpp24-2
+pin 77 (gpp24-2)
+
+group: gpp24-3
+pin 78 (gpp24-3)
+
+group: gpp22-0
+pin 79 (gpp22-0)
+
+group: gpp22-1
+pin 80 (gpp22-1)
+
+group: gpp22-2
+pin 81 (gpp22-2)
+
+group: gpp22-3
+pin 82 (gpp22-3)
+
+group: gpp23-0
+pin 83 (gpp23-0)
+
+group: gpp23-1
+pin 84 (gpp23-1)
+
+group: gpp23-2
+pin 85 (gpp23-2)
+
+group: gpp23-3
+pin 86 (gpp23-3)
 

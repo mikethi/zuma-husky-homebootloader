@@ -1,18 +1,34 @@
 Pinmux settings per pin
 Format: pin (name): mux_owner gpio_owner hog?
-pin 87 (gph0-0): 12100000.pcie (GPIO UNCLAIMED) function pcie0_perst group gph0-0
-pin 88 (gph0-1): 12100000.pcie (GPIO UNCLAIMED) function pcie0_clkreq group gph0-1
-pin 89 (gph0-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
-pin 90 (gph0-3): (MUX UNCLAIMED) (GPIO UNCLAIMED)
-pin 91 (gph1-0): (MUX UNCLAIMED) (GPIO UNCLAIMED)
-pin 92 (gph1-1): (MUX UNCLAIMED) (GPIO UNCLAIMED)
-pin 93 (gph1-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
-pin 94 (gph1-3): (MUX UNCLAIMED) (GPIO UNCLAIMED)
-pin 95 (gph1-4): 9-003c (GPIO UNCLAIMED) function wc_en group gph1-4
-pin 96 (gph1-5): (MUX UNCLAIMED) (GPIO UNCLAIMED)
-pin 97 (gph1-6): (MUX UNCLAIMED) (GPIO UNCLAIMED)
-pin 98 (gph1-7): (MUX UNCLAIMED) (GPIO UNCLAIMED)
-pin 99 (gph2-0): 0-0043 (GPIO UNCLAIMED) function hapt-amp-trig group gph2-0
-pin 100 (gph2-1): spi19.1 (GPIO UNCLAIMED) function cs35l41-2-rst group gph2-1
-pin 101 (gph2-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
-pin 102 (gph2-3): 0-0043 (GPIO UNCLAIMED) function hapt-amp1-rst group gph2-3
+pin 55 (gpp19-0): 10c80000.hsi2c (GPIO UNCLAIMED) function hsi2c0-bus group gpp19-0
+pin 56 (gpp19-1): 10c80000.hsi2c (GPIO UNCLAIMED) function hsi2c0-bus group gpp19-1
+pin 57 (gpp19-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 58 (gpp19-3): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 59 (gpp19-4): 10c90000.hsi2c (GPIO UNCLAIMED) function hsi2c9-bus group gpp19-4
+pin 60 (gpp19-5): 10c90000.hsi2c (GPIO UNCLAIMED) function hsi2c9-bus group gpp19-5
+pin 61 (gpp19-6): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 62 (gpp19-7): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 63 (gpp20-0): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 64 (gpp20-1): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 65 (gpp20-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 66 (gpp20-3): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 67 (gpp21-0): 10cb0000.hsi2c (GPIO UNCLAIMED) function hsi2c11-bus group gpp21-0
+pin 68 (gpp21-1): 10cb0000.hsi2c (GPIO UNCLAIMED) function hsi2c11-bus group gpp21-1
+pin 69 (gpp21-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 70 (gpp21-3): 11-003e (GPIO UNCLAIMED) function eusb_init_state group gpp21-3
+pin 71 (gpp21-4): spi12.0 (GPIO UNCLAIMED) function spi12-bus group gpp21-4
+pin 72 (gpp21-5): spi12.0 (GPIO UNCLAIMED) function ese1-spi-mosi-default group gpp21-5
+pin 73 (gpp21-6): spi12.0 (GPIO UNCLAIMED) function spi12-bus group gpp21-6
+pin 74 (gpp21-7): spi12.0 (GPIO UNCLAIMED) function spi12-cs group gpp21-7
+pin 75 (gpp24-0): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 76 (gpp24-1): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 77 (gpp24-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 78 (gpp24-3): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 79 (gpp22-0): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 80 (gpp22-1): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 81 (gpp22-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 82 (gpp22-3): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 83 (gpp23-0): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 84 (gpp23-1): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 85 (gpp23-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 86 (gpp23-3): (MUX UNCLAIMED) (GPIO UNCLAIMED)
