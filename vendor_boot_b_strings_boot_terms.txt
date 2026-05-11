@@ -1,0 +1,2959 @@
+### vendor_boot_b_strings_boot_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/vendor_boot_b.img' | grep -Ei 'boot|abl|bl1|pbl|bl2|bl31|tz|trusty|gsa|avb|vbmeta|dtb|dtbo|fdt|kernel|ramdisk|cmdline|fastboot|recovery|usb|ufs|uefi|efi|lk|little kernel|edk|smc|hvc|el1|el2|el3|psci|gic|mmu|dram|memory|slot|rollback|signature|rsa|sha256|verity|disable-verification|disable-verity|orange|locked|unlocked' | head -3000
+
+VNDRBOOT
+fips140.load_sequential=1 exynos_drm.load_sequential=1 g2d.load_sequential=1 samsung_iommu_v9.load_sequential=1 swiotlb=noforce disable_dma32=on earlycon=exynos4210,0x10870000 console=ttySAC0,115200 androidboot.console=ttySAC0 printk.devkmsg=on cma_sysfs.experimental=Y rcupdate.rcu_expedited=1 rcu_nocbs=all rcutree.enable_rcu_lazy swiotlb=1024 cgroup.memory=nokmem sysctl.kernel.sched_pelt_multiplier=4 rodata=on kasan=off at24.write_timeout=100 log_buf_len=1024K android_arch_task_struct_size=512 bootconfig
+/kernel/debug
+_ramdisk|
+L/avb
+/q-developer-gsi.avbpubkey
+Xn_extz
+undefi^
+can't enable GNU RELRO prote
+HVC64
+.memory_safety_native.
+4o tz
+!tz!
+CANNOT LINK EXECUTABLE
+Tzd: w
+EL2HLT8
+ATKFLKS0SIG
+`BLKGET
+x-qBLK
+Slot
+Eu9!LKC
+(PREFIX)
+eKERNEL
+ROCmmun&
+&tz5A
+<u128mut boolk
+)14:EFIJNOde
+LK$TG
+!Z%F3lKpb
+T(dTb
+tZ@0
+	tZ&
+BTZ$
+Tz2A9|6A9
+Slki8*
+Ttzg
+R,LK5
+Tzb@
+k	LK
+Tzzx
+lk@h[
+@9hVc
+MemoryError(
+executable_namekernel_relea
+__dl___bionic_get_system_tz
+12basic_stringIcNS1_11char_traitsIcEE
+NS0_11LogSeverity
+a_tableF	
+'edk
+9RegsArm6418Cr
+13KernelTime-M
+DtzseY
+_magicP17
+qSha256_
+TZ28is
+ tzI:
+G tzL
+6_TZ$
+Fdtoa
+EHistz
+aPrefix
+SHA256_K_ARRAY
+21UNSAFE_VARIABLE_NAMEG
+3KernelTimeo|
+undefined
+bL13Get
+baSHA256y"
+ramdisk/s
+Bmark/'Gic_b
+Qof_blk
+RESIZE2FS_FORCE_LAZY_ITABL
+0blkn
+KERNEL_VERSION
+oKernel5
+first_stage_ramdisk/system/bin/tune2fs
+add_error_table
+io_channel_write_blk642
+1blk
+memory
+ kernels newer t(
+` magic_
+wait,slotselect,avb=vb
+__dlkm
+.ufs/by-
+dmanaged=usb:M
+mized+wrappedkey_v0,t
+LogSeverityEPKc
+4ReadFdToSb
+2KernelLogge
+4:;EFIJ^de
+first_stage_ramdisk/system/lib64
+@:tZ
+K5tz .
+1logic_error
+re was insufficient memory
+t@ughtZ
+f1logic
+Tz2A9|6A9
+tZ-9i
+tz"@
+tz/(
+h TZ
+LK@"
+tz"hB(
+.gcc_except_table
+first_stage_ramdisk/system/lib64
+0patz
+Aboot
+Bbufs	5
+Dwalk47
+Ctzna
+""tz
+ tzk
+BUFS
+__kernel_W
+6OutZ
+EL2HLTV
+qBLK
+B2petz+
+	6gic6
+&fdTY
+`OABLEHY
+3#stZ
+%!LK
+"4Cmmun
+bootps
+#1tZZ
+lk`	
+pCtz@
+Tzta
+Slki8*
+@zTZ 
+__bionic_get_system_tz
+dash_prefixV
+qfdtrack4
+RecoverableOnlyEF
+tzse
+23setMemoryP
+Rtwalk
+q"TZ0
+apJ7T5TZQtr_7
+!tz=
+;agicP17
+ 06tz
+2_blkid
+BOOT2
+BLKID_
+table
+needs_recovery
+ImmuY
+VmagicU
+(tz)
+hblkid_
+ZdoublK
+0blk
+C_blk
+`memory9
+plK)
+first_stage_ramdisk/system/lib64
+_error_table
+Niblk
+o	plkmap64
+Bad magic number in L'
+Memory x&
+lk.Z
+7TZ@`
+first_stage_ramdisk/system/lib64
+`able
+kernel
+)lK 
+first_stage_ramdisk/system/lib64
+VenablK
+|klk
+lk@=;M
+"tz$
+first_stage_ramdisk/system/lib64
+=gic
+BXLk
+Q_tably
+sufficient memory
+LK$TG
+!Z%F3lKpb
+Lki8
+.recovery.husky.rc
+F.usb
+|gable=1
+boot.mode=
+[_dlkm 
+`verityP
+_ramdisk3
+^ublkb/
+wus/usb(1
+ymtp_usb)
+)ilK
+>USB
+\.exfatz
+>llk
+<pmemory.
+enum usb tcpv
+fm_walk
+=tUsbAlsa
+=usb
+o magic
+EObulkd
+&@killK
+@.usb
+Davb_&4
+u/lk
+&Lslot7
++=ulk
+@ smC
+2USB
+5OIUsb
+ObulkA
+Vvulkap
+abl,bl1,bl2,bl31,?
+,dtbo,gcf,gsa
+S,pbl,
+4dlk
+,tzsw,vbmeta
+/GlK
+`avbar.
+dTzD
+7!lkuw
+lk5w
+(tz~
+\lkjn
+?EDK
+lkaFce
+RLKZ
+WaBL
+Lk_UN
+TZS_
+]LKz
+J{nZLk:
+tzl&
++9lk
+a&lK5
+o%PlK}
+~Lkj
+:tZ }
+qres/images/fastbootd.png
+`Tz9
+ Lk~
+hVc_Q?8
+tz_~
+ALkX\
+tz;6
+tz^|
+nlKPGA
+ERTZd
+H	5tz
+lK C
+$nKlk
+*LKz
+flk	
+rlK`
+knlK
+SLK1v
+/,,lkYJ*
+rUTz
+lK>+k
+lkDL#
+1-LK
+RtzPO>
+ntzb
+B_tz
+iqYtZ
+~zYtZzj
+$beFi
+ieFiQ
+dEdKx
+Lk6[
+jVlk
+tZ8h
+tzbN
+Xtz7
+tz?Z
+r.tz
+tz7;
+@lk+;|
+TzYr
+4TLK
+C-QZ8:TZ
+NAVb
+UilK
+6tZ6+
+[3lK
+Zlke
+wTZCV
+1hVC
+I%<Lk
+Zhm\Lk
+aTzz
+tZq98>+I/
+w6lk
+6TZzia:
+KaMmU6
+(jTZ
+lk)1
+ohLk
+lk$$
+t0iTz
+}_lk
+``lk
+7Tzq(
+tz>pe8
+Tz5>
+t6lk
+Fr,lk
+i}Ptz
+Qlk(
+lknZz
+,lk8/
+;vtZ~
+p9lK
+rtZN
+&ytz
+qOTz
+UlkY
+TZ3i1
+@)RAVb
+8Tz)
+AlKm
+QLkK
+_a]tz"]
+dLKi
+@uLk(
+TlKRM
+Lk:,
+LK>p
+lkc:O
+xatZ
+WLkhh
+QLkoTD
+Tz7P
+Y.TzG
+.,tz`m
+UHLkf
+CTZB
+NLKc
+|Tzk8k
+jtz.P
+TZ`_~
+]tz+ug
+CZ"LK3{
+TZ0*
+K}LK
+fMU&DlK
+Rufs
+tZf_
+R\tz
+t8tZ
+TZzI
+I tz
+TXmlK
+tZ6|
+lkX2
+vZLK
+	bL1p
+lK	=
+~gSA
+rLKg
+~eL2
+tZ5p
+OtZM
+.%IlK5U/
+zGTz
+mrSA]
+%Z[WTz
+Elk=
+TZJ$p
+LkR9
+hf^uTZ
+@]TZ
+TZ.C
+_immutabl
+4usbA
+fs_ublk
+Tdlkm_KO
+7blk
+7busbK
+TZEm
+mLk!n	j,
+tZ$$
+TZ7^
+Lk(|
+/kernelwakelockdura
+eusb_repeat
+zgvotablL
+hysical-memory-p
+/bootreceiv"
+	?usb 
+?blk8
+Publk-q*	9
+@clkggX
+&?ufs
+gsa-ns/log
+LKmedi
+Susbc_
+?gsaM
+?usb
+24base11GetPropertyERKNSt3__112basic_stringIcNS1_11char_traitsIcEE
+_log_is_debuggable
+9ShouldLogENS0_11LogSeverityEPKc
+tzset
+_1_RSA
+SHA256~
+u24_lengR	befixed
+MLKEM768E
+6rsa
+ USB descriptors
+usb:
+reboot,%s
+op UsbFfsC
+ys.usb.adb. 	%d
+FUNCTIONFS_ENABLE whil0
+	BRSA-
+pbulk-in
+#usb
+7ALLK*
+v0gic
+omtalkshopvot
+el12pxsuitdealRSS"
+barshear00);milk
+aetsURLtz
+`novel1
+viajepablo
+`hablal
+)1sbeL2!el
+benefitdr
+eL2lyg	;
+0JAismcOE
+in JulystzH
+TZ!mezJ
+"stZ
+bLquitZ
+MLKEM768
+TzZ@
+*lk|.
+lkj8mkk8
+@LK7	
+^TZ"
+TZ"@
+9'k&8tz&
+Ttzg
+"! tZ 
+ca_ALk
+rsa_pkey
+MLKEM768_
+29UsbNoPermi$
+E8usb
+2disable_wifi_debugging
+NS_5tupleIJOZN16UsbFfsConne
+!fdt
+o16CreateRSA2048M
+	aSSLKey7!
+E14DecRefI
+tzset
+bably_jdk11k>
+1SHA256BitsToHexq
+D2rsa
+W_MLKEMr
+kPrefixSuffi
+lkdiscard
+l, lblk
+*=%!	Smagic
+CBLKCNT{
+dgical 
+gPslots
+dkernel)
+add_error_table
+9ShouldLogENS0_11LogSeverityEPKc^
+walk7
+stbootd
+St3__112basic_stringIcNS_11char_traitsIcEENS_9
+4base9ShouldLogENS0_11LogSeverityEPKc1
+6fs_mgr23SlotNumberFor
+0Disable
+hal17BootControlClie
+`Kernelp
+wLogicald
+GetRecoveryb
+	Bslot
+1Usbqy
+avb`
+PUBLK 
+.prefix.
+}kd.ublk.9
+ramdisk/f
+@blk=
+AVBf
+bulk-in endo
+8$: X	SMagicu
+ Probably a
+usb.ffs.o
+lk&0
+DEFINE
+XXVDIWEFi#0gid
+LK$TG
+!Z%F3lKpb
+ a repeatable item
+allocate heap memory
+DEFINE
+defined?
+magic%
+q$!Tz
+":uLKB`
+^TZ"
+TZ"@
+9'k&8tz&
+@LK7	
+lkD`
+Ttzg
+Tz,f!
+*lk+8
+)klkj8
+GSaH
+, lblk %u
+available
+%lk+
+CBLKCNT
+0gic@
+sb_extslots"
+dkernelp
+dump_node_from_blkaddr
+=%%d to configure enabled $
+no-kernel-checkN
+ fastboot
+, ni.blk_+
+ in %d slots (len:%d)
+ BLKREPORTZONE
+No memoryO
+Do you wantz
+Bgic:
+rsanity_
+_BLKSIZE
+BLKOFF_FROM_~T
+nLK""
+hardware.boot-service.default_recovery-pixel
+12IBootControl4p1oE
+(St3__112basic_stringIcNS_11char_traitsIcEENS_9allocator
+4base10LogMessageC1EPKcjNS0_11LogSeverityES3_i:
+p2Kernelp
+`trusty
+avb_
+lun_enabled
+/first_stage_ramdisk/fstab.
+Blow secure anti-rollback OTP5
+UFS Exynos glue drivero
+logicalblk=1
+ufs-bsg0
+slotselect'
+!P ufs YA
+1GSA
+ufs_bZ
+signature6
+0gsa
+hardware.health-service.zuma_recovery
+2basic_stringIc}
+11LogSeverityEPKcS8_jS8
+p2Kernelp
+A usb
+p/bootdeB
+ufs: eol=
+AVAILABLE
+7Usb/
+pbLO0;k
+p2Kernelp
+Qboot_
+6fs_mgr23GetBoot8NOFromt
+9AvbHandle19LoadAndVerifyVbmetad
+xecutableP
+QSlotS%
+ge_ramdisk to it
+Elktz
+CAP_SYS_BOOT
+avb.
+DisablI
+PUBLK [
+er_.prefix.
+_ab.ublk.
+debuggabl
+usb9
+.sys.usb..|+
+Tmagic
+Pblk= 
+82dlk
+!dtZ,
+usb/%03d
+NIT_AVB_VERSION
+ Probably a
+IMMUTABLE
+.sha256
+~62Avbs*
+)14:EFIJNOde
+Pavb/
+LK$TG
+!Z%F3lKpb
++LK"
+ @Lk
+"D^LKB`
+^TZ"
+TZ"@
+9'k&8tz&
+@LK7	
+lkD`
+Ttzg
+Tzzx
+Tzy-
+!tz"
+bootloader
+$LK6.
+undefi^
+can't enable GNU RELRO prote
+HVC64
+.memory_safety_native.
+!tz:
+CANNOT LINK EXECUTABLE
+Tzd: w(
+__kernel
+EL2HLT;
+`BLKGETt
+-qBLK
+Slot
+9!LKR
+eKERNELk
+PCmmun
+<u128mut boolk
+)14:EFIJNOde
+LK$TG
+!Z%F3lKpb
+q @TZ
+tZ.|
+?tlk
+Tz2A9|6A9
+`tZ0`
+q TzR
+Slki8*
+TzJ@
+TzR@
+"abl
+Ttzg
+Tzb@
+k	LK
+Tzzx
+@Lk|
+h"Lk
+MemoryError
+executable_namekernel_relea!G
+*tZ`
+__dl___bionic_get_system_tz
+12basic_stringIcNS1_11char_traitsIcEE
+NS0_11LogSeverity
+a_table
+8MemoryXz4InitEvE3$_1e
+7RegsArm18Crb
+3KernelT
+fSha256
+DtzseY
+_magicP17
+TZ28is]
+!M tz
+6_TZ$
+UL26kTz
+Fdtoa
+aPrefixh
+2DpTZ
+SHA256_K_ARRAY
+21UNSAFE_VARIABLE_NAMEG
+3KernelTime
+Z?usb
+0 blkaddr:\
+ing the quota_blk to disk!!!c
+ BLKRESETZONE f
+11LogSeverityEPKcS8_jS8_EEEONS4_IFv
+6u_memory
+blog_is08Rgable
+_1_RSA
+SHA256
+RSAJ
+*V USB 
+top UsbFfsC
+%A.usb
+ceived FUNCTIONFS_ENABLE while
+ expired; rebooting...
+qusb ffs
+bulk-in end
+ccommun1
+/rsa_2048
+WINUSB
+!LK<p
+ lk/
+Tables
+read_blk64
+1blk
+amemory
+adefine
+ kernel >= 3.18V
+aboot
+Fbabl
+blks %u
+ magic @@
+Bable#
+Llblk
+$lkW
+CBLKCNTR
+ prefixI
+aufs
+'dkernel}
+3hlk0
+reboot
+U#Tzh
+i[8tz=
+11LogSeverityEPKcS8_jS8_EEEONS4_IFv
+2basic_stringIcNS_11char_traitsIcE
+6Reboot<
+6fs_mgr23LogicalParti
+p2Kernel&
+10RecoveryUICe
+2RSA	
+slotselect
+QSlotS%
+refixHookEPFb
+wARefI
+4cctz19F{
+5UnusedKey
+QRSA_v:
+[1_RSA
+oboot@1
+s commun
+avb_
+DisablI
+`UBLK b
+; slot: 
+ab.ublk.e
+Pusb cD
+BLKZEROOUT...3
+ramdisk/4d
+/kernel_
+B.usb
+ast RSAN
+1/tz
+Umagic
+@blk=
+(17USB(1S
+INSTALL_REBOOT
+cIBootC4*CHAL
+/tzif2/
+ Probabl
+@HAUSBS
+;rsa
+PTZDIR
+$tzu'9*.*
+UNAVAILABLE
+DEFINE
+ a repeatable item
+allocate heap memory
+DEFINE
+defined?
+magic%
+/ota/snapshot-boot-
+-slot-swi#
+LK$TG
+!Z%F3lKpb
+LK0O
+Tzzx
+)lK@9
+Tz,f!
+*lk+8
+)klkj8
+8abLF
+@LK7	
+^TZ"
+TZ"@
+9'k&8tz&
+Ttzg
+TZ0	
+@aBL
+aA(lK
+lk4<@9
+gjTz8a\jS:
+Recovery11G
+ableViaApexU
+p2Kernelp
+&abLA"0
+j"lK$k
+utable: %d-bit ELF A
+ undefined4
+prefix-3
+	Pblank
+J! tZ
+@nabl*
+amagic 
+bably dueW
+TLLK0
+	Tz"
+Lk@9
+IwTz
+%tz@J
+ure enabled $
+no-kernel-check
+boot
+0(%u) cp_blkaddr
+, ni.blk_+
+ in %d slots (len:%d)
+ BLKREPORTZONE result
+No memoryO
+Bgic:
+rsanity_i
+_BLKSIZE
+BLKOFF_FROM_YQ
+StZX
+*Lk.hrLkN
+11LogSeverity<
+2KernelG
+ReadFdTo
+: enable more m
+cENABLEz
+ [-TZ] [NAME [DEFAULT]]
+3USBW
+0patz
+@SLOT
+is_selinux_enable*
+ramdisk
+'PEFI b
+LEVEL2_CACHE_ASSOC
+ANDROID_RELk
+undefined
+ESTABLIS
+uVDISABLb
+Kernel bug worka#
+usb.ids
+DTB/DTBO v%d
+CLK_TCK
+PTZ="
+r memory
+Lk Inf Al
++Xmagic
+Bulk
+%TZW
+Bblki0
+bufs)(re
+Plsusb|
+,5usb
+.O,!ablx
+<USB`
+RTtZ
+-slot-var):a:E:P`L
+BLKROSET L
+wise $TZ 
+Vfby-qualk
+V][tz]
+-slot-va
+NBDMAGIC
+lk1`
+4Lk"
+^hVC;
+ ERKNSt3__112basic_stringIcNS1_11char_traitsIcEE
+I@boot
+3hal17BootControlClie8
+6fs_mgr23SlotSuffixFor
+_Table
+p_blk_del
+SHA256_I7
+xtractToMemory
+RSA_&
+pblake2b%
+GetRecovery
+/R_slots
+6GetKernelCmd
+SWITCH_SLOT_ON_REBOOT
+( < AVB_FOOTER_SIZE 
+avbsO
+DisablI
+PUBLK r
+`deprecEl2
+rd.ublk.
+ramdisk/f&
+bPadRSA
+0valK
+ .tZ
+QBUFS
++QmagicN
+Bblk=
+0@ABLEN@
+2Avb9
+#4BLK?C
+EL2HLTS
+BlkI
+0RSA|
+qBLK
+HUBLKKe%in
+pblake2b
+K`BLKGET
+kREBOOT"
+talkshopvotE!
+el12pxsuit:
+00);milk -->ironfred
+etsURL bulkcook;}
+tzXQfocus
+`novel1
+RnB();"lk
+viajepablo
+`hablal
+pbenefit
+eL2lyg	;
+0JAismcOE
+in JulystzH
+@mmun
+TZ!mezJ
+"stZ
+bLquitZ
+/avb
+`-slot-o
+LK$TG
+!Z%F3lKpb
+>oTz
+lKFX
+tZ@P3
+tzqi"K
+lki8t
+LKm}
+d	@Lk
+TzZ@
+Ttzg
+<hLK 
+LKB`
+*tzt
+^TZ"
+TZ"@
+9'k&8tz&
+@LK7	
+l$"LKp
+Rtzd,
+lkj8-}
+1$!Tz
+Signatures
+TzH 
+11LogSeverityEPKcS8_jS8_EEEONS4_IFv
+p2Kernelp
+oMemory
+hardware.boot-service.
+.IBootControl/A
+kernel/panic_on_oops 1+
+disabled
+cys.usb
+usb_gadget/g1E
+4usb
+,slotselect,avb=vbmeta
+Odlkm
+`d=usb:M
+MIIFyDCCA7CgAwIBAgIUDk8lQuMWe/i7DkGqvQ+XIi4oMwUwDQYJKoZIhvcNAQELBQAwdDELMAkG
+oTC0dvb2dsZSBJbmMuMRAwDgYDVQQLEwdBbmRyb2lk
+io1rnn6qwC0/ONCS+r4o5IXeDrHklMKJTQxCiADWILYqVk8Lk6bBAqphYEOXA7Fi0g05WqNblx/m
+Cusb
+strusty.
+SlotEPiD
+getNumberSlotsEPs
+(pCurrentz
+Oable
+hardware.boot@1.1.so
+84V1_112IBootControl14interfaceChainENSt3__18functionIFvRKNS0_8hidl_vecI
+4getNumberSlotsEvB
+Oablex
+	22__libcpp_verbose_abortz
+hardware.boot@1.2.so
+84V1_212IBootControl14interfaceChainENSt3__18functionIFvRKNS0_8hidl_vecI
+bSlotEP,
+Oablex
+bOLk8ZJ!
+hardware.fastboot-V1-ndk.so
+St3__112basic_stringIcNS4_11char_traitsIcEE
+but still able to 
+LkM{
+hardware.fastboot@1.1.so
+idIfSharabl4
+pableEle
+zNullabl
+hardware.fastboot@1.1-impl.pixel.s
+Lp_memory
+20GetRecoveryd
+20EnableMand`
+4GetBootY
+GetVerity
+_for_slotselect
+GetKernelCmdline
+QSlotS%
+_ramdisk/f
+logicalblk= flag
+GSA mboxl
+unavailable, disab
+11logic_
+Tz2A9|6A9
+t&"tz
+.gcc_except_table
+"12basic_stringIcNS_11char_traitsIcEENS_9allocator
+_ramdisk/D
+ prefix is truncated
+10boot_clock3nowEv#
+LogSeverityEPKc
+4ReadFdToSb
+17GetExecutablePk
+2KernelLogge
+4:;EFIJ^de
+_get_enabled_tags
+9FdTrigger
+`__nextZm
+EImmu+
+area_serialK
+ to talk7g Dr!
+Abootzp
+EX_PARCELABLE
+Pmagic
+lKH>
+#abL
+blkbr
+kEDk
+TZ!v(
+lk!}
+TtZC
+TzZ@
+1lkl8
+:TZ:
+\Y^LK
+Class_define
+isableInterfaceTokenHeader
+Parcel14checkk
+boot_control_client.s(Tf
+3hal17BootC9
+4base9ShouldLogENS0_11LogSeverityEPKc1
+ not available, falling back to G
+GetCurrentSlot
+0ctlK
+19get_misc_blk_dQ
+Kcmdline
+PEnabl
+6GetKernelC
+avb_
+ramdisk/f
+logicalblk= flag(
+i;tz
+@:tZ
+K5tz .
+1logic_error
+re was insufficient memory
+t@ughtZ
+f1logic
+Tz2A9|6A9
+tZ-9i
+tz"@
+tz/(
+h TZ
+LK@"
+tz"hB(
+.gcc_except_table
+0patz
+Aboot
+Bbufs	5
+Dwalk47
+Ctzna
+""tz
+ tzk
+BUFS
+__kernel_W
+6OutZ
+EL2HLTV
+qBLK
+B2petz+
+	6gic6
+&fdTY
+`OABLEHY
+3#stZ
+%!LK
+"4Cmmun
+bootps
+#1tZZ
+lk`	
+pCtz@
+Tzta
+Slki8*
+@zTZ 
+__bionic_get_system_tz
+dash_prefixV
+qfdtrack4
+RecoverableOnlyEF
+tzse
+23setMemoryP
+Rtwalk
+q"TZ0
+apJ7T5TZQtr_7
+!tz=
+;agicP17
+ 06tz
+PTABLE
+_table_for_test
+3RSA
+6rsa
+mlkem768
+LKEM768
+Acustz
+Ablin
+N7TZ
+Crsa/
+unable to get local issuer certific
+PBasedK
+pkx-rsa
+PMLKEMb
+frsadsi
+cNTABLE
+RsafeC
+_DEFINED_B$
+PUNABL&
+`SLOT_FB
+TLKh
+lK(8.Ih8
+4)lK&
+?Tz"A
+kp@LkA
+Kkk8Lkl8
+vLK1
+eEAlK
+*tZ$
+RSA_new
+F_filK
+11LogSeverity
+QnableR
+uevent_kernel_
+_ramdisk/D
+p prefixv
+ext2_blkidl
+BOOT2
+BLKID_FILE
+table
+needs_recovery
+ImmuE
+VmagicU
+(tz)
+hblkid_
+ZdoublK
+8blk
+C_blk
+Bad magic  
+plK)
+_error_table
+Niblk
+o	plkmap64
+Bad magic number in L'
+Memory x&
+lk.Z
+7TZ@`
+ magic incorrect
+averityb
+Aavb_
+SHA256_Init
+?EmmU
+12basic_stringIc
+variable"
+rsa_public_keyW
+>= VERITY_MIN_TABLE_SIZE
+ernal/avb;,
+Unknown AvbVBMetaV
+PBLOCK
+O avb
+memory.
+INVALID_VBMETA_HEADER
+SIGNATURE_MISMATCH
+AVBf
+) & (AVB_ALIGNMENT_
+k(8Ku@9lk(8Ly@9
+Lki8*
+Kkj8lKk8
+?`tZ
+_Z19ConfigureQueueDepthRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocator
+9ShouldLogENS0_11LogSeverity
+set_blk_roV
+logical_partia
+o_enablL
+9AvbHandle4Open
+SlotNumberFor
+KernelCm
+#Fs!AoAvbOps2
+@3Avb
+`AvbFoom8
+1Avb
+1Uavb_d(
+pSHA256_x&
+dlkm
+6Bavb/
+ <= AVB_
+@/avb5
+ memory.
+INVALID_VBMETA_HEADER
+SIGNATURE_MISMATCH
+Ablk=
+TABLE_STATUS
+Rmagic
+$Qzufs_
+ROLLBACK_INDEX5
+F0TZ
+Tz/8.L#
+7tz)
+_ZN20FuseFileDataProviderC2ERKNSt3__112basic_stringIcNS0_11char_traitsIcEE
+LogSeverityES3_i:
+SHA256
+t6Reboot^
+able/recovery/otautil/sys
+ kernel 
+CanBootIntoGsiEPb
+LogSeverityES3_i:
+$orC2ERKNSt3__112basic_stringIcNS3_11char_traitsIcEE
+9ShouldLogENS0_11LogSeverityd
+_gable;
+Memory11get
+[e4selK
+oLocked
+eKernel
+@talk
+oLocked
+/cmdline
+BAD_PARCELABLE
+xPbl
++tz"
+1lkl8
+ngIcNS1_11char_traitsIcEE
+_Logic
+23enableYAMLC_
+QbPrefix
+`able
+kernel
+)lK 
+ableSpa
+logical_b
+1LogSeverityEPKc1
+SlotSuffix
+Mu_memory
+r6SHA256
+$dlk
+target slotg
+BLKALIGNOFF
+magic signature.
+BLKROSET 0F
+mmcblk
+Qboot.
+withPrefix64k6
+_ALk
+TlK9
+k7zSignatureY
+GenerateTable
+PosSlot1
+Sha256=
+WDecMtZ
+k	LK
+_LKB
+VenablK
+|klk
+lk@=;M
+"tz$
+utf8_table4
+DEFINE
+defined?
+magic%
+lo$.QgicalU2
+*lk+8
+)klkj8
+X@LK
+tag_tabl
+gicrons
+undefined*)
+Slogic
+ALkA
+IsUsablM
+RKNSt3__112basic_stringIcNS0_11char_traitsIcEE
+LogSeverityES3_i:
+nodeIS7_PvEElK
+_Logic
+YbPrefix
+hmemory
+undefined
+i *Hlk0|@
+(TZ"
+-DescriptorC2EjRKNSt3__112basic_stringIcNS0_11char_traitsIcEE
+LogSeverityEPKc1
+Unable.
+,noprefix,cpu
+tzzd
+vtz=
+ApisComPrefix8
+7MutableB
+5UnusedKeyMethod%
+sZ(4setZ(
+1mMumedR
+AfcntZ
+8ThrowStdLogic
+r`RefIFv
+4cctz6detail_x
+,ilK
+_SlotsX
+0/tz9
+requiredK
+/tzif2/
+LogicM
+.:	detc/tzY	
+UNAVAILABLE
+/lK4G
+TZ!,
+ (@TZ
+@LkK
+tZ * 4
+/Tz0
+q@LKO
+	dBLk
+.gcc_except_table*
+Rlk(_
+recovery_ui.so
+SetBootStateEPK9
+KcjNS0_11LogSeverityES3_i:
+Fastboot
+IsUsbConnectedH
+'Aagic
+BBufs
+BFDTo
+4usb
+_SLOT_NAME
+/usb
+/platz
+AMLOGIC
+0ylk
+lK`J5
+TZ@O
+v(tz/
+recovery_ui_ext.st?f
+28hardware6google5pixel10MiscWriter26OffsetAndSizeInVendorSpaceEmmM
+#PKvmmPNSt3__112basic_stringIcNS6_11char_traitsIcEE
+15kEnablePkvm@
+playModePrefix2
+_Z19get_misc_blk_device
+0_11LogSeverity1
+bootloader_m
+Kcmdline
+for_slotselectK
+6GetKernelC
+QSlotS%
+avb_c
+ramdisk/fi$
+logicalblk=r
+GSA mboxD
+0cannotZ
+Penabl
+;#lk@@
+=gic
+BXLk
+trusty.so
+x!/lK
+6Memory31
+undefinedB
+Uint64_PEE6kMagicH
+)14:EFIJNOde
+oPrefix/
+TZ!,
+ (@TZ
+5LKD
+LK&(A$
+Tzb@
+Ttzg
+7Lk!Q
+.gcc_except_table
+-lkS
+v3PrefixX
+EpollLockedE@
+(CLOCK_BOOTTIME) f
+NO_MEMORY
+ memory corrup
+ ANDROID_UTILS_REF_BASE_DISABLE_IMPLICIT_CONSTRUr
+undefined before run()
+%IiEET_RKNSt3__112basic_stringIcNS3_11char_traitsIcEE
+16KernelConfigType
+O2Avb
+O9Avb
+LogSeverity
+dvbMeta
+13isDisabl
+20bootVbmeta
+sHasDefin7s
+LEFij
+Recoveryj"
+AVB`
+<avb><
+D.avb
+i0Qor, pY1Vably,#
+TtZq
+*lk4
+clk0S
+tZ->
+_crc_table
+internalK
+sufficient memory
+LK$TG
+!Z%F3lKpb
+Lki8
+romMemory
+	cjNS0_11LogSeverityES3_i:
+prefix/suffix too long
+ table %d
+(%d, BLKGETSIZE64N
+Tz&B
+system_dlkm|
+.recovery/
+ro.boot.@
+prefix boolT
+nected via USB port
+1usb
+>omemory
+V?usbS
+!pPulkan
+ufs-bsg.&	*
+! btz
+a-z]+\.ufs
+/enable_
+skernel_(
+abl_[ab]
+?bl1q
+[?gsaq
+Z?tzsq
+Mbulkw
+nerfolkP
+;USBU
+aprefix
+_slot1
+vermagic=
+prefix_rcv
+ kernel key
+ signature appV@ed~
+gic_nonsecure_c
+vermagic=KE
+Stable
+n0ysys_clkJ
+clk number overflow %
+EMCLK/
+1$rslot_fm
+`sysclk
+#lkZ	
+Qlksrc
+5USB
+usb feed>
+interrupted whilst waitZ
+no memory
+still needk
+usb_mem_c
+BDRAMd
+ xlk
+CONVERSATION
+Kbommuni5
+aoc_alsa_usb_playback_enabled
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+/lKHE
+	+aoc_alsa_usb_capture_enC
+Qin_usB
+magic336
+IOMMU al~#
+P GSA 
+aoc boot
+PenablK
+iommu-
+Cgsa-
+es DRAM
+qkernel K,
+Pdefini
+Jslot
+0blk
+2getZ
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preS
+s=gs-chipid,exynos-cpupm,gsa,gs_acpm,samsung_
+Oboot
+fw_iommu_entry
+and_kernel_bootj
+gic_nonsecu
+1gsa
+magic336N
+f73usb.
+ed memory 
+aUSB ac
+Q-usb-F
+or=Howard Yen (GSa
+0USB
+qusbnet
+QUSB-C6
+QNAP QNA-UC5G1Tz
+5usb
+Fable
+BULKIN_SIZE
+?elk
+generated kernel key
+RburstZ
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+_variable_u32Q`
+0gic
+gic_nonsecure_priorities
+omagic3-
+orefillh
+USB 2.0 Ethernet D)
+=usbnet,mii
+usb-%03d:
+s/net/usb/
+ated kernel key
+#dTz
+ signature apO
+Bbulk
+s/net/usb
+USB 3.0/2.0 Gigabit Ethernet D
+=usbnet,mii
+oBelkin
+__bug_table
+_BULKIN_SIZE
+ated kernel key
+usb-psy-
+No memory
+LkFA
+ iommu fault S+
+pm_smccc
+ptZR
+lk`9
+TZp@
+Unable to h
+bL2CAP :	p layer 
+no memoryB
+?artZ
+Jpausb
+$magic=6.1.145-android14-11-gfa1d6308d1fe-ab146917598
+qgic_non
+^bmagic3
+BONDABLEY
+El2ca
+KF"el1D
+d kernel key
+vermagic=
+	LK@
+kernel key
+$0Lk
+5USB
+Qing lK
+?EFIt
+HCusb_
+ate memoryx
+BLK(0)
+( otz
+vermagic=
+Efind
+_smcqbusy
+ated kernel key
+@volkswagen.de>
+vermagic=
+benable	
+Efifo
+vermagic=
+bus-off recovery, but carrier
+yet defined
+`abcdefgmBEFILMNOPQR
+TERMINATION_GPIO_DISABL8
+d kernel key
+@volkswagen.de>
+ signature ap
+@volkswagen.de>
+Ogic=
+d kernel key
+@volkswagen.de>, Oliver Hartkopp <o
+Ogic=
+description=USB Abstract Control Model dr
+vermagic=
+usb:v0424p274Ed*dc*dsc*dp*ic*isc*ip*in*.
+/ABL
+%s - usb_submit_urb failed: %d
+write bulk)
+ kernel key
+J=USB
+Eo_table
+s/net/usbiq~c
+=USB CDCB
+wSignature
+magic pk
+%senabled 6
+Aslot'
+tzU!us
+rts_boot
+magic pk
+Cslot
+A9Lkf(
++PBL
+disable_subchannel_bitmap
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod
+vermagic33V
+#lkP
+ts_boottime
+ENABLE_LINK]
+MAGIC_PKT
+.EDK
+amemory
+Bslot
+$gefI
+(nlk
++edk
+Loading memory (}
+=Cirrus Logic 
+omagic=UI
+Obulk
+CMU_CIS_CLK2
+d_clkout0 err=%lu(
+HSI0_USB32DRD(
+zUFS_EMB#
+CLKOUT0I
+3[CAL] vclk en
+ATCLK
+ooscclkx
+arm_smccc
+TZ	xM
+enable, clusterQ
+_RSTNSYNC_CLK_8
+SYSMMU_S0_PMMU0_G2D 
+5USB
+EPCLK
+bD_TZPCe
+4BLK
+SCAN2DRAM
+L_IRI_GICS
+o2NONTZ
+<MMU
+qblkpwr_}-
+UFS_EMBD
+6vclk
+ASMPLKj
+PBLK_C
+5PUCL0_UID_AXI_DS_128TO32_P_PCIE_CLUSTER0_IPCLKPORT_MAINCLK
+CLK_BLK_CD
+bD_TZPC
+OEUSB
+UFS_EMBD
+?GIC6
+nCLKL2A(
+PPMMU2
+rUSB32DR1
+tdisable
+"LKJ
+blkpwr_g3d
+LG_SCAN2DRAM
+clk_info
+blk_hwacg #cmu_b+
+>2TZa
+]NONTZ
+MIFqb3INTzb
+_ENABLE_%u
+'`3BLKZ
+_GCLK0M
+L2UFS
+@clk k
+ save smc
+pd_set_smc_id
+cpu_disable%
+lk_is_en'
+Hboot
+>vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+d_el3
+	Ed_tz
+/Tz 
+vclk_ip_mailbox_ap_aurmcutz#
+gsa2non!
+_d_tzp
+mmu_s0_pmmu0"
+y_clkout2
+/gsA
+emergency_reboot
+rmagic33+
+Ceusb
+`kernel*
+TOTAL_TABLE_COUNT&
+BOOTING
+1efi>
+LINK_ATTR_DPRAM_MAGIC0
+R: SMC
+_KERNEL_PANIC
+_RECOVERY_FAIL ,
+Bclk-D
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+-pcie-iommu,
+variable_u32_array@
+gic_nonsecure
+pm_smccc
+,brebootJ
+?_tz
+sys_tz
+recovery
+Bommu
+2clk
+Bl1ss
+`kernelS
+$pm_smccc
+j&bmagic3
+_ENABLE_BITMASK
+20gicw
+5tZ@
+readable
+author=Fred Treven, Cirrus Logic Inc. <fred.t 
+;magic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+utex_is_lockedH
+ObulkE
+?trsA
+#"ILk
+ulator_bulk
+gic_nonsecur
+ribernatZ
+@th_lK
+magic3368
+ed - reboot in a few sec
+no such memory-
+ signature ap
+Rslots'
+TABLE
+%stZ
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+mst_atomic_enable
+U_slot
+bug_tablex
+in_clock_recovery_dela
+1FPmagic
+pmemory-
+): [ERXMISC0_EL1:%#llx]
+Emergency Reboot
+qkernel 
+2ehlk
+kusb_ot
+Zmagic"
+_read_variable_u32$
+	Pboot_
+~usb_otg
+0mmu
+/14-11-gfa1d6308d1fe-ab14691759_16k/dwc3-exynos-usb.ko
+9-dwusb
+usb3-lpm-cap
+ usbdp_tca_vo"(
+	EXTCON_USB
+0clk
+@USB 
+ememory
+USBDP_T
+!lk9
+be: Reserved memory for ect: P*
+			[TABLE]
+[BOOT LEVEL IDX
+Rf_clkHl
+cpu%u: gicr: is-
+sgiC
+oreboot
+tm2dram
+ontrol ETM2DRAM 
+4pusb_rep
+FeUSB
+@usb:
+pam.__alk
+skip-boot-pmqo
+_%*pbl
+all blk
+blk-
+recovery.
+Boot!(cnt:|
+, define_event,
+@boott
+_is_locked@
+GICR_ISPENDR0: 0x%08x
+hp: (%s) [%*pbl] 
+-on-boot
+MEMORY CORRUPTION
+ memory until 
+rm_smccc
+ USBDP Combo PHY
+smc_write
+`define
+wHS clk.
+clk_ppc_margin
+9blkD
+hiber_blk
+6[RECOVERY]
+taclk
+sysmmu_fault
+4smc
+ memory 
+"pISABLED
+!stZ$
+nR"LK
+usbdrd_qch_ew
+ENABLED 
+SYSMMU_FAULT
+TZDC9
+lhbm_gray_levelk
+recovery_register
+Enable/dis
+3vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt
+pd_el3,dwc3
+usb,gs-drm-%
+arm_smccc
+lk_prepare
+Qimmut
+S6mmu6=
+/Tz`
+&/A^afiHTZ903BTZ	
+Aimmu
+Pblend
+cr_clk_low
+ausbc_c0	3disi
+mmu_faul
+H_smc
+ alk
+magic336
+edkey_ks
+8TZ:J
+.ptrusty.
+tz_srv@
+qsmc cal
+arm_smccc
+bug_tablen
+dtz_srv
+Edkey_kse
+pcie-iommu.ko
+3SysMMU Dump: ctrl@0x
+pmmu3,
+d Memory AP
+need_smc
+logical sub :
+l4clkI@/gs
+usbdrd-eusb-super,dwc3
+<O_el3
+tz_save
+xA9el2
+vdefinedE
+eusb_repeaH
+GICD_ISPENDR[%d] = 0x%x
+num-gic
+>gic6
+r=_d_el3
+ memory
+UM monitz
+Pm_clk
+Rgic33+
+incr_rtcclk:0x%08x t
+C_smc
+Plosslk*#en
+vb2_reqbufs()
+has 2sysmmu:^
+2clk
+INIT_BUFS
+SysMMU PAGE FAULT at
+@pmmuZ 
+kernel vir
+hlk OFF
+V4L2_MEMORY_MMAP
+pmmuid_shif
+TzV@
+softdep=pre: samsung_iommu
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unU
+t_client_enabl
+pm_smccc
+/LK(
+/Tzh=
+iommu
+Dclk_
+Gboot
+gic_nonsecup
+magic336Y
+find memory r
+ENABLED
+explicit src-clk
+udivslot 
+ipclk_
+Wclk s
+SSLOT:
+=USB FTDI Serial Converters D
+Q=usbs
+Unablei
+4usb
+PbasedK7
+USB_UIRT
+magic33
+Dbulk
+d kernel key
+ signature ap
+mmu_fault
+aIOMMU 
+2	Cslot\
++vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMPY
+trigger_soft_disable
+?clk
+Eommu
+/lky
+pm_smccc
+devm_clk
+Wiommu$
+arm_smccc
+magic336/
+d memory: 
+7Lkk
+gf_kernel_key_
+sslot %dM
+usb-psy-
+SLOT-STATE
+Dtbn_
+>usb3
+4tzvx
+uslot_st
+spi_dma_enabl
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod
+jump_tableY
+~mt_slot
+0allk
+magic336\
+HDA_TZ
+defined for mscXa
+bhda-tz
+OOGICe
+_DISABLED %
+Vvs tz
+Fdtsi
+dhda_tz
+TzJ/
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+depends=logbuffer,gvotable,C
+Efind
+?_tz
+jump_table
+sys_tz
+#usb
+"tz1
+Bgic3
+MNPGBFNIMFNIDTSIHDIRBMUNSRSMGTNCBSHNCCLESCLECRTOLDRTSMICAEFCGGVARNCFRSAHTDMYADMYMTSGFURCFCWAA\
+magic336p
+HDA_TZ
+9usb*
+defined
+PWR_DISABLE
+1USB
+fUSB rcL
+susbchg=q
+[USB:%d/WLC
+E!1_tz
+TzHS
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+-bms,gvotable,tcpci_max77759
+EfindE
+jump_table
+Cusbc
+bgic336a
+ahda_tz
+,tcpm-power-supply not defined
+no GCPM_FCC votablet
+GBMS_PROP_CHARGING_ENABLED
+pead volK
+select_logic
+usb_con node
+fusb-c-^
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+depends=gvotable,logbuffer,?
+Efind
+jump_table
+s{	1usb
+bgic336
+0clk
+Plkdiv
+5USB
+2USB
+9TZ 
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+_pm_qos,gvotable
+fn_is_map_memory@
+ObulkA
+jump_table
+!_memory
+pu_clk_div
+Vclk
+>usb 
+Hbulk
+bgic336
+`s/usb/S
+=USB Type-C Port Controller Shim I
+glkqtuvwxy|
+artner_usb_z
+SfirstZ
+Gboot
+H3LkeG
+first_enable_helper
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+-30?BKHWTZ]`STUV
+Ablob
+-9rmagic33+
+Cbulk
+Pdram 
+Hbootx
+,kernel-top,dss
+t defined. Ski*)#
+No memory fork
+dkernel
+smemory `+
+edefine
+3tz-
+*0_tz
+Tzk78
+table_ect_offset
+Obulk
+9gic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+Efind
+LK{)
+#TZH
++tmu_enabled_maskN
+okernel
+clear_tz
+Gices
+PblockL
+Obulk
+Bgic3
++-android14-11-gfa1d6308d1fe-ab14691759_16k/gsa.ko
+gsaj
+@GSA \G
+TZ: no RSP 
+ztrusty/
+memory
+v	!tze
+&slot->el->re
+MCU fw GSA 
+	 telemetry memory shouldL
+1blk
+Pboot *
+aiommu 
+BLK_AUR ha
+RIOMMUk
+kernel-driver/
+uprefix 
+To gsa
+LOW_FREQ_CLKMUX
+1setf,U-bufs
+@$"`Undefi
+2blkCB
+slow_clk
+&abl
+debug_dump_enable:
+gcip_iommu_domain_
+slow_clk
+>vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+depends=gsa,cmupmucal,exynos_pm_qos,rio,g	
+Efind
+gxp_iommu_setup_shareabili
+ume_clkmux
+3boot
+Bgic3
+mccc_hvc
+Bdtb_
+hkernel
+HVC_MEM_RELINQUISH
+ENABLE_CAPP
+DTB_CONFIG5
+ el3 fiq R
+extclk
+eefaultz
+0clk>
+bug_table
+Qm_clk
+ulator_bulk
+tbaudratZ
+magic336
+1usb
+BONDABLEY
+Q_bulk
+d kernel key
+vermagic=QC
+xObufs
+ stZ
+p Boot P9
+Rgic_nj
+ memory
+Susbc-lB/or
+A-tz-
+0usb
+tdefined
+ausbpd_
+3USB
+;magic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+depends=logbuffer,gvotable,
+egmap_bulk_read@
+jump_table
+qusb_tzd
+Bbulk
+bgic336j
+scl-clk-stretchingH
+bipclk_g
+%s IPCLK 
+vermagic=6.1.145-android14-11-gfa1d6308d1fe-ab14691759 SMP preemp
+gger_soft_disabl
+/Lk 
+magic336
+LBT_ENABLED
+ USB
+lock_table
+~Module signature app
+vermagic=ng
+d kernel key
+ommu-best-fit-algo
+SYSMMU_S0_AUR
+9MMU
+nGSA_ZM,
+UFS_EMB
+	691759_16k/kernel-top.koT4gELF
+_ys_tz
+memory
+-lkD
+blK.
+USb7s
+E9hVC,
+;aAbl
+~lKq
+x-:3lk
+TZ9Q
+eTZdzL
+YD&lkx
+!TzK
+vABl
+vTzz_	
+tzDu
+LK5m
+!8jtZ
+wQ/&lk
+<0ktZ
+lKf2
+\smc
+\OeL1
+.Iolkw'
+lk,z
+wTzG
+e5*LK
+5llK
+k>tZI
+TZQU
+R<Lk
+LKHSN
+edKX
+_&aTz
+LKdK
+ o]tZ
+qLk?:6
+{Tz|fZ
+jlkX
+9FlK
+N2Tz'
+0lkVq
+UABL
+TzhE
+TZwY
+U=LK
+"tz;C
+d?lK.	
+KiZS.tz
+LkK!
+8/tz
+MLK_
+El3W
+lKkqh
+ LkH
+	lKuQ
+KLKA-Y
+hVc7
+<tzb
+'/lK?
+@M,TZ
+LkYZ
+"+(tZ
+6LKv]RYCj+
+Tzf.
+LKz3
+.Tz 
+8.tz
+#2"TZL
+Lk1P
+jhilk
+[TzN
+z#ELK
+xSmc
+e7nTz
+/lK-k
+dtz'`
+K$lk$e
+6fTZ
+TEptz.
+OlKX
+lkM;
+LGLK
+Tz=%
+ALkF
+VJ|Lk`\
+~tZx
+EsLK
+itz-o
+9XTz-~{
+zTz_
+>GLk
+(C ~TZ
+*Lkv
+LKoN
+VtZg
+1NlK
+SlKl
+ tZ-9
+Tzz3
+tzmj&
+BMTzZ
+t/lk3
+LhTz
+=ZHVtZ4
+lki<
+"PTzJA
+LK^&S
+MLK6
+5l[Q'tz
+A}TZD
+$)Lk'v
+h:x C4LKN
+ULMLK8
+TzT&
+9lKM
+ggic=
+9fdTf
+tZO&ql[
+Lk,=
+5ueLK
+cHtZ
+ .TZ:
+N6LK5
+dtbr
+@Htz
+ptz*
+}TZ]
+ITz8
+RRTZ)
+/gLkhY
+?tze
+>(tz
+UTZg
+#TzKO5
+E4USb
+6\TZ/
+xlKK
+`olk
+6lky=
+lK	k,^x
+=&Tz0:
+PTZ'
+We;pBL
+3eL1LF
+stZ 
+QBlk
+&lkD
+ztz,k;
+QatZQ
+htzE
+5lk+8
+`Smc
+~,tz
+lO=tZ
+ulkzeKW
+l%lK<
+Pj]Lk
+a_Lk
+tzerD4
+UFs~
+,4TZ
+YTZZ
+:cCyQtz
+kPtZ
+WqtZ<r
+uvuTZ
+@tzm1
+`_lk
+xTZG
+F`aBL
+Tz#o
+mlk9
+!Gic
+tZRr&g
+XtZ4
+HLK	
+sMC<
+,tZT4
+CTzF
+&TZ0o
+description=Echo the kernel header artifacts used to build*
+vermagic=6.1.145-android14-11-gfa1d6308d1fe-ab14691759 SMP preempt mod_unload
+essable_
+ signature ap
+omagic=
+vermagic=
+defined
+No available APDO to switch
+Susbc-F
+A-tz-Z
+gsafety
+	0usb
+Pusbpdo
+pval.intZ
+4aVB
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+-bms,gvotable,tcpci_max77759
+Obulk
+*tzpa#8
+jump_table
+qusb_tzd
+Bbulk
+bgic336A
+Dclk 
+y slots iz
+	Piommu
+QUEUE_ENABLE'
+ IOMMUS :
+%#010llx.sysmmu
+dkernel2
+UNDEFINED
+casablanca$
+>vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+Gommu
+5clk+
+gic_nonsecC
+Bmmu_
+4bmagic3
+MESH_PATH_DEST_UNREACHABLE
+`abling&
+Bslot#6
+BLk&r
+"(1tz
+0lk9
+LkP	
+lK`9
+ P7tZ
+.lK0_
+enable_rssi_reports
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+/Tzx	
+vermagic33
+DISABLE
+sbufsize!
+`memory!
+Sslot
+boot
+a	Awalk
+SMCAST
+.EDK
+DnT_BOOT
+vermagic=6.1.145-android14-11-gfa1d6308d1fe-ab14691759 SMP preemp4
+oft_disabl
+ %(8J\ntz
+magic336
+_ENABLED
+ kernel key
+~Module signature app
+vermagic=
+MEMORY_ATTRIBUTE
+read GPU memory baset
+@-mmuQ
+down MMU tab>
+mmu_insert_sing
+BSLOT
+RUNNABLE_INSERT
+o kernel
+pboot co
+.clks[c].
+  L2_MMU
+ADTB 
+MEMORY_ATTRIBUTE2
+/.cLK1
+E_smc
+defined
+Dclk_6c
+82gic'
+JC1SMC
+0ABL
+_FW_DISABLINq3
+	Ebooto
+TZC 
+@9tz
+LK!jh
+wdisable
+job_slots_eventR
+tclk_rat
+kernel.NotW
+,magic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP pre
+MBOOT
+|@	$lk
+/pm_smccc
+/lK 
+,=Tz
++TZ(
+/tz(
+'___ksymtab_gpl+__tracepoint_mali_job_slots_event
+mmu_inserj
+Fclk_W
+dbg_snapshot_emergencJ)Sboot
+$edK(
+ULER_RUNNABLE_K
+^SLOTS
+2mmu
+ion_enabled,
+`disabl
+magic336]
+Dboot
+QRTABLE00
+efinish1(
+/PIChgTz#
+Tz[8
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+ariable_u32_arra
+magic336
+Obulk
+~busb_te
+usb-L
+Nbulk
+PSP_ENABLED
+USB_WLC_RX~
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP3
+map_bulk3
+Efind
+tz+`
+jump_table[
+Obulk
+magic3368
+%s:%d TCPC_VENDOR_ADC_CTRL1 valk
+CUSB_
+PSP_ENABLED
+1usb'
+4usbU
+07hVC
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP
+Obulk
+jump_table6
+Obulk
+magic336
+no memory for log ~
+BOOT_CHECK_REG
+Tz[8
+enable_firmware_update#
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+magic336;
+vimon's memory page %x (%d)5
+Pl_polK+
+*d boot 5
+ CMD_REBOOT_
+BEFILOP
+`reboot
+PfloatZ
+Obulk
+ is not definee
+ated kernel key
+ signature ap
+,trusty-virtio-v1 
+zuma-clock clk_N
+usbc_por
+tm2dram 	
+ysmmu-group 
+aiommu_
+physical-memoryp
+pgsa-gsc
+gsa_gsc.
+creboot
+9-dwusb dwc3r
+?usb4
+Poc-tz
+usb-repeat
+ufs ufs5D
+trusty_virtio
+@#usb
+usb_f_dm1
+trusty-virtio.ko: 
+kernel-top
+Rd_el3s
+yvotableV
+1usb
+drd-eusb-suH
+3lk_i
+tm2dramr
+Bufs-v
+iommu-group
+q,oreboot
+W%1otzprotF
+.ko kernel-top
+1usb
+drd-eusb-super@
+gvotableQ
+0el3
+trusty-ipc
+Qusbne
+1mmu 
+Teboot
+rmgsa_gs
+n<BBl2t=@
+ufs%'
+X#usbc
+tz_restore
+o_slots
+crun_elK'
+st_sha256!
+njG~_walk tQ
+&lk!/
+!tz(
+{^magicc?
+_spclk
+\`_ip tz
+Zmagicn
+"lkT/>
+0el3
+kernel
+SBl2tpI
+iommu
+2ulk
+trusty
+}l_sk_walk^
+mac_sha256%
+usbseri8'
+5Y-lk
+usbnet
+M _spclkR
+6magic=6.1.145-android14-11-gfa1d6308d1fe-ab14691759 SMP preempt mod_u|
+s_capabl
+gic_non9
+<gic
+ENABLE_SP
+ed kernel key
+vermagic=kA
+Boot config
+Cbulk!
+`memory
+gHDA_TZ$
+_DISABLE r
+magsafe-optimized
+QI_USB_VBUS
+da-tz-wlc
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+depends=gvotable,logbuffer,
+/tz@
+jump_table
+pmagsafe
+magic336
+_clk_khz
+_list_osc2_clk_khz
+hs_clk_mbps: 
+jump_table-
+Mboolk
+bgic336Z
+%s: hs_clk_mbps: z$
+ is not defined!
+ recovery
+osc2_clk_khz
+_boot
+avblankT
+]isabl
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+EfindE
+dev_attr_osc2_clk_khz
+Pblock
+k0bmagic3
+hkqtz~
+c-clk-di
+OCP_FASTZ
+usbc-connectorP
+Pdefin
+@-tz-
+~	0usb
+Ausbp6[Xup
+}memory 
+\ravB
+;magic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+-bms,gvotable,tcpci_max77759
+regmap_bulk_read@
+EfindE
+/LKH
+jump_table
+qusb_tzd
+Bbulk
+bgic336"
+DISABLED.
+pNCLKOFF
+sysmmu
+_RECOVERY_
+nclkoff_en
+`memory%
+_ysMMU
+clk-num
+is_sysmmu_enablZ
+ready_cto_recoveryu
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+t-pd_el3
+-iommu,sbb-mux,
+`clk_pr-
+OfirsA
+.rela___ksymtab+exynos_pcie_set_ready_cto_recoveryF
+_variable_u32_arra
+^clk_g<
+]ommu_
+magic336
+usbdrd-eusb-super
+IP is TYPE USB2HOST
+ref_clk
+6y~1Boot?re :RAM @
+DISABLE FAIL, ret :
+{clk_mux
+Bclk:}
+EXTCON_USB_
+USB 
+p blkcon]
+qpd_el3,:
+&lky	
+/tZ`
+?clk
+Plogic
+1gsa
+magic336
+xel-boot-metrics
+Qel3ps
+bl1sg
+pblsg>
+umemory =
+bBoot M~<- D
+pkernel_hD
+MEMORY CORRUPTION
+undefined
+dm-verity 
+LONG RT_RUNNABLE]
+ball_tzR
+  PMMU_ID=%u, STREAM
+mmu_sync(
+off-at-boot
+STAGE1_ENABLED7
+Bel2 
+PRIVATE MMU t
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637
+depends=phy-exynos-usbdrd-eusb-super
+	R_el2_
+arm_smccc_sve_che
+memory!
+	sing mcbufsz (%i/%i)
+0GSA
+Benjamin Schwartz <bss
+kernel key
+signature apq
+ memory
+gic_nons
+bmagic3
+DUSB>#
+btslot_e
+omagic=
+ signature ap
+vermagic=LW
+Pboot_
+@defi
+kernel messag
+0magic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preemptZ
+aenable
+gic_nonsecure_priorities
+Pboot_
+magic336F
+/net/usb/r
+0RTLK
+3 Based USB Ethernet Adapters
+;magic=6.1.145-android14-11-gfa1d6308d1fe-ab14691759 SMP preempt mod_unload
+as=usb:v0BDAp8050d*dc*dsc*dp*ic*isc*ip*in*.
+fmemory6
+usb-%s-%s
+e enablede
+fsha256
+!O_helK
+#lkH
+*TZ@
+write_bulk
+5USB
+blk_hd
+description=Realtek USB ECM device
+vermagic=<F
+,usbnet,
+as=usb:v0BDApZ
+disable_cfc
+omagic=j
+gic_non5
+GsaveB
+magic336Y
+generated kernel key
+vermagic=$l
+ed kernel key
+No memory 7V as
+QiommuN
+3tz_
+Bblk 
+	%LK!
+^IOMMU
+gsaM%
+M&IbulkO&Weq
+4GSA
+tZ0@
+TZ$a
+wdt_disable:boolW
+;magic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+depends=gsa,
+Pgic_n6+@cureJ
+CommuS8
+.TZ0
+gcip_iommu_buffer_sgt_destro
+rdefined#
+1gsa
+Bgic3
+"lkt
+usb-ethernet
+=usb:v0BDAp@
+out of memory
+VGPIO_MONITOR memory
+9extz
+memory for?
+Cbulk
+9extz
+0tz_
+BbulkVY
+pDISABLE
+atboot
+etm2dram
+wu-pd_el3
+0clk
+iommu-group
+have Trusty as the 
+_reclaim_memory
+pdefine 
+Aommu>
+befijklo,=vy
+2sysmmu: Con
+ MMU has _
+ized IOMMU. V
+pmmu%d,
+_clk_gF
+arm_smccc
+kernel_testf
+ufs_power_on
+magic336Z
+`~@LK
+qgic_non.
+ lkE
+blk_mq_fre
+gic_nonsecure_priorities
+`prefixt
+bmagic3
+pblings
+ot defined
+gsa-H
+4gsa
+lk"<
+?"ENABLE":"DIS
+gic_nonsecure
+d kernel key
+!lK`
+ signature ap
+ObulkE
+RkALKl
+atslot_
+kernel key
+ signature ap@
+%dth Q-TZ
+QUANTIZER TABLES **
+reqbufs
+Eommu4
+magic336
+ Logic Inc, <d!
+Timeout waiting for OTP_BOOT_DONE
+QCLK Cu
+ Slot Posip
+Aclk-u
+-has-prefix
+vermagic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP pre
+ulator_bulk_get@
+Efind
+isysclk
+Fexitz
+magic336U
+BOOST_DISABLE_5
+dREFCLK
+memory retent
+boote"
+gic_nonsecure
+Obulk
+fmemory
+vermagic=
+essable_
+pclkoff-
+ipclk_H
+ memory
+RLkl
+	/lk7
+ufsiz
+lk ERROR %d
+_clkreq_hand
+PMU_CLKOUT_PAD
+eY_obufsiz(
+No Xtalk us
+uUndefin
+XTalkCompens%
+gic_nonsecure_priorit
+oenable
+/TZP
+crosstalk
+Fmclk
+gic_nonsecur
+_XTalkG
+%WBoote
+5bmagic3
+USB ps
+wq-bcl-usb>
+GBMS_MODE_VOTABLE
+ ROLE_CTRLK
+ USB_HOST
+LK4CONN O
+ausbpd,
+notz
+	Obulk
+/LKX
+/Tz`$
+read_variable_u32_array
+usb_limit_accessory_curre!
+boot
+Bbulk
+rmagic33%
+|!P"TZ
+itZ1
+4tipc: Unknown name table message received
+ESTABLISH_EVT
+build_gap_ack_blksf
+Wulk p
+TZ`go}GGGG
+Process Commun
+(magic=6.1.145-android14-11-gfa1d6308d1fe-ab14691759 SMPYO
+]3alk
++tipc_nl_sk_walkJ
+dkernel
+IblksD
+magic336
+htable
+eblks
+g_TABLE>
+9BKLk
+J![bufsz
+vermagic=
+availabl
+"smcnr=%s r0
+LOCKED_NOPt
+`TRUSTY5
+@SMC_`
+_memory_msge9
+>smc
++trusty_fast_call32
+yhp_slot+
+gic_nonsecure_priorities
+SMC_SC_RESTART_LA#
+`TRUSTYR
+LOCKED_N!
+magic3369
+Oable
+/usB
+Pgic_n4
+magic336
+ std call (SMC_SC_SHARED_LOG_ADD) 
+ TZPROT xS
+;gsa
+sa_tz_chan_msg_xchg@
+ufs-exynos-gs
+ QC_ufs
+SMC_CMD_FMP_SECURITY 
+INTERRUPT ENABLE
+UFS_PH_AH8_PROC_CONFIG
+boot_lunC
+tCLKGATE
+0CLK
+Hufs
+ REFCLK SEL
+@mclk+
+Tza	
+UFS HS/PWM Gear, 0 ( = not set) 1-4
+,magic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP pre
+-if,gsa,ufs-
+variable_u8_arraR
+	"lk
+arm_smccc
+0gsa
+Bblk_
+ufshcd_query_attr_retr
+_memory
+exynos_ufs_(
+pgsa_kdn
+boot_lun
+Sm_blk
+qci_clk
+1clk
+rm_smccc
+magic336.
+14-11-gfa1d6308d1fe-ab14691759_16k/ufs-
+PUFS P3
+alias=usbn
+bulk_comp
+Dusb 
+USB_SUSPEND)
+A-usb
+RDtb
+TOGGLE_DISABLE
+check_bulk:"
+ signature ap
+(-android14-11-gfa1d6308d1fe-ab14691759_16k/usbserial.ko
+<Busb_!
+bulk_callback&
+c: USB f
+`ttyUSB'
+vermagic=|
+oisable
+kernel key
+@volkswagen.de>
+d kernel key
+essable_
+>refi
+disable_t
+/vh/kernel/
+aefined
+parmtype=early_boot
+9gic=6.1.145-android14-11-g164ae0b804dd-ab14810637 SMP preempt mod_unload
+vailable}
+f Penabl
+M#lK`f"8
+rblocked-
+vermagic33
+early_boot
+__addressable_init_module54
+3tz_id: %d is over the 
+vJ@Ogic=
+start kernel 
+_ys_tz@
+% time autogenerated kernel key
+ signature ap
+usb3-lpm-cap
+/usb/host-
+-usbdrd-e5?
+1clk
+tz77eh
+O_blk
+Bslot
+_ALk
+\XSetZs
+d kernel key
+ signature ap9
+androidboot.load_modules_parallel=true
+androidboot.boot_devices=13200000.ufs
+AVB0
+avbtool 1.3.0
+sha256
+vendor_boot
+@com.android.build.vendor_boot.fingerprint
+AVBf

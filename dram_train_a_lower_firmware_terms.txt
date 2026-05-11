@@ -1,0 +1,3 @@
+### dram_train_a_lower_firmware_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/dram_train_a.img' | grep -Ei 'BL1|PBL|BL2|BL31|TF-A|trusted|trusty|tz|secure|dram|ddr|ufs|gsa|smc|hvc|el3|el2|psci|panic|watchdog|boot|entry|jump|load|verify|signature|rollback|hash|rsa|sha256' | head -3000
+

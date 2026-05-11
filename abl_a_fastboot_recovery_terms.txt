@@ -1,0 +1,683 @@
+### abl_a_fastboot_recovery_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/abl_a.img' | grep -Ei 'fastboot|recovery|usb|download|rescue|ramdump|slot|unlock|lock|flashing|oem|reboot|bootloader|critical|wipe|disable-verification|disable-verity' | head -3000
+
+reboot,thermal,tj
+OCP Reboot (%s%s)
+GSA Soft Reboot
+fastbootd
+regulator IC recovery failed
+regulator recovery failed
+Preparing for ramdump...
+Reboot Info:
+INFOoem tmu rd32 <offset> [zone]
+could not find RAMDUMP_MSG.txt
+BD block_max_size: 0x%X
+FAILfailed to set ramdump moode %d
+INFOramdump sha256 dump enabled
+disable-verification
+fail to get AVB_LOCK_DEVICE state (%d)
+usb.debugging
+FAILfailed to reset fastboot max ram size
+INFOoem gsa auth_img
+Flashing
+Unlock the bootloader
+INFOoem menu_dimming [enable|disable]
+gsc_gsa_rescue
+INFOoem gsc sjtag-cfg [val]
+INFOoem gsc id
+INFOoem gsc gsa-key-provision
+reboot,uvlo,pmic,if%s
+RAMDUMP_MSG.txt
+thermal shutdown: wipe NS memory and shutdown
+recovery-user-request
+INFOramdump enabled (USB)
+Invalid block%d index (%d): bypass
+liblpc: invalid metadata: target_source >= num_block_devices
+INFOoem fuse cm_test_done
+FAILmissing slot
+slot-unbootable:
+INFOoem boottrace [enable|disable]
+Signature is not entirely in its block.
+INFOflashing partition table for Lun = %u
+Your device has entered USB ramdump mode. Options:
+INFOoem gsc uart-passthru [val]
+INFOoem gsc get-secure-link-state
+failed to get eUSB revision %d
+%sReboot mode: 0x%x - %s
+ROM Recovery
+failed to wipe userdata %d
+INFO@ Default test: oem ddrtest 0 0 1 1
+FAILfailed to reset fastboot oem setting%d
+FAILfail to reset disable-usb-debugging %d
+invalid ramdump enable magic = %08X
+FAILramdump_mode:no commands allowed
+failed to reset wipe counter %d
+FAILfailed to fuse-lock %d %s
+FAILinvalid slot
+INFOplease reboot device, and execute 
+Fastboot Mode
+fastboot oem ramdump stage_file
+INFOoem gsc version
+INFOoem gsc test-secure-link
+reboot,longkey,pmic_cold
+ (Lockup Warning)
+INFOoem s2mpg <index|name> regdump
+disable-on-wipe is set
+FAILfailed to get ramdump mode %d
+Ramdump process result: ibh magic=0x%08x flag=0x%x(%s) error=%u(%s) time=%u secs
+INFOget_unlock_ability: %u
+disable-verity
+INFOoem mte [init|on|off]
+   blocked_read - test blocked read
+liblpc: invalid metadata: sizeof(LpMetadataBlockDevice) != header->block_devices.entry_size
+FAILError command, usage: oem fuse cm_provision_start [commit]
+INFOoem avf-mode pkvm
+INFO	Lock[%u]: %u
+INFOoem gsc avb state
+Do not lock the bootloader
+GSC rescue %zu bytes
+rescue
+FAILfailed to rescue GSC %d
+FAILFailed to reset AVB locks %d
+reboot,gsa,soft
+bootloader
+Fastboot/VolumeUp1080.bmp
+bootloader message:%s
+failed to clean env recovery-user-request
+bOptimalWriteBlockSize          0x%x
+disable-usb-debugging
+FAILfailed to disable usb debugging %d
+INFOdisable-usb-debugging: %s
+wipe_file
+INFOramdump sha256 dump disabled
+FAILdownload size cannot be zero
+reboot-
+INFOoem uart mux <selection>
+FAILfailed to execute esim_wipe_dck esim_id %d
+INFOoem udfps status
+INFOoem bcd read <command|status|recovery|stage>
+INFOpKVM is %s (fastboot=%s misc=%s)
+Invalid authentication data block size.
+INFOoem gsa run_crypto_test
+Failed to reset AVB locks %d
+User Reboot(S/W Reboot)
+ABL Force Early Reboot
+Thermal Shutdown (S/W Reboot)
+Fastboot/Power1440.bmp
+boot-fastboot
+INFOoem cmdline set [cmdline]
+INFOoem s2mpg current-hr <regulator-name> [#samples]
+FAILoffset and size must be block_size aligned
+INFOramdump compression enabled
+INFOramdump [enable|storage|usb]
+Discarding ramdump file %s flag %d
+ramdump to storage:
+ androidboot.ramdump.encryption=%s
+FAILempty oem command
+INFOoem dbgc sjtag-ap [cmd]
+%u Mhz cann't be used as escape clock
+fuse-lock
+FAILfailed to wipe bcd %s %d
+ trace_event=sched:sched_switch,sched:sched_blocked_reason,sched:sched_waking,power,dalvik,pm
+failed to decode avb_GetLockResponse
+INFOoem gsc debug-dump
+reboot,early,abl
+reboot
+early abl, wipe NS memory and reboot
+failed to set lock state %d
+failed to handle ramdump %d
+ramdump is disabled: secure device
+failed to update fastboot ok flag %d
+DWC_USB3_DEVICE_NUM_INT is 0
+enable-factory-lock
+INFOdevice is already locked
+enable-on-wipe
+FAILfailed to get disable-usb-debugging status %d
+bcp first_block_addr:      %08x
+INFOdck_wipe [esim-id]
+bootloader.pixel.MTE_FORCE_ON
+INFOoem fuse cm_provision_ok
+could not get slot data for A
+FAILunitialized slot:%d, abort
+INFOoem avf-mode auto
+INFOoem avf-mode kvm
+FAILGSA wakelock release failed (%d)
+Bootloader ver.: 
+Bootloader Ver.: 
+INFOoem boottime add [branch name] [build number] [boottime]
+reboot,tsd,pmic,sub
+reboot,smpl_timeout,pmic,main
+Reboot/Boot to Recovery
+Unlocked
+reboot,ocp,pmic,if%s
+GSA Hard Reboot
+s2d likely failed since acpm not aware ramdump on
+FAILInvalid oem command factory-lock
+ramdump write failed (crypto_init error): continue
+INFOThen use fastboot oem draw_bmp staged_img [x] [y] [surface]
+flashing
+FAILno staged data, use fastboot stage <key file>
+INFOoem pkvm status
+Bootloader Revision: 
+Bootloader revs: 
+INFOFailed to set carrier lock %d
+usbradio
+encoding failure in fastboot_print
+INFO<1> oem ddrtest \
+[LZ4 Error] Block Compressed Size OOB (%u)
+disable-on-wipe
+INFOramdump wipe_file <file name>
+next_block_addr=%u
+get_unlock_ability
+INFOoem dpm get-abl-enabled <property_name>
+INFOoem dpm dump-sbdp
+INFOno staged data, use fastboot stage <file>
+sota: failed to get lock state, fallback to V0 %d
+slot-fastboot-ok:
+INFO"fastboot get_staged dtbdump.bin"
+INFOoem bcd write <command|status|recovery|stage> <value>
+Bootloader ver: 
+%s: chan %d: send unblocked cb returned (%d)
+force-usb-pd
+reboot,factory
+failed to get in_early_reboot_loop
+failed to clear in_early_reboot_loop
+regulator no IC recovery
+INFOoem tmu tmuctrl [zone]
+ramdump failed %d
+[LZ4 Error] Invalid value for block size (%u)
+INFOramdump encryption disable cancelled
+INFOramdump in progress, it can take couple of minutes
+bcp block_length:          %08x
+ androidboot.ramdump=%s
+failed to download chunk. status code: %d
+wipe: addr 0x%lx, size %zx
+INFOoem trusty runtest <test-port-name> [pin_cpu <cpu_id>]
+AVB_SLOT_VERIFY_FLAGS_NO_VBMETA_PARTITION was passed but the validate_public_key_for_partition() operation isn't implemented.
+(unlockable)
+Bootloader Rev.: 
+Bootloader Revs: 
+gsc_gsa_rescue_enter
+reboot,master_dc,reset
+reboot,gsa,hard
+BL2 Force Early Reboot
+Fastboot/Power1080.bmp
+Fastboot/RedWarning1080.bmp
+%sReboot reason: 0x%x - %s
+INFO  oem etm2dram [%s|%s]
+failed to get current slot %d
+FAILfailed to query current slot %d
+FAILfailed to disable force-fastboot %d
+INFOramdump encryption disabled already
+INFOramdump
+ramdump io init failed: %d
+load blocks failed
+unlock
+version-bootloader
+INFOoem uart virt-enable [selection]
+%s already called by BOOTLOADER
+INFOoem avf-mode disable
+ignore_zero_blocks
+The bootloader is unlocked and software integrity cannot be guaranteed. Any data stored on the device may be available to attackers. Do not store any sensitive data on the device.
+Recovery Mode
+INFOcannot write config descriptor, bConfigDescrLock %u
+INFOoem boottime get_mean
+reboot,sys_ldo_ok,pmic,sub
+ (No Lockup)
+force-fastboot
+dEraseBlockSize             0x%x
+FAILfailed to disable ramdump compression
+INFOramdump stage_file [file name]
+write blocks failed
+ramdump finalize failed
+block chain not valid for writing
+INFOoem dpm help
+clear ndef failed, but not blocking ndef updates
+DSI Master clock isn't disabled.
+could not get slot data for B
+failed to read fastboot avf boot mode %d, mode: %d
+INFOoem pkvm auto
+Bootloader version: 
+GSC rescue FAILED with %d
+FAILBlocking due to AVB device is locked
+reboot,master_dc,fault_n
+reboot,fastboot
+critical_shutdown: %d
+Recovery
+acpm locks regulators
+INFOramdump compression disabled
+ramdump read_bcp failed: %d
+invalid bcp num blocks available
+avb slot data invalid
+INFObootloader_imgs_secureboot_disabled = %d
+INFOoem dbgc uart-console [enable|disable]
+failed to update bootloader rollback indexes %d
+Hash is not entirely in its block.
+INFOoem gsa load_app
+failed to encode avb_GetLockRequest
+Restart Bootloader
+Rescue Mode
+FastBoot Mode
+INFOoem gsc header [sec]
+INFOWARNING: Recommend to wipe userdata by fastboot -w after GSC rescue complete!
+INFOoem rma get_challenge
+reboot,warm
+Reboot/Boot to fastbootd
+reboot,recovery
+Reboot/Boot to ROM Recovery
+Rescue
+force ABL into fastboot
+boot-cmd-fastboot
+insufficient buffer space in fastboot_print
+USB disconnect event
+[LZ4 Error] Block dependence is not supported
+FAILfailed to wipe userdata %d
+FAILfailed to wipe device
+FAILfailed to enable ramdump compression
+blocks_completed   : %u
+ androidboot.ramdump.usb=enabled
+fastboot
+could not get slot data for inactive slot
+invalid bootconfig block
+INFOoem gsa version
+INFOoem gsa trace <dump|ping>
+failed to encode avb_SetOwnerLockRequest
+INFOFlashing partition %s
+Lock the bootloader
+Boot slot: 
+INFOfailed to read bConfigDescrLock attr %d
+recovery
+Regulator failure. Recovery failed
+Rebooting in 5 seconds, press 'c' to cancel: 5
+failed to wipe sota client state ret=%d
+failed to wipe sota schedule shipmode ret=%d
+ufs erase only supports offset/len block aligned
+INFOoem ufs desc <device|config|unit|string|geometry|health|intc> [index]
+FAILforce-fastboot [on|off]
+INFOramdump compression [enable|disable]
+FAILfailed to disable ramdump %d
+INFOramdump misc information:
+ androidboot.ramdump_2mb_blocks=true
+FAILinvalid android images, skip locking
+INFOoem dpm verify-image (use fastboot stage <file> before)
+blocked_read_test: expected TRUSTY_ERR_CHANNEL_CLOSED: %zu
+INFOoem dbgc sjtag-gsa [cmd]
+fastboot.boottrace
+FAILfailed to set lock %d
+Bootloader vers: 
+usbuwb
+fail to add ddr to dynamic_region of ramdump, %d
+bMinAddrBlockSize               0x%x
+FAILfailed to enable ramdump encryption
+INFOramdump misc
+ramdump_usb_thread
+%s Ramdump Mode
+FAILfailed to write data to usb %d
+locked
+FAILInvalid oem command %s
+error calling avb_slot_verify %d
+liblpc: API error: slot
+liblpc: invalid metadata: !LPC_IS_SECTOR_SIZE_MULTIPLE(geometry->logical_block_size)
+Error: empty or corrupted eagleEye bootloader message.
+failed to read fastboot avf boot mode %d %d
+INFOoem gsa ar
+FastBoot mode
+failed to deassert the rescue GPIO: %d
+INFOAVB device lock = %u
+early bl2, wipe NS memory and reboot
+INFO  oem bcm_rmem [%s|%s]
+fastboot enter reason: %s
+Both slots (A and B) are invalid
+ramdump_usb
+FAILfailed to reset fastboot oem setting (full)%d
+FAILramdump to storage failed, %d
+ androidboot.ramdump.compression=%s
+fastboot_signature_validation
+fail to get board lock state (%d)
+FAILno staged data, use fastboot stage <file>
+blocked_read_test
+slot data b: 0x%08x
+slot-count
+slot-suffixes
+current-slot
+Error: ramdump_message in earlyEye bootloader message too long
+Failed to acquire GSA wakelock (%d)
+INFOoem gsa log [id]
+FAILfailed to get gsc avb lock %d
+fastboot get_staged <region>
+reboot,rom_recovery
+Locked
+System critical regulator: over-current detected
+***** S2D Info Block ********************************************************
+Fastboot/OrangeWarning1080.bmp
+INFOoem tmu temp [zone:0 top/1 sub]
+other slot boot ok, mark other slot as active and reboot
+FAILCannot boot in USB ramdump mode
+INFOoem cmdline show
+INFOoem s2mpg voltage <regulator-name|all|none> [#samples]
+INFOoem s2mpg current <regulator-name|all> [#samples]
+[LZ4 Error] Invalid block size %u
+factory-lock
+ramdump write failed %d
+preload_image: could not find free preload image slot
+liblpc: invalid metadata: physicalend > block_device->size
+no active slot fallback to boot slot
+slot-successful:
+slot_suffix
+INFO"fastboot oem dmesg"
+INFOrecovery: %s
+INFOoem pkvm enable
+Failed to release GSA wakelock (%d)
+INFOoem gsa runtest <test-port-name>
+failed to encode avb_SetDeviceLockRequest
+Bootloader revision: 
+USB RAMDUMP Mode
+OTP_ERR_WRITE_LOCK
+INFOoem rma send_response
+reboot,longkey,master_dc
+Regulator HW failure. IC recovery failed
+fail to config wipe protect_region of ramdump, %d
+INFOoem tmu trimcfg [zone]
+ramdump2usb is disabled: secure device
+INFOramdump disabled
+FAILfailed to enable ramdump sha256 dump
+FAILfailed to get unlock ability %d
+oem 
+INFOfailed to wipe device %d
+logical-block-size
+INFOoem fuse flashkey
+could not get slot data for active slot
+fastboot_ab_init
+android boot blocker is detected, %s
+Error: log_entry in earlyEye bootloader message too long
+FAILfailed to read bcd recovery %d
+Block sizes add up to more than given length.
+INFOoem gsa wakelock acquire
+INFOoem gsa get_dice_chain
+If you lock the bootloader you will not be able to install custom operating system software on this device.
+To prevent unauthorized access to your personal data, locking the bootloader will also delete all personal data on your device.
+Bootloader Ver: 
+: Reboot after finishing
+reboot,uvlo,pmic,main
+Regulator HW failure? - no IC recovery
+Fastboot/YellowWarning1080.bmp
+boot slot: %s
+reboot bootloader
+ramdump_mode
+FAILfailed to get lock state %d
+INFOramdump encryption disabled
+FAILfailed to download image
+fail to get AVB_LOCK_CARRIER state (%d)
+FAILsota: failed to wipe sota schedule shipmode %d
+INFOoem dbgc uart-mux [uart_num|uart_name]
+INFOoem fuse cm_provision_start [commit]
+INFOoem fuse get_asb_data
+slot data a: 0x%08x
+android/external/lib/avb/libavb/avb_slot_verify.c
+wakelock
+failed to encode CarrierUnlockRequest
+INFOFlashing pack version %s
+Press power key to reboot.
+INFOoem boottime find_entry [branch name]
+Reboot/Boot to Factory Mode
+failed to get bl2_force_early_reboot
+Long Press Power Key Reboot (MASTER DISCONNECT)
+System critical regulator: voltage drop detected
+master disconnect, wipe NS memory and %s
+INFO  oem watchdog [enable|disable]
+failed to wipe sota csku signature ret=%d
+fastboot_flash_boot
+FAILdisable-usb-debugging [reset|show]
+disable-with-wipe
+FAILfailed to disable ramdump encryption
+INFOramdump encryption [enable|disable]
+INFOoem uart list
+fastboot_devinfo_validation
+failed to add ramdump file ehld_cpu_event: %d
+failed to initialize USB phy %d
+dsim%d is already enabled in bootloader
+[dwc3_dptx] Fail usbdp phy init(Not check cal done)
+failed to reset fastboot avf boot mode
+ androidboot.bootloader=%s
+INFOoem bcd upload recovery
+INFO"fastboot get_staged metrics-test.bin" or 
+Error getting device lock state.
+Unbalanced GSA wakelock refcounter
+INFOoem gsc avb lock <index> [val]
+Bootloader rev.: 
+We now have enough logs to resolve this issue. If you would still like to upload a ramdump, press power key to resume ramdump within 15 seconds, otherwise the device will reboot. 
+INFOoem gsc reset
+INFOoem boottime lookup_by_branch_name [branch name]
+INFOoem boottime hash [string]
+reboot,tsd,pmic,main
+reboot,ocp,%s%s
+Long Press Power Key Reboot
+Long Press Power Key Reboot (PMIC COLD)
+RAMDUMP_MSG.txt:
+reboot-bl1rec
+reboot-rom
+failed to display avb flashing lock menu %d
+failed to allocate memory for the UTR slots
+timeout waiting for for xfer slot, packet discarded!
+INFO<2> oem ddrtest loop
+INFOforce-fastboot %s
+FAILfailed to enable force-fastboot %d
+FAILoem command (%s) is not allowed when locked
+fastboot_avb
+INFOoem max-ram-size [ram size in MB]
+Block size is not a multiple of 64.
+bLogicalBlockSize
+OTP_ERR_LOCK_WRITE_FAIL
+gsc_gsa_rescue_leave
+failed to clear bl2_force_early_reboot
+   Scanned blocks bitmap: 0x%08x,%08x
+Fastboot/VolumeUp1440.bmp
+is-ramdump-mode
+failed to wipe sota csku ret=%d
+FAILfailed to query current slot
+iOemID                  0x%x
+Invalid usb speed %u
+INFOramdump encryption enabled
+ramdump init failed
+no more blocks in block chain
+FAILinvalid number of parameters for download
+failed to open block device %s
+MTE bootloader and Android state mismatch: %d != %d
+FAILError command, usage: oem fuse cm_provision_enable [commit]
+wipe
+INFOoem pkvm disable
+failed to encode avb_SetBootLockRequest
+FAILno set supported for lock %lu
+failed to create oem colortest thread %d
+Boot-slot: 
+com.android.trusty.secretkeeper.bootloader
+error calling NUGGET_PARAM_FLASH_BLOCK 0x%x
+INFOoem gsc rescue
+Set EUSB Ref clock auto
+decrement active slot boot retry & force ABL into fastboot
+bOptimalReadBlockSize           0x%x
+dOptimalLogicalBlockSize        0x%x
+qLogicalBlockCount          0x%llx
+FAILfailed to get force-fastboot status %d
+failed to read blocks
+FAILcommand (%s) is not allowed when locked
+INFOoem uart virt-disable [selection]
+reset MTE for device wipe.
+INFOoem bcd wipe <command|status|recovery|stage>
+Public key is not entirely in its block.
+GSA wakelock refcounter is too high (%u)
+INFOflashing platform %s
+Boot Slot: 
+Error: Rescue image size %zu is not multiple of frame size %zu
+reboot,bootloader
+[EUSB] 
+Bootloader
+bootonce-bootloader
+boot-rescue
+failed to get boot slot %d
+INFOoem cmdline del <cmdline>
+INFO<3> oem ddrtest factory <round>
+FAILunable to get slot info
+FAILfailed to set lock state %d
+unlocked
+FAILoem command (%s) is not allowed in prod mode
+INFOoem avf-mode status
+INFO"fastboot get_staged kcmdline-test.bin" or 
+Requested partitions cannot be empty when using AVB_SLOT_VERIFY_FLAGS_NO_VBMETA_PARTITION
+FAILGSA wakelock acquire failed (%d)
+Bootloader Vers: 
+Boot-Slot: 
+RAMDUMP Mode
+A ramdump is being collected.
+Double tap <VOL_UP> and <VOL_DOWN> to skip ramdump and continue booting.
+: List all ramdump regions
+%s: RESCUE_DATAGRAM failed %d
+reboot,memory_protect,hyp
+reboot,uvlo,pmic,sub
+usb boot: skip load_secure_payload
+force-fastboot is on
+failed to read ramdump mode %d
+ramdump is disabled... rebooting
+notifier failed %d. stop ramdump
+INFOramdump now
+max-download-size
+INFOoem uart enable [selection] [loglevel]
+INFOoem hdcp key_test
+blocked_read
+slot-retry-count:
+fail to add gsa_sram_key.lst to ramdump sub-file, %d
+INFOBootloader state: %u
+failed to create oem barcode thread %d
+fastboot oem ramdump stage_file <region>
+fastboot reboot
+INFOoem boottime dump_table
+reboot,emergency
+shutdown,regulator,hw,ic,recovery,failed
+reboot,dm-verity_device_corrupted
+INFOoem cmdline add <cmdline>
+bLogicalBlockSize       0x%x
+INFOoem factory-lock
+INFOPlease disconnect usb cable to allow shutdown
+INFOramdump sha256_dump [enable|disable]
+INFOramdump enabled
+INFOfile %s is wipe protect region
+failed to allocate memory for blocks
+FAILinvalid download buffer size
+FAILflashing unlock is not allowed
+failed to reset MTE for device wipe: %d
+FAILsota: failed to wipe sota client state %d
+INFOoem fuse cm_provision_enable [commit]
+failed to read fastboot avf boot mode %d
+fail to clean disable-usb-debugging
+Public key metadata is not entirely in its block.
+go/pixel-ramdump
+failed to assert the rescue GPIO: %d
+reboot,early,bl2
+reboot,sys_ldo_ok,pmic,main
+Regular Reboot/Boot
+Fastboot/RedWarning1440.bmp
+FAILfailed to get ramdump config %d
+ramdump
+Not enough capacity to perform ramdump. Needed: %lu Available: %lu
+erase-block-size
+total size of partitions exceeds available capacity by %llu blocks
+INFOoem udfps update-cal
+%u Mhz hs clock can't find proper dphy timing values
+FAILinvalid lock index %lu
+INFOoem gsc avb rb <slot> [val]
+If you unlock the bootloader, you will be able to install custom operating system software on this device. A custom OS is not subject to the same level of testing as the original OS, and can cause your device and installed applications to stop working properly.
+Software integrity cannot be guaranteed with a custom OS, so any data stored on the device while the bootloader is unlocked may be at risk. To prevent unauthorized access to your personal data, unlocking the bootloader will also delete all personal data on your device.
+Fastboot mode
+INFOoem boottime lookup_by_build_number [build number]
+shutdown,regulator,recovery,failed
+Forced Reboot(S/W Reboot)
+Fastboot/VolumeDown1080.bmp
+INFOoem s2mpg <index|name> chip_id
+INFOoem regulator dump
+INFOoem ufs purge
+FAILfailed to enable-on-wipe, %d
+invalid bcp first block address
+FAILerror getting device locked state %d
+Downloading. Download size is %zu bytes
+lock
+INFOoem uart disable [selection]
+FAILstaged pubkey incorrect,use fastboot stage <pubkey file>
+FAILError command, usage: oem fuse revokedevkey [enforce]
+FAILfailed to set active slot %d
+Invalid parameter for LOCKS reset
+INFONumber of locks : %u
+Bootloader rev: 
+Ramdump Uploader - Flood Control mode
+reboot,longkey
+reboot,pin
+Reboot/Boot to Bootloader
+System critical regulator: unknown error
+Fastboot/OrangeWarning1440.bmp
+Fastboot/YellowWarning1440.bmp
+usb boot
+active slot boot ok
+decrement active slot boot retry
+flood control identified this ramdump as a duplicate
+ramdump2usb
+INFOoem ufs ahit [new_value | timer_scale timer_value]
+INFOWARNING: This enables oem factory-lock command which will
+Please disconnect usb cable to allow shutdown
+FAILfailed to  disable-on-wipe, %d
+INFOramdump disable
+INFOramdump encryption disable-with-wipe
+FAILfailed to disable ramdump sha256 dump
+bcp num_blocks_available:  %08x
+FAILfastboot pubkey set
+INFOoem gsa wakelock release
+Bootloader Version: 
+Bootloader Rev: 
+shutdown,regulator,hw,no,ic,recovery
+Fastboot/VolumeDown1440.bmp
+failed to wipe sota BCB vendor data ret=%d
+failed to set env recovery-user-request
+boot-cmd-recovery
+bLogicalBlockSize           0x%x
+INFOramdump misc information not available: %d
+INFOFirst, use fastboot stage <file.bmp>
+download:
+INFOoem trusty version
+liblpc: invalid metadata: geometry->logical_block_size == 0
+USB Pipe3 Initialization...
+INFOWARN: failed to reset slot '%s': %d
+has-slot:
+INFOoem avb_menu_delay orange [delay_seconds]
+GSC rescue complete
+INFOoem gsc reprovision
+ (Software Lockup)
+booting in ramdump mode: skip load_secure_payload
+FAILfactory-reset [enable-on-wipe|disable-on-wipe|show]
+invalid blocks length 0x%x
+OKAYinvalid reboot option
+dck_wipe
+INFOoem udfps get-cal-url
+Unknown AvbSlotVerifyResult value.
+Do not unlock the bootloader
+INFOgsc_rescue failed %d
+Fastboot/OrangeWarning1080.bmp.lz4
+Fastboot/OrangeWarning1440.bmp.lz4
+Fastboot/Power1080.bmp.lz4
+Fastboot/Power1080r270.bmp.lz4
+Fastboot/Power1440.bmp.lz4
+Fastboot/RedWarning1080.bmp.lz4
+Fastboot/RedWarning1440.bmp.lz4
+Fastboot/VolumeDown1080.bmp.lz4
+Fastboot/VolumeDown1080r270.bmp.lz4
+Fastboot/VolumeDown1440.bmp.lz4
+Fastboot/VolumeUp1080.bmp.lz4
+Fastboot/VolumeUp1080r270.bmp.lz4
+Fastboot/VolumeUp1440.bmp.lz4
+Fastboot/YellowWarning1080.bmp.lz4
+Fastboot/YellowWarning1440.bmp.lz4
+GTOWIPE
+GOOGLEWIPE
+THALESWIPE
+SHA1 block transform for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+SHA256 block transform for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+SHA512 block transform for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+fastboot
+WINUSB

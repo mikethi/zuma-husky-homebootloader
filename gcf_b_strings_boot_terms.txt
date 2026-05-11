@@ -1,0 +1,19 @@
+### gcf_b_strings_boot_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/gcf_b.img' | grep -Ei 'boot|abl|bl1|pbl|bl2|bl31|tz|trusty|gsa|avb|vbmeta|dtb|dtbo|fdt|kernel|ramdisk|cmdline|fastboot|recovery|usb|ufs|uefi|efi|lk|little kernel|edk|smc|hvc|el1|el2|el3|psci|gic|mmu|dram|memory|slot|rollback|signature|rsa|sha256|verity|disable-verification|disable-verity|orange|locked|unlocked' | head -3000
+
+dtb-registry
+BL2_SG_BASE
+GSA_BL1
+GSA_FW
+TZSW
+BL31
+BL2_SG
+BL_INFO_DRAM_SIZE
+GSA_MAGIC
+GSA_VERS
+SAVE_DRAM_TRAIN
+DP_BOOT_STATE
+DRAM_INFO
+BL2_STACK
+BL31_EXTRA
+EL3_NS_SM

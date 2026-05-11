@@ -1,0 +1,32 @@
+### gsa_bl1_a_lower_firmware_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/gsa_bl1_a.img' | grep -Ei 'BL1|PBL|BL2|BL31|TF-A|trusted|trusty|tz|secure|dram|ddr|ufs|gsa|smc|hvc|el3|el2|psci|panic|watchdog|boot|entry|jump|load|verify|signature|rollback|hash|rsa|sha256' | head -3000
+
+GSA1
+GSAF
+%s: Unaligned address/length combination!
+bl1/sysram.c
+nonce hash mismatch
+%s: Invalid address range (0x%08llX, 0x%08X) is within GSA!
+%s: Unaligned address/length combination!
+bl1/sysram.c
+%s: Build hash: %s
+GSA BL1 AR version %d needs to be between %d and %d
+Secure boot is bypassed by DPM
+Must be final hash
+gsaMailboxSetResponse
+Not received boot info from AP
+Anti-rollback update is bypassed by DPM
+Image version %d is larger than the maximum OTP anti-rollback counter %d
+Error verifying certificate with the authority public key.
+HelloGsaBl1
+Invalid body address
+Invalid RSA scheme
+RSA verification failed
+%s: Invalid address range (0x%08llX, 0x%08X) is within GSA!
+Invalid header address
+Cannot absorb hash longer than %d.
+Anti-rollback check is bypassed by DPM
+Invalid RSA key size
+bl1/gme.c
+%s: Invalid address range (0x%08llX, 0x%08X) is outside GME!
+jSignature1D

@@ -1,0 +1,411 @@
+### abl_b_handoff_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/abl_b.img' | grep -Ei 'kernel|ramdisk|dtb|dtbo|fdt|bootconfig|cmdline|entry|jump|load|text_offset|initrd|linux|androidboot|uefi|efi|memory map|memmap|psci|el2|el1|hvc|smc' | head -3000
+
+FDT_ERR_NOTFOUND
+Failed to allocate pages for avb preload of %s. Will load avb images on demand
+Failed one fixup in ufdt_do_one_fixup
+ufdt_overlay_apply
+ufdt_overlay_apply_fragments
+: Too many loaded partitions.
+Unlock the bootloader
+ androidboot.primary_panel_drv=panel-%s exynos_drm.panel_name=dsim%d:%s exynos_drm.sec_panel_name=dsim%d:%s
+pixel_loader
+ufdt_node_construct
+ufdt_node_pool_destruct
+ufdt_get_fixup_location
+ufdt_apply_overlay
+failed to allocate memory for DTB blob with overlays
+ufdt_prop_dict: failed to find new index when enlarging.
+ androidboot.hypervisor.vm_dtbo_idx=%zu
+bad DTB address or size
+config entry's size cannot be cast to uint32_t
+failed to get property from source fdt, error:%s
+ androidboot.verifiedbooterror=
+no valid mempool for preloaded images
+ androidboot.dpm_state=0x%04x
+ufdt_get_node_by_path_len
+fdt_to_ufdt_tree
+Bad fdt size!
+SMC otp_check_soc_fuse_condition failed, ret=%lx
+target failed to update FDT %d
+kernel text_offset exceeds kernel allocation size
+kernel: text_offset:%llx
+ androidboot.cdt_hwid=0x%08x%08x%08x
+failed to add /avf/reference in fdt, error:%s
+Invalid token payload length size (%u)
+gsc ro_a prefix is not found
+find_entry
+kernel_panic
+index < MMU_KERNEL_PAGE_TABLE_ENTRIES_TOP
+failed to load and verify images %d
+FAILno previous kernel cmdline
+FDT_ERR_BADSTATE
+could not load %s font from storage
+liblpc: invalid metadata: sizeof(LpMetadataBlockDevice) != header->block_devices.entry_size
+using init_boot ramdisk
+bad vendor_kernel_boot ramdisk or size
+ androidboot.hardware=%s androidboot.revision=%s
+ androidboot.hardware.radio.subtype=%u
+ androidboot.hw.soc.sec-ar=%u
+FAILfailed to get dtbdump status %d
+: Error loading vbmeta data.
+failed to decode avb_LoadResponse
+Do not lock the bootloader
+Kernel PANIC
+bootloader
+bootloader message:%s
+FAILdownload size cannot be zero
+failed to join preload thread %d
+preload_image: failed to allocate memory for image
+linux,phandle
+Some nodes aren't freed before ufdt_node_pool_destruct().
+failed to merge dtb and dpm
+failed to fdt_open_into %d
+failed to configure kernel load address
+bootconfig:
+fail to update padding to bootconfig (%d)
+FAILfailed to disable dtbdump %d
+ androidboot.hw.soc.pkg_mode=%01x
+%slast kernel version: %s
+INFOoem cmdline set [cmdline]
+build info set by kernel
+Unable to update flood entry hit in misc. Error code: %d
+ androidboot.ramdump.encryption=%s
+failed to add more fdt into main ufdt tree.
+androidboot.
+FAILfailed to disable kcmdline-test %d
+FAILfailed to upload bcd %s %d
+error from libfdt, %s (%d)
+load_app
+ androidboot.bootcrumbs
+FDT_ERR_TRUNCATED
+upload
+Failed to read partition during avb preload of %s. Will load avb images on demand
+bootloader.pixel.MTE_FORCE_ON
+linux,initrd-end
+malloc(%lu) failed for kcmdline_test
+invalid VM DTBO. malformed header
+androidboot.veritymode.managed
+INFOfailed to load sideload (%s)
+Bootloader ver.: 
+Bootloader Ver.: 
+ androidboot.zufs_provisioned=%s
+running from secondary boot device: skip load_secure_payload
+FDT_ERR_BADMAGIC
+Couldn't find '%s' symbol in main dtb
+Couldn't find '%s' path in main dtb
+ufdt_overlay_local_ref_update
+ENTRY
+linux,initrd-start
+failed to delete dtbdump flag
+kernel header size validation failed
+kernel magic validation failed
+ androidboot.boottime_extra=PKD:%llu,RKD:%llu,DISP:%llu,DISP_PE:%llu,DISP_WAIT:%llu,KL_VB:%llu,KL_BOOT:%llu,KL_INTB:%llu,KL_VBS:%llu,KL_VBV:%llu,KL_DTBO:%llu,KL_PVMFW:%llu,KL_VDRB:%llu,KL_VDRKB:%llu,ODT_DOARD:%llu,ODT_DEVICE:%llu,ODT_DPM:%llu,DRAM_TRAIN:%llu
+linux,pkvm-guest-firmware-memory
+Bootloader Revision: 
+Bootloader revs: 
+FDT_ERR_BADSTRUCTURE
+linux debug vendor_info is not valid
+ufdt_overlay_do_fixups
+_ufdt_prop_dict_enlarge_if_needed
+SMC call failed, ret=%lx
+ androidboot.hypervisor.vm.supported=1
+bad ramdisk or size
+target failed late updates to FDT %d
+INFO"fastboot get_staged dtbdump.bin"
+failed to get /avf in fdt, error:%s
+androidboot.vbmeta.avb_version
+androidboot.veritymode
+Your device is loading a different operating system.
+Bootloader ver: 
+kcmdline: %s
+linux debug vendor info is not valid, arm64 VM info is not valid
+ androidboot.ramdump=%s
+failed to load char '%c' %d
+failed to download chunk. status code: %d
+androidboot.veritymode=
+ufdt_overlay_get_target
+linux,initrd-start: %p, linux,initrd-end: %p
+Ramdisk copy error no memory left
+Bootloader Rev.: 
+Bootloader Revs: 
+%s(c0 psci:0x%x)
+dtbo image too big (%zu) to save
+linux debug vendor info is not valid, kallsyms_names checksum is skipped
+load blocks failed
+version-bootloader
+%s already called by BOOTLOADER
+ramdisk copy
+ androidboot.dtbo_idx=%zu
+ androidboot.user_preferred_resolution=%s
+failed to delete kcmdline_test flag (%d)
+androidboot.console
+no avf VM DTBO, because nothing matches with the platform id nor product id
+INFOLoading sideload %s
+The bootloader is unlocked and software integrity cannot be guaranteed. Any data stored on the device may be available to attackers. Do not store any sensitive data on the device.
+FIQ_EL2
+MTE cmdline override ON
+Incorrect sig payload size %zu
+is_compatible is not defined!
+Ramdisk load size with padding: %zu
+ androidboot.secure_boot=%s
+BOOTCONFIG_MAX_SIZE isn't enough
+failed to uncompress lz4 kernel %d
+Bootloader version: 
+ESR_EL1=0x%08llx 
+Setting the LK entry time (METRICS_BL3) to %u msecs
+FDT_ERR_BADPATH
+dtb version %d
+INFObootloader_imgs_secureboot_disabled = %d
+_ufdt_get_property_nameoff
+failed to update bootloader rollback indexes %d
+failed to add boottime entry: branch_name = %s, build_number = %u, boottime = %llu
+[PKVM_FDT] 
+INFOoem gsa load_app
+Restart Bootloader
+%s:%d: failed to grow kernel heap by 0x%zx bytes
+%saosp kernel version: %s
+failed to read dtb from stored boot.img %d
+ androidboot.ramdump.usb=enabled
+nfcc in loader mode, recover...
+kcmdline-test enabled
+invalid bootconfig block
+ androidboot.boottime=0BLE:%llu,1BLL:%llu,1BLE:%llu,2BLL:%llu,2BLE:%llu,3BLL:%llu,3BLE:%llu,SW:%llu,KL:%llu,KD:%llu,ODT:%llu,AVB:%llu,FWL:%llu
+failed on libfdt while constructing VM reference DT, error:%s
+: Error loading footer.
+failed to encode avb_LoadRequest
+Lock the bootloader
+staging dtbo image
+FDT_ERR_EXISTS
+unexpected vendor kernel version: %s
+ androidboot.ramdump_2mb_blocks=true
+failed to create avb_preload_task
+ufdt_install_blob
+SMC otp_get_cm_status failed, ret=%lx
+androidboot.vbmeta.device
+Bootloader vers: 
+Core stat at previous(KERNEL)
+running on DRAM by trace32: skip load_secure_payload
+staging dtb image
+staging vendor kernel boot image
+[FDT] 
+No node __symbols__ in main dtb.
+ androidboot.hypervisor.protected_vm.supported=0
+bad init_boot ramdisk or size
+ androidboot.hardware.cpu.pagesize=%u
+ androidboot.serialconsole=0
+#BOOTCONFIG
+Error: empty or corrupted eagleEye bootloader message.
+malloc(%u) failed for dtb
+android/external/lib/avb/libavb/avb_cmdline.c
+INFOentry %s: offset out of bounds
+%s:%d: page table entry already in use, index 0x%lx, 0x%llx
+FDT_ERR_BADVERSION
+ androidboot.ramdump.compression=%s
+failed to preload partition %s
+user kcmdline: %s
+Error: ramdump_message in earlyEye bootloader message too long
+config entry's offset cannot be cast to uint32_t
+: Error loading data from partition.
+androidboot.vbmeta.hash_alg
+androidboot.vbmeta.digest
+Page Domain Fault, used only for faults reported in the PAR_EL1
+kcmdline
+INFOoem cmdline show
+could not load font
+failed to reload preloaded image %d
+preload_image: could not find free preload image slot
+invalid ps entry at %p
+Invalid sig payload
+ufdt_node_pool_free
+otp_fuse_platinfo smc call failed, ret=%x
+FAILdtbdump [enable|disable]
+Bootloader revision: 
+FDT_ERR_BADOFFSET
+FDT_ERR_INTERNAL
+kcmdline buffer has no space left for '%s'. Current index: %zu, Max size: %d
+failed to load GPT data for device %s
++kernel_once
+Escape mode entry command error!
+liblpc: invalid metadata: sizeof(LpMetadataExtent) != header->extents.entry_size
+ androidboot.hypervisor.protected_vm.supported=1
+FAILkcmdline-test [enable|disable]
+Error: log_entry in earlyEye bootloader message too long
+insufficient max size for padding before VM DTBO
+INFOentry %s: size out of bounds
+If you lock the bootloader you will not be able to install custom operating system software on this device.
+To prevent unauthorized access to your personal data, locking the bootloader will also delete all personal data on your device.
+Bootloader Ver: 
+ ufs_exynos_core.use_kdn=0 ufs_exynos_gs.use_kdn=0 androidboot.fstab_suffix=%s-fips
+reboot bootloader
+secure payload loading took %ums
+FAILfailed to download image
+avb_preload_task
+Failed to dump the device tree to out_fdt_header
+using vendor_kernel_boot ramdisk
+vendor kernel ramdisk copy
+vendor ramdisk copy
+failed to set ramdisk start address %d
+cmdline(full):
+Starting Linux kernel ...
+ androidboot.cdt_hwid=0x%08x%08x%08x%08x
+INFOdtbdump %s
+FAILfailed to enable dtbdump %d
+Descriptor payload size overflow.
+INFOpacked entry out of bounds
+gsc rw_a prefix is not found
+INFOoem boottime find_entry [branch name]
+PSCI Breadcrumbs(v%u.%u):
+failed to load secure payload %d
+FAILfailed to allocate memory for kernel cmdline
+kcmdline buffer has no space left. Current index: %zu, Max size: %d
+%s:%d undefined blending mode
+dsim%d is already enabled in bootloader
+invalid soc dtb
+ androidboot.bootloader=%s
+failed to find /chosen in FDT
+INFOoem bcd upload recovery
+Bootloader rev.: 
+We now have enough logs to resolve this issue. If you would still like to upload a ramdump, press power key to resume ramdump within 15 seconds, otherwise the device will reboot. 
+FDT_ERR_BADLAYOUT
+Unable to update flood entry skip in misc. Error code: %d
+ufdt_prop_dict: failed to find new index when adding.
+ androidboot.hypervisor.version=kvm.arm-nvhe
+bad kernel address or size
+adding boottime entry: branch_name = %s, build_number = %u, boottime = %llu
+androidboot.vbmeta.invalidate_on_error
+dtbo
+fdt_delprop('%s') failed: %s
+SGI_EL2
+FAILinvalid number of parameters for download
+preload_image: partition not found
+MTE bootloader and Android state mismatch: %d != %d
+liblpc: invalid metadata: sizeof(LpMetadataPartitionGroup) != header->groups.entry_size
+ androidboot.hypervisor.version=kvm.arm-protected
+ androidboot.ddr_info=%s androidboot.ddr_size=%zuGiB androidboot.hardware.ddr=%zuGiB,%s,%s,%04x
+FAILfailed to get kcmdline-test status %d
+: Kernel cmdline descriptor is invalid.
+androidboot.vbmeta.public_key_digest
+com.android.trusty.secretkeeper.bootloader
+%s androidboot.verifiedbootstate=%s
+LOAD
+failed to merge dtb and device dtbo
+ androidboot.force_normal_boot=1
+ androidboot.hw.soc.nonsec-ar=%u
+dtbdump enabled
+reboot,bootloader
+Bootloader
+error loading partition %s
+bootonce-bootloader
+FAILfailed to set kcmdline env value
+INFOoem cmdline del <cmdline>
+Invalid GPT entry_size
+Unable to load signature
+Inconsistent sig payload size
+malloc(%lu) failed for bootconfig padding
+INFO"fastboot get_staged kcmdline-test.bin" or 
+insufficient max size for VM DTBO, VM DTBO size=%zu, max_size=%zu
+Invalid tag for kernel cmdline descriptor.
+androidboot.vbmeta.device_state
+Bootloader Vers: 
+This will take up to 5 minutes and you will be prompted to upload it once your device boots into Android.
+gsc ro_b prefix is not found
+usb boot: skip load_secure_payload
+Section Domain Fault, used only for faults reported in the PAR_EL1
+INFOkcmdline is already empty
+max-download-size
+failed to merge dtb and dtbo
+ bootconfig
+failed to pack fdt %d
+dtbdump
+fail to update boot metrics to bootconfig (%d)
+[DTBO] 
+bad header for dtb
+INFOBootloader state: %u
+gsc rw_b prefix is not found
+ androidboot.hw.soc.id=%012llx
+ESR_EL1=N/A        
+INFOoem cmdline add <cmdline>
+FDT_ERR_BADNCELLS
+FAILinvalid download buffer size
+failed to preload image %s
++kernel
+INFOinvalid payload size %u
+liblpc: invalid metadata: sizeof(LpMetadataPartition) != header->partitions.entry_size
+kcmdline-test
+kernel: total_time:%llu
+malloc(%zu) failed for dtb
+failed to set property into target fdt, error:%s
+ androidboot.bootdevice=%lx.ufs
+ androidboot.hw.soc.rev=%u
+ androidboot.primary_panel_drv=panel-%s exynos_drm.panel_name=%s
+Safe Kernel PANIC
+linux debug info is not valid
+dtb image to big (%zu) to save
+FDT_ERR_BADVALUE
+failed to add memory entry @@%llx, size %u
+ufdt_node_add_child
+invalid dtb image
+failed to update cmdline %d
+ramdisk dst addr: %p src addr: %p size: 0x%zx(%zu)
+INFOkcmdline-test %s
+FAILfailed to enable kcmdline-test %d
+If you unlock the bootloader, you will be able to install custom operating system software on this device. A custom OS is not subject to the same level of testing as the original OS, and can cause your device and installed applications to stop working properly.
+Software integrity cannot be guaranteed with a custom OS, so any data stored on the device while the bootloader is unlocked may be at risk. To prevent unauthorized access to your personal data, unlocking the bootloader will also delete all personal data on your device.
+INFODont forget to adb shell echo 0 > /proc/sys/kernel/printk
+failed to allocate memory for linux debug
+ androidboot.init_fatal_panic=true
+Downloading. Download size is %zu bytes
+ androidboot.verifyerrorpart=
+INFO[loglevel]      - Linux kernel log level, only valid for apc
+_ufdt_output_property_to_fdt
+ufdt_prop_dict_add
+otp_fuse_platinfo smc call failed, ret=%lx
+failed to update dtb
+failed to add /avf/reference/avf in fdt, error:%s
+android/external/lib/avb/libavb/avb_kernel_cmdline_descriptor.c
+: Kernel cmdline is not valid UTF-8.
+androidboot.vbmeta.size
+INFOInvalid entry header size
+Bootloader rev: 
+Ramdump Uploader - Flood Control mode
+Invalid payload size: %d.
+Reboot/Boot to Bootloader
+FAILinvalid args: cmdline del requires 1 arg
+cmdline
+INFOtimes: %d, log_entry: %s, msg: %s
+EFI PART
+custom_ops failed to preload partition: %d
+Invalid sig payload type tag
+[DPP%d] Undefined CSC Type!(std=%d)
+_ufdt_output_strtab_to_fdt
+kernel
+kernel image_size exceeds kernel allocation size
+DTBO match: id 0x%x, rev 0x%x
+INFOfailed to flash sideload entries %d, skip it
+Bootloader Version: 
+Bootloader Rev: 
+gsc flavor prefix is not found
+kernel.log
+log_bcm fdt '%s' not found: %s
+download:
+invalid SoC dtb size
+failed to decompress kernel, ret %d, kd_ret %d
+kernel: addr:%p, size:%zx
+bad dtb blob size or offset
+vendor_kernel_boot
+booting in ramdump mode: skip load_secure_payload
+failed to read ramdisk from stored boot.img %d
+FDT_ERR_NOSPACE
+ androidboot.%s=%s
+ufdt_apply_fragment
+ androidboot.hardware.%s=%zuGB,%s
+ androidboot.theme=1
+failed to set ramdisk end address %d
+kernel allocation size is too small
+SOC DTB: index:%zu
+FAILLoad GSA APP cmd failed (%d)
+Do not unlock the bootloader
+/*          No kernel logs          */
+,Cdtbdump
+kcmdline-test

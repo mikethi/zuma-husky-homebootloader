@@ -1,0 +1,313 @@
+### pvmfw_a_strings_boot_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/pvmfw_a.img' | grep -Ei 'boot|abl|bl1|pbl|bl2|bl31|tz|trusty|gsa|avb|vbmeta|dtb|dtbo|fdt|kernel|ramdisk|cmdline|fastboot|recovery|usb|ufs|uefi|efi|lk|little kernel|edk|smc|hvc|el1|el2|el3|psci|gic|mmu|dram|memory|slot|rollback|signature|rsa|sha256|verity|disable-verification|disable-verity|orange|locked|unlocked' | head -3000
+
+aLKP
+TtZ@
+TtZ@
+TLKh8
+JlK(8.Ih8
+J(Nch(Nkp@LkA
+h(NaJ(N!h(Nkp@LkA
+IoMemory
+FdtNoPciSemanticDisabledGEOMETRY
+BadMagic
+BLK_SIZE
+MemoryBallooning right` failed: Device not ready7
+PciCardbusBridge
+FdtMissingRanges
+serr_lower, esr=Memory size is 0vmbase::fdt::pci=
+: Error loading vbmeta data.
+external/avb/libavb/avb_util.c
+Unknown AvbVBMetaVerifyResult value.
+/memory
+Persistent values required for AVB_HASHTREE_ERROR_MODE_MANAGED_RESTART_AND_EIO but are not implemented in given AvbOps.
+Failed to allocate memory.
+androidboot.vbmeta.digest
+INVALID_VBMETA_HEADER
+Invalid tag for kernel cmdline descriptor.
+: Invalid rollback_index_location.
+Signature length does not match key length.
+external/avb/rust/src/descriptor/mod.rs
+packages/modules/Virtualization/libs/libvmbase/src/fdt.rs
+packages/modules/Virtualization/libs/libvmbase/src/memory/shared.rs
+/reserved-memory
+defer-rollback-protection
+SIGNATURE_MISMATCH
+Invalid rollback index location value.
+iommus
+: Kernel cmdline is not valid UTF-8.
+Unexpected number of bytes read from avb.managed_verity_mode.
+androidboot.vbmeta.device_state
+packages/modules/Virtualization/guest/pvmfw/src/rollback.rs
+Requested partitions cannot be empty when using AVB_SLOT_VERIFY_FLAGS_NO_VBMETA_PARTITION
+prebuilts/rust-toolchain/linux-x86/1.91.1/lib/rustlib/src/rust/library/core/src/slice/sort/stable/drift.rs
+: Chain partition has invalid rollback_index_location field.
+AVBf
+packages/modules/Virtualization/libs/libfdt/src/lib.rs
+external/avb/libavb/avb_rsa.c
+boot
+Unknown AvbDigestType.
+sha256
+androidboot.vbmeta.avb_version
+Boot image location and length mismatch.
+vbmeta
+: Error verifying vbmeta image: invalid vbmeta header
+locked
+Signature is not entirely in its block.
+Padding length does not match hash and signature lengths.
+$(ANDROID_VBMETA_PARTUUID)
+$(AVB_
+packages/modules/Virtualization/libs/libvmbase/src/mmu.rs
+external/avb/libavb/avb_vbmeta_image.c
+external/avb/libavb/avb_descriptor.c
+external/avb/rust/src/verify.rs
+avf,strict-boot
+Signature1
+Error reading from avb.managed_verity_mode.
+external/avb/libavb/avb_cmdline.c
+Error allocating memory.
+packages/modules/Virtualization/guest/pvmfw/src/fdt.rs
+pkvm,pviommu
+arm,psci-1.0
+$(ANDROID_VERITY_MODE)
+androidboot.veritymode
+external/avb/libavb/avb_footer.c
+Footer magic is incorrect.
+arm,gic-v3
+AVB_SLOT_VERIFY_FLAGS_NO_VBMETA_PARTITION was passed but the validate_public_key_for_partition() operation isn't implemented.
+androidboot.vbmeta.size
+external/avb/libavb/avb_slot_verify.c
+: Error verifying vbmeta image: unsupported AVB version
+$(ANDROID_BOOT_PARTUUID)
+arm,psci-0.2
+kernel-size
+AVB0
+/psci
+Error clearing avb.managed_verity_mode.
+Mismatch between image version and libavb version.
+external/avb/rust/src/ops.rs
+./packages/modules/Virtualization/libs/libfdt/src/libfdt.rs
+: chained vbmeta image has non-zero flags
+: Error getting rollback index for location.
+avb.managed_verity_mode
+androidboot.vbmeta.hash_alg
+androidboot.vbmeta.
+packages/modules/Virtualization/guest/pvmfw/src/memory.rs
+: Kernel cmdline descriptor is invalid.
+avb.persistent_digest.
+external/avb/libavb/avb_kernel_cmdline_descriptor.c
+external/avb/rust/src/descriptor/property.rs
+packages/modules/Virtualization/guest/pvmfw/avb/src/partition.rs
+: Error verifying vbmeta image: 
+prebuilts/rust-toolchain/linux-x86/1.91.1/lib/rustlib/src/rust/library/core/src/unicode/printable.rs
+: Invalid vbmeta size in footer.
+Error writing to avb.managed_verity_mode.
+androidboot.vbmeta.device
+androidboot.vbmeta.invalidate_on_error
+packages/modules/Virtualization/libs/libvmbase/src/memory/util.rs
+packages/modules/Virtualization/libs/libfdt/src/libfdt.rs
+bootargs
+kernel-address
+Magic is incorrect.
+external/avb/libavb/avb_chain_partition_descriptor.c
+external/avb/libavb/avb_hash_descriptor.c
+packages/modules/Virtualization/libs/libvmbase/src/memory/tracker.rs
+packages/modules/Virtualization/libs/libvmbase/src/arch/aarch64/page_table.rs
+./external/rust/android-crates-io/crates/virtio-drivers/src/device/blk.rs
+androidboot.vbmeta.public_key_digest
+packages/modules/Virtualization/libs/libvmbase/src/fdt/pci.rs
+./prebuilts/rust-toolchain/linux-x86/1.91.1/lib/rustlib/src/rust/library/core/src/slice/sort/stable/quicksort.rs
+packages/modules/Virtualization/guest/pvmfw/avb/src/verify.rs
+: Image rollback index is less than the stored rollback index.
+Overflow while computing size of boot image.
+external/avb/libavb/avb_hashtree_descriptor.c
+packages/modules/Virtualization/libs/libfdt/src/iterators.rs
+#iommu-cells
+: Too many vbmeta images.
+PARTUUID=$(ANDROID_VBMETA_PARTUUID)
+disabled
+external/avb/libavb/avb_property_descriptor.c
+memory
+./prebuilts/rust-toolchain/linux-x86/1.91.1/lib/rustlib/src/rust/library/core/src/slice/sort/stable/drift.rs
+packages/modules/Virtualization/guest/pvmfw/src/bootargs.rs
+unlocked
+androidboot.veritymode.managed
+Error during range allocation mode:  outside_main_memory: vmbase::memory::trackerError during MMIO device mapping: Error during lazy MMIO device mapping: Error during image footer map: Failed to initialize PCI: unexpected PTE writable stateUnsupported PTE flags setassertion failed: start <= endcurrent block should have free space now
+Unknown SMCCC TRNG return value 
+Found pvmfw instance.img entry: Failed to patch gic info to DT: 
+Resizing MemoryTracker to range Failed to patch bootargs to DT: Recorded DICE mode doesn't match
+Activating dynamic page table...assertion failed: !ptr.is_null()
+Recorded code hash doesn't matchUnsupported MMIO guard granule: Missing DICE values with VB dataMalformed <iommus>. Can't parse.Failed to load VM reference DT: assertion failed: idx < CAPACITYNull
+enumBusyINFONoneTextSCSI    sizegot non-WARNvmbase::bionicassertion failed: granule.is_power_of_two()assertion failed: insertedSharing memory region vmbase::memory::sharedassertion failed: step != 0... Success!assertion failed: old_right_len + count <= CAPACITYassertion failed: old_left_len >= countinternal error: entered unreachable codeassertion failed: old_left_len + count <= CAPACITYassertion failed: old_right_len >= countOnce previously poisoned by a panickedinternal error: entered unreachable code: empty internal nodeInvalid combination of exception level and VA range.EL3 page table can't safety be deactivated.EL2 page table can't safety be deactivated.assertion failed: level <= LEAF_LEVELassertion failed: edge.height == self.height - 1Success
+Resource temporarily unavailable
+Cannot allocate memory
+No locks available
+No CSI structure available
+Invalid slot
+No data available
+Communication error on send
+Value too large for defined data type
+Protocol not available
+Network is unreachable
+No buffer space available
+No XENIX semaphores available
+Required key not available
+State not recoverable
+Memory page has hardware error
+assertion failed: start >= linker_addr!(stack_limit)range:  prefetchable bus address:  CPU physical address:  size: 
+PCI: Allocated shared buffer at  with Deallocated shared buffer at Initialized shared pool from heap memory without MEM_SHAREExpecting a bug making MMIO_GUARD_UNMAP return NOT_SUPPORTED on successswitch_to_dynamic_page_tables() called more than once.console::init() called more than onceassertion failed: {
+Region  is lockedFailed to set PTE dirty statePage table entry is not validRefused to map image footer againFailed to set SHARED_POOLFailed to set SHARED_MEMORYFailed to unmap the new regionFailed to map the new regionRegion is not mappedNew region overlaps with tracked regionsRegion is out of the tracked memory address spaceReached limit number of tracked regionsTracked regions would not fit in memory sizeTried to shrink to a larger memory sizeReceived different base addressMemoryTracker is not availableAttempted to share the same MMIO region at  twiceFailed to unshare VirtIO DMA range with hostVirtIO HAL used before PCI_INFO was initializedPCI MMIO region end overflowedPCI MMIO region was outside of expected BAR range.Failed to allocate and share VirtIO bounce buffer with hostVirtIO bounce buffer at  (PA:) initialized from 
+vmbase::virtio::halFailed to unshare and deallocate VirtIO bounce buffer) copied back to Failed to allocate and share VirtIO DMA range with hostSMCCC TRNG call returned no entropySMCCC TRNG call received non-supported valueSMCCC TRNG call not supported (
+Unexpected SMCCC TRNG return value UnavailableDifferentBaseAddressSizeTooLargeSizeTooSmallOutOfRangeNotMappedFailedToMapFailedToUnmapHypervisorSharedMemorySetFailureSharedPoolSetFailureFooterAlreadyMappedInvalidPteSetPteDirtyFailedDuplicateMmioShareUnsupportedMmioGuardGranuleAttempted to initialize the PCI more than once.Failed to map PCI CAM: Failed to map PCI BAR: Failed to initialize shared pool: Architectural SMCCC error: SMCCC TRNG error: Unsupported SMCCC version Unsupported SMCCC TRNG version .SetLoggerErrorBadAddressBadRegionUpdateFailedflagsRegionLockedUnsharing memory region Translation faultSynchronous external abortUnknown exception esr=
+PciInfocam_rangebar_rangeTryFromIntErrorArgumentInvalidNoResourcesAddressOverflowNotRequiredUtf8Errorvalid_up_toerror_lenErrorNo source of entropy available[] MmioGuardNotSupportedGeniezoneErrorUnsupportedHypervisorUuidGunyahError..An unknown exception occurred, not handled.Error while updating page table: Register offset out of boundsLayoutErrorReadOnlyReadWriteReadWriteNoFlushConfigurationSpaceIoSpaceMemory32Memory64()memset buffer overflow detectedstack guard check failedC code called abort()FATAL BIONIC ERROR: : "" (unformatted)fiq_currentfiq_lowerfputs: invalid streamReceived Invalid FILE* from Cfree called before heap was initialisedfree() called on a pointer that is not part of the HEAP: irq_currentirq_lowerFailed to initialize the loggerFailed to initialize a source of entropy: Failed to get stack canary entropy: serr_current, esr=
+)14:EFIJNOde
+)14:;EFIJ^de
+!;-called `Result::unwrap()` on an `Err` valueDevice tree base address is not 8-byte alignedInvalid flag or invalid combination of flagsDevice tree doesn't have any phandle available anymoreOverlay cannot be appliedUnexpected property valueBad format or value of #address-cells or #size-cellslibfdt has failed an internal assertionDevice tree sub-blocks in unsupported orderDevice tree has a corrupt structure blockDevice tree has a version which can't be handledDevice tree header missing its magic numberDevice tree or sub-block is improperly terminatedReceived incomplete device treeInvalid phandle length or valueBadly formatted pathStructure block offset is out-of-bounds or invalidInsufficient buffer space to contain the expanded treeAttempted to create an existing node or propertyThe requested node or property does not existUnknown libfdt error ''TryFromIntErrorInvalid addr_cells SingleDoubleTriple for (u32, u64)Invalid size_cells None()
+Invalid combination of exception level and VA range.Got physical address 0 for pagetablememory allocation of  bytes failedcapacity overflowa formatting trait implementation returned an error when the underlying stream did notErrorOFFERRORDEBUGTRACEFailed to detect hypervisorMMIO guard is not supportedFailed to invoke the HVC function with function ID : Failed to invoke GenieZone HVC function with function ID Failed to invoke Gunyah HVC: Unsupported Hypervisor UUID MMIO GUARD is not supportedNotSupportedArgumentInvalidNoResourcesAddressOverflowUnknownNotRequiredGunyah call not supportedArgument to Gunyah call is invalidNo Resources to complete Gunyah callAddress wraps aroundAddress to map might be already mappedAddress to remove map might not be mappedUnknown return value from Gunyah  ()
+GenieZone call not supportedGenieZone call not requiredGenieZone call received invalid valueUnknown return value from GenieZone MmioGuardNotSupportedGeniezoneErrorUnsupportedHypervisorUuidGunyahErrorKVM call not supportedKVM call received non-supported valueUnknown return value from KVM 
+?0x | assertion failed: device_function.valid()assertion failed: address & 0x3 == 0assertion failed: mmio_base as usize & 0x3 == 0BARRIERSEG_MAXROFLUSHCONFIG_WCEMQDISCARDWRITE_ZEROESSECURE_ERASENOTIFY_ON_EMPTYANY_LAYOUTRING_INDIRECT_DESCRING_EVENT_IDXUNUSEDVERSION_1ACCESS_PLATFORMRING_PACKEDORDER_PLATFORMSR_IOVNOTIFICATION_DATACAPABILITIES_LISTMHZ_66_CAPABLEFAST_BACK_TO_BACK_CAPABLEMASTER_DATA_PARITY_ERRORSIGNALED_TARGET_ABORTRECEIVED_TARGET_ABORTRECEIVED_MASTER_ABORTSIGNALED_SYSTEM_ERRORDETECTED_PARITY_ERRORMEMORY_SPACEBUS_MASTERSPECIAL_CYCLESMEMORY_WRITE_AND_INVALIDATE_ENABLEVGA_PALETTE_SNOOPPARITY_ERROR_RESPONSESERR_ENABLEFAST_BACK_TO_BACK_ENABLEINTERRUPT_DISABLEPciPciBridgeUnrecognisedThe given output buffer is too short. '' bytes is needed for the output buffer.The given buffer length '' has exceeded the maximum allowed buffer length ''The operation code '' is unknownThere is an existing connection. Please close the current connection before attempting to connect again.The device is not connected to any peer. Please connect it to a peer first.The peer socket is shutdown.The given buffer is shorter than expectedInvalid operationInvalid numberNo data is expected in the packetPeer has insufficient buffer space, try again laterRecycled a wrong bufferError from the socket device: Virtqueue is fullDevice used a different descriptor chain to the one we were expectingVirtqueue is already in useInvalid parameterFailed to allocate DMA memoryI/O errorRequest not supported by deviceConfig space advertised by the device is smaller than expectedThe device doesn't have any config space, but the driver expects some
+.SMCCC call not supportedSMCCC call not requiredSMCCC call received non-supported valueUnknown SMCCC return value  ()
+}assertion failed: new_left_len <= CAPACITYcalled `Result::unwrap()` on an `Err` valueassertion failed: self.height > 0error while reading from disk: vm-instancepvmfw::instanceFallback to instance.img based rollback checksinstance.img is missing. Falling back to force_new_instancepvmfw::rollbackassertion failed: src.len() == dst.len()mid > len@@TAGGED@@expected valknown simple valueinteger too largenon-breakfloatmaparraystrunexpected negative integerexpected boolbytesstringbyte bufferArrayVec::push> capacity overflow!Device features: virtio_drivers::transport { , :  {
+Failed to get entry from instance.img: Failed to get recorded entry in instance.img: Failed to generated instance.img salt: Invalid DICE Handover: pvmfwFailed to verify the payload: Failed to get instance-id in DT: Failed to derive next-stage DICE secrets: Failed to parse reserved memory: Failed to allocate the next-stage reserved memoryFailed to compute partial DICE inputs: Failed to generated guest KASLR seed: Failed to configure device tree: Failed to load input FDT: pvmfw::memoryFailed to use memory range value from DT: 
+Failed to read kernel range: Failed to map kernel range: Failed to read initrd range: Failed to obtain the initrd range: Failed to read memory range from DT: Hypervisor error while requesting MMIO token: pvmfw::device_assignmentHypervisor error while requesting IOMMU token (): Failed to read initrd range from DT: pvmfw::fdtFailed to read CPU info from DT: Failed to validate CPU info from DT: Failed to read vcpufreq info from DT: Failed to validate vcpufreq info from DT: Failed to read pci info from DT: Failed to read vCPU stall detector info from DT: Failed to read serial info from DT: Failed to read PSCI info from DT: Failed to read swiotlb info from DT: No granule found during device assignment validationFailed to read bootargs from DT: Failed to parse device assignment from DT and VM DTBO: Failed to read /avf/untrusted properties: Failed to prune /avf/untrusted properties: Failed to validate /avf properties: Failed to read /firmware/android properties: Failed to validate /firmware/android properties: Failed to patch initrd range to DT: Failed to patch cpus to DT: Failed to patch vcpufreq info to DT: Failed to patch serial info to DT: Failed to patch swiotlb info to DT: Failed to patch timer info to DT: Failed to patch PSCI info to DT: Failed to patch memory range to DT: Failed to patch device assignment info to DT: Failed to clean pre-polulated DT nodes for device assignment: Failed to create node /avf/untrusted: Failed to populate /avf/untrusted: Failed to create node /avf: Failed to populate /avf: Failed to create node /firmware/android: Failed to populate /firmware/android: Failed to instantiate FDT from the template DT: Failed to unpack DT for patching: Failed to filter VM DTBO: Failed to apply filtered VM DTBO: Failed to unpack DT after patching: Failed to load VM DTBO: Rejecting '' property '': reference node missingFailed to read reference DT '': Invalid bootarg: The /memory node in the DT contains no range.Failed to map the appended data: pvmfw::entryFailed to unshare MMIO ranges: No valid configuration foundFailed to map the FDT range: Invalid size specified for the range: 
+Failed to generate salt: Failed to initialize PCI: Failed to get defer-rollback-protection property in DT: Dice measurements do not match recorded entry. This may be because of update: DICE chain leaf subject public key algorithm: DICE handover: 
+Successfully verified a debuggable payload.Please disregard any previous libavb ERROR about initrd_normal.
+InstanceId:pVM firmwareFDT: Ramdisk: NoneIgnoring debug policy, DICE handover does not indicate Debug modeVerified boot is disabled!Starting payload...Signed kernel:  ( bytes)
+AVB public key: addr=, size=)
+Ramdisk: Got salt for instance: Page heap was already takenassertion failed: self.indirect_lists[usize::from(head)].is_none()Descriptor chain was shorter than expected.Descriptor chain was longer than expected.Failed to find the kernel range in the DT; falling back to legacy ABIMissing payload start in boot argsMissing payload size in boot argsLocated ramdisk at Couldn't locate the ramdisk from the device tree
+found a block device of size KBvirtio_drivers::device::blkassertion failed: offset < self.pages * PAGE_SIZEError in serialization: Assuming the appended data at  to be a raw DICE handoverInvalid configuration data at  is not ASCIIInvalid top level valueassertion failed: old_right_len + count <= CAPACITYassertion failed: old_left_len >= countinternal error: entered unreachable codeassertion failed: old_left_len + count <= CAPACITYassertion failed: old_right_len >= countassertion failed: self.buffer.is_none()DiceChainEntryPayload: Invalid DiceChainEntryPayloadpvmfw::dice::chainInvalid mode bstrInvalid type for modeSubject public key missingSubject public key is not a byte stringpvmfw config version: Ignoring unknown config flags: pvmfw::configInvalid algorithm in public keyUnsupported phys IOMMU duplication found, <iommus> = internal error: entered unreachable code: empty internal nodeintegerassertion failed: prk_len <= prk.len()Parsing unknown config data version  as version Assigned region () not aligned to 
+assertion failed: step != 0Failed to validate device <iommus>. No matching phys iommu or duplicated mapping for pviommu=, vsid=Unsupported pvIOMMU duplication found, <iommus> = assertion failed: len > 0assertion failed: edge.height == self.height - 1/cpus/cpu-map/clusterPSCI info missing from DTSwiotlb info missing from DTDevice assignment is ignored because device assigning hypervisor is missingclusterInvalid watchdog timer: Corrupted debug policy found: . Not applying.Failed to apply debug policy: . Recovering...Ignoring all subnodes of '' foundDT has more than  CPU nodes: discarding extra nodes.OPP table has more than  entries: discarding extra nodes.Input DT has more than  PCI entries!DT has more than 1 cpufreq node: discarding extra nodes.Discarding extra vmwdt <reg> entries.Discarding extra vmwdt <interrupts> entries.
+memory
+memory
+reserved-memory
+psci
+opp-table-0
+psci
+opp-table-1
+psci
+opp-table-2
+psci
+opp-table-3
+psci
+opp-table-4
+psci
+opp-table-5
+psci
+opp-table-6
+psci
+opp-table-7
+psci
+opp-table-8
+psci
+opp-table-9
+psci
+opp-table-10
+psci
+opp-table-11
+psci
+opp-table-12
+psci
+opp-table-13
+psci
+opp-table-14
+psci
+opp-table-15
+arm,gic-v3
+psci
+arm,psci-1.0
+pclk@3M
+apb_pclk
+pviommu0
+pkvm,pviommu
+pviommu1
+pkvm,pviommu
+pviommu2
+pkvm,pviommu
+pviommu3
+pkvm,pviommu
+pviommu4
+pkvm,pviommu
+pviommu5
+pkvm,pviommu
+pviommu6
+pkvm,pviommu
+pviommu7
+pkvm,pviommu
+pviommu8
+pkvm,pviommu
+pviommu9
+pkvm,pviommu
+/reserved-memory/restricted_dma_reserved
+/cpus/cpu@0/opp-table-0
+/cpus/cpu@1/opp-table-1
+/cpus/cpu@2/opp-table-2
+/cpus/cpu@3/opp-table-3
+'/cpus/cpu@4/opp-table-4
+7/cpus/cpu@5/opp-table-5
+G/cpus/cpu@6/opp-table-6
+W/cpus/cpu@7/opp-table-7
+g/cpus/cpu@8/opp-table-8
+w/cpus/cpu@9/opp-table-9
+/cpus/cpu@a/opp-table-10
+/cpus/cpu@b/opp-table-11
+/cpus/cpu@c/opp-table-12
+/cpus/cpu@d/opp-table-13
+/cpus/cpu@e/opp-table-14
+/cpus/cpu@f/opp-table-15
+/pclk@3M
+/pviommu0
+/pviommu1
+/pviommu2
+/pviommu3
+/pviommu4
+)/pviommu5
+3/pviommu6
+=/pviommu7
+G/pviommu8
+Q/pviommu9
+avf,strict-boot
+enable-method
+memory-region
+#iommu-cells
+opp_table0
+opp_table1
+opp_table2
+opp_table3
+opp_table4
+opp_table5
+opp_table6
+opp_table7
+opp_table8
+opp_table9
+opp_table10
+opp_table11
+opp_table12
+opp_table13
+opp_table14
+opp_table15
+pviommu_0
+pviommu_1
+pviommu_2
+pviommu_3
+pviommu_4
+pviommu_5
+pviommu_6
+pviommu_7
+pviommu_8
+pviommu_9
+GIC irq number  in interrupt-map is unexpected. Expected GIC peripheral interrupt type  in interrupt-map is different from expected value GIC address   in interrupt-map is different from expected address 
+Debug policy applied.No debug policy found.memory@0x UART nodes: discarding extra nodes.Invalid PCI irq mask Invalid swiotlb size Swiotlb alignment Invalid swiotlb range: addr: size:swiotlb range  not part of memory range 
+PCI address range - overlaps with main memory range PCI address range size  overflowsPCI bus address: Invalid range type  for bus address  in PCI nodePruning '' of property '': reference property not found	'' expected value: 
+Rejected bootarg paniccrashkernelconsolecoherent_poolThe /memory node in the DT contains more than one memory range, while only one is expected.Memory base address  is not one of 
+Memory size  is not aligned to Kernel entry point offset out of rangeFailed to unmap UART: PVM_FIRMWARE_INVALID_DICE_HANDOVERPVM_FIRMWARE_INVALID_CONFIG_DATAPVM_FIRMWARE_INTERNAL_ERRORPVM_FIRMWARE_INVALID_FDTPVM_FIRMWARE_INVALID_PAYLOADPVM_FIRMWARE_INVALID_RAMDISKPVM_FIRMWARE_PAYLOAD_VERIFICATION_FAILEDPVM_FIRMWARE_SECRET_DERIVATION_FAILEDMissing DT addressSkipping instance.img entry  bytesNo rollback protection mechanism available: generating a new instancedesktop-trustyPerforming fixed rollback protectionRollback index mismatch: expected Reserved payload name "
+Public key mismatch: expected Deferring rollback protectionExpected positive rollback_index, found 0scratch memory is empty.scratch memory is misaligned.Misaligned skipped region.stack region is empty.Misaligned stack region.EH stack region is empty.Misaligned EH stack region.assertion failed: skipped.is_within(&scratch)undefinedsimpletagbreakInvalid CPU count: Forbidden /avf/untrusted property ''Invalid vcpufreq region: (Found invalid GPT headerFailed to read from disk: Failed to write to disk: Accessed invalid block index Entries are out of orderWrong magic numberReserved region is misalignedReserved region is smaller than config header not supportedMandatory  entry is missingTotal size () overflows reserved regionEntry  must be within range 
+Input buffer too smallEncountered an invalid CStrHeader count did not match indicated numberEncountered an invalid data offset (An entry indicated an invalid size (InteriorNulPhysIommutokenFromVecWithNulErrorerror_kindBccHandovercdi_attestbccfailed to deallocate DMACborErrorDiceError.FdtErrorPciFdtErrorSwiotlbFdtErrorRegFdtMissingRegFdtRegEmptyFdtRegMissingSizeCamWrongSizeFdtErrorRangesRangeAddressMismatchbus_addresscpu_physicalNoSuitableRangeVirtioPciErrorFound PCI device , status  command   VirtIO vmbase::virtio::pciCustomIntegerBytesFloatTagArrayMapTryFromIntErrorInvalid next capability offset 
+virtio_drivers::transport::pci::busUtf8Errorvalid_up_toerror_lenassertion failed: self.len() <= isize::MAX as usizeExistsNoSpaceBadOffsetBadPathBadPhandleTruncatedBadVersionBadStructureBadLayoutBadNCellsBadOverlayNoPhandlesAlignmentUnknownheader_indexpayload_sizeNewBlkFeatureAllocErrorErrorSidInvalidInputBufferTooSmallPlatformErrorUnsupportedKeyAlgorithmMemoryAllocationErrorDiceChainNotFoundInternal errorUnsupported (IOMMU token, SID) duplication. Currently the pair should be unique.Unsupported (pvIOMMU id, vSID) duplication. Currently the pair should be unique.Unsupported Phys IOMMU. Currently only supports #iommu-cells = <1>Unsupported overlay target. Only supports 'target-path = "/"'Unsupported UnsupportedPathFormat. Only supports full pathDuplicated pvIOMMU IDs exist. IDs must unique among iommu nodeDuplicated IOMMU IDs exist. IDs must unique among iommu nodeToo many pvIOMMU node. Insufficient pre-populated pvIOMMUs in platform DTInvalid pvIOMMU nodeInvalid phys IOMMU nodeInvalid <iommus>. Failed to validate with hypervisorInvalid <interrupts>Malformed <reg>. Can't parseInvalid property in /__symbols__. Must point to valid assignable device node.Invalid DTBOUnexpected Error from libfdt: Missing physical MMIO region: addr:Unexpected extra MMIO region: addr:Invalid guest MMIO granule (addr: Unexpected MMIO token (), should be Unexpected MMIO size (..Missing DICE chainError encoding DICE chain CBORError parsing DICE chain CBOREncountered an error with coset: Dice error: DICE chain does not have the expected CBOR structure: DiceHandoverDebugPolicyVmDtboVmBaseDtboReservedMem_VARIANT_COUNTConfigurationSpaceIoSpaceMemory32Memory64StatusNetworkBlockConsoleEntropySourceRpmsg_9PRprocSerialVirtioCAIFMemoryBalloonGPUTimerInputSocketCryptoSignalDistributionModulePstoreIOMMUMemorySoundPointerRS1AesCtr128AesCtr192AesCtr256AesCbc128AesCbc192AesCbc256WalnutDSARS512RS384RS256ML_DSA_87ML_DSA_65ML_DSA_44ES256KHSS_LMSSHA_512SHA_384RSAES_OAEP_SHA_512RSAES_OAEP_SHA_256RSAES_OAEP_RFC_8017_defaultPS512PS384PS256ES512ES384ECDH_SS_A256KWECDH_SS_A192KWECDH_SS_A128KWECDH_ES_A256KWECDH_ES_A192KWECDH_ES_A128KWSHA_512_256SHA_256SHA_256_64SHA_1Direct_HKDF_AES_256Direct_HKDF_AES_128Direct_HKDF_SHA_512Direct_HKDF_SHA_256EdDSAES256DirectA256KWA192KWA128KWA128GCMA192GCMA256GCMHMAC_256_64HMAC_256_256HMAC_384_384HMAC_512_512AES_CCM_16_64_128AES_CCM_16_64_256AES_CCM_64_64_128AES_CCM_64_64_256AES_MAC_128_64AES_MAC_256_64AES_MAC_128_128AES_MAC_256_128AES_CCM_16_128_128AES_CCM_16_128_256AES_CCM_64_128_128AES_CCM_64_128_256IV_GENERATIONCommand()FromBytesUntilNulErrorOkErrWdtInfoirqPvIommuidinvalid type: , expected 
+assertion failed: src.len() == dst.len()@@TAGGED@@expected valknown simple valueinteger too largenon-breakfloatmaparraystrunexpected negative integerexpected boolbytesstringbyte bufferassertion failed: self.buffer.is_none()expected value in IANA or private use rangeexpected recognized IANA valueout of range integer valueextraneous data in CBOR inputencode CBOR failureduplicate map keydecode CBOR failure: , expected integerassertion failed: edge.height == self.height - 1undefinedsimpletagbreakintbstrtstrboolnulempty bstrnon-empty bstrempty arraynon-empty arrayIono kty labelmandatory kty labelrepeated array entryunique array labelSyntaxRecursionLimitExceededEndOfFileinvalid type: 
+DICE chain not found in artifactsMemory allocation failedPlatform errorInvalid inputBuffer too small; need  bytesUnsupported key algorithm: RS1AesCtr128AesCtr192AesCtr256AesCbc128AesCbc192AesCbc256WalnutDSARS512RS384RS256ML_DSA_87ML_DSA_65ML_DSA_44ES256KHSS_LMSSHA_512SHA_384RSAES_OAEP_SHA_512RSAES_OAEP_SHA_256RSAES_OAEP_RFC_8017_defaultPS512PS384PS256ES512ES384ECDH_SS_A256KWECDH_SS_A192KWECDH_SS_A128KWECDH_ES_A256KWECDH_ES_A192KWECDH_ES_A128KWSHA_512_256SHA_256SHA_256_64SHA_1Direct_HKDF_AES_256Direct_HKDF_AES_128Direct_HKDF_SHA_512Direct_HKDF_SHA_256EdDSAES256DirectA256KWA192KWA128KWA128GCMA192GCMA256GCMHMAC_256_64HMAC_256_256HMAC_384_384HMAC_512_512AES_CCM_16_64_128AES_CCM_16_64_256AES_CCM_64_64_128AES_CCM_64_64_256AES_MAC_128_64AES_MAC_256_64AES_MAC_128_128AES_MAC_256_128AES_CCM_16_128_128AES_CCM_16_128_256AES_CCM_64_128_128AES_CCM_64_128_256IV_GENERATIONcalled `Result::unwrap()` on an `Err` valuecom.android.virt.capcom.android.virt.page_sizecom.android.virt.nameInvalid name propertyInvalid page_size propertyUnknown vbmeta propertyVBMeta has invalid descriptors. Error: InvalidHeaderInvalidValueInvalidSizeInvalidUtf8InvalidContentsInteriorNul
+called `Result::unwrap()` on an `Err` valueFatal error in set_key_version(): I/O errorUnable to allocate memoryIoOomInvalidHeaderInvalidValueInvalidSizeInvalidUtf8InvalidContentsNoSuchPartitionRangeOutsidePartitionNoSuchValueInsufficientSpaceNotImplementedInternal errorVerification failureUnsupported vbmeta versionRollback index violationPublic key rejected or data not signedInvalid parameters
+SHA256 block transform for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+AVB0
+avbtool 1.3.0
+sha256
+AVBf

@@ -1,0 +1,48 @@
+### pbl_a_strings_boot_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/pbl_a.img' | grep -Ei 'boot|abl|bl1|pbl|bl2|bl31|tz|trusty|gsa|avb|vbmeta|dtb|dtbo|fdt|kernel|ramdisk|cmdline|fastboot|recovery|usb|ufs|uefi|efi|lk|little kernel|edk|smc|hvc|el1|el2|el3|psci|gic|mmu|dram|memory|slot|rollback|signature|rsa|sha256|verity|disable-verification|disable-verity|orange|locked|unlocked' | head -3000
+
+EPBL
+Loading BL2 from %s...
+pblSssHashSetup
+PBL: carveout dtb address not found
+PBL: Memory Carveout DTB global node not found
+Access to SVE functionality trapped as a result of CPACR_EL1.ZEN,
+PBL: Device Tree transfer entry not found
+Size property not found in the Bl2 subnode                     (Bl2, SG, APM, Ect, DBGC, AOC_PAD)
+SMC instruction execution in AArch64 state, when SMC is not disabled
+IMPLEMENTATION DEFINED exception to EL3
+PBL: TOC DTB global node not found.
+Fail to import boot diary to GSA!
+PBL: All required nodes not found in             memory carveout device tree 
+PBL DPM loaded: %s
+BL2_SG_BASE
+PBL: carveout node name not found
+Incorrect transfer list header signature
+ELR_EL3: %08llX
+HVC instruction execution in AArch32 state, when HVC is not disabled
+SMC instruction execution in AArch32 state, when SMC is not disabled
+Trapped Pointer Authentication instruction because HCR_EL2.API ==0 or
+PBL: top address overflow for type %lu
+BL31_EXTRA
+[PBL PANIC]%s: Invalid region %d!
+pblUascSetupRegion
+PBL loading DPM from %s
+Failed to send command to GSA!
+TZSW loaded: %s
+HVC instruction execution in AArch64 state, when HVC is not disabled
+GSA_BL1
+PBL: Bad base address found in GC for type %lu
+Platform Boot Loader initialised!
+TZSW
+BL31
+pblUascOwnRegion
+SCR_EL3: %08llX
+FAR_EL3: %08llX
+GSA_FW
+WHITECHAPEL DRAMDRAM
+WHITECHAPEL BL2
+WHITECHAPEL GSABGSA1
+WHITECHAPEL GSA1GSAF
+WHITECHAPEL ABL
+WHITECHAPEL TZSWTZSW
+WHITECHAPEL BL31BL31

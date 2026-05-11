@@ -1,0 +1,445 @@
+### abl_a_security_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/abl_a.img' | grep -Ei 'avb|vbmeta|rollback|digest|hash|signature|rsa|sha256|public key|locked|unlocked|orange|green|yellow|verified|verity|gsa|trusty|keymaster|secure boot|dev key|revoke' | head -3000
+
+GHASH for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+GSA Soft Reboot
+INFOramdump sha256 dump enabled
+Failed to allocate pages for avb preload of %s. Will load avb images on demand
+fail to get AVB_LOCK_DEVICE state (%d)
+GSA_INTERMEDIATE_RESET
+GSA_SSS_HALTED
+sjtag-gsa
+INFO gsa-sjtag authentication fail 
+Trusty device init failed.
+: Unsupported hash algorithm.
+: Invalid rollback_index_location.
+: Error initializing persistent digest.
+INFOoem gsa auth_img
+gsc_gsa_rescue
+INFOoem gsc gsa-key-provision
+watchdog,gsa,soft
+trusty_tests_runner done rc=%d
+FAILfailed to revoke gsa dev key 0x%x, %s
+Padding length does not match hash and signature lengths.
+Signature is not entirely in its block.
+failed (%d) to get keymaster version
+Can't init GSA mbox twice w/ different configuration!
+sha256 dump time   : %llu ms
+invalid format signature
+ androidboot.verifiedbooterror=
+fb_trusty
+trusty_tests_runner
+FAILfailed to fuse revoke_gsa_testkey 0x%x, %s
+INFOgsa_devkey_revoke: %x
+vendor_hashtree_descriptor_root_digest
+It is unsafe to boot with a trusty device still open, dying.
+Failed to initialize keymaster tipc: %d
+android/external/lib/avb/libavb/avb_hashtree_descriptor.c
+Unknown digest type
+--- GSA LOG END ---
+Scan done, magic verified
+SCAN2DRAM_SCANDUMP_REQ_GSA
+disable-verity
+INFOSignature      - OK
+android/lib/trusty/trusty.c
+FAILcmd_trusty_runtest pin_cpu invalid argument
+FAILTrusty get version failed (%d)
+   blocked_read - test blocked read
+   send-fd      - transmit dma_buf to trusty, use as shm
+check gsa fuse mbox failed %d
+Trusty Abort
+android/external/lib/avb/libavb/avb_hash_descriptor.c
+: Error loading vbmeta data.
+: Persistent digest does not exist.
+INVALID_VBMETA_HEADER
+FAILGSA runtest init failed (%d)
+INFOGSA FW anti-rollback counter: %d
+failed to decode avb_LoadResponse
+INFOoem gsc avb state
+android/external/lib/trusty/ql-tipc/ipc_dev.c
+%s: %d: revoke_devkey failed - %s(%d).
+FAILgsa-gsc pre-shared key provision fail %d
+FAILFailed to reset AVB locks %d
+reboot,gsa,soft
+INFOramdump sha256 dump disabled
+trusty
+INFORunning trusty port test pinned to core %d
+/dev/trusty-ipc-dev0
+gsa_bc.lst
+GSA_PINRESET
+GSA_LOWGSACOREVOLT
+GSA_SSS_SWDT_HOST_nRSTOUT1
+FAILfailed to read gsa key status 0x%x
+: Error reading persistent digest.
+android/external/lib/avb/libavb/avb_util.c
+INFOoem gsa run_crypto_test
+gsa-bl1-ar
+Secure boot: 
+avb_menu_delay
+trusty_ipc_send
+trusty_ipc_dev_shutdown
+Failed to reset AVB locks %d
+[AVB] 
+GSA_CA32_DBGRSTREQ
+INFO gsa_resp = 0x%x 
+FAILGSA get asb package failed (%d) ret=%x
+FAILNot allowed to revoke dev key for stage %u
+revoke gsa fw pkhash mbox failed ret=%x
+ trace_event=sched:sched_switch,sched:sched_blocked_reason,sched:sched_waking,power,dalvik,pm
+: Error verifying vbmeta image: invalid vbmeta header
+FAILInvalid GSA log id (%u)
+FAILGSA get version failed (%d)
+FAILGSA get dice public key failed (%d)
+failed to decode avb_GetLockResponse
+FAILfailed to read rollback index %d
+%s: failed (%d) to create Trusty IPC device
+Trusty secretkeeper init failed.
+APC Watchdog GSA Crashed
+sota: empty signature.
+INFOdevice is already locked
+Failed to read partition during avb preload of %s. Will load avb images on demand
+clear-dm-verity-error
+Calibration signature mismatch
+INFOsignature checked
+INFOget ap public key fail
+revokedevkey
+: Hash of data does not match digest in descriptor.
+: Reading back initialized persistent digest failed!
+$(ANDROID_VBMETA_PARTUUID)
+androidboot.veritymode.managed
+FAILGSA wakelock release failed (%d)
+Secure Boot: 
+trusty_ipc_dev_get_event
+hash
+Unlocked
+GSA Hard Reboot
+vbmeta
+vbmeta_vendor
+avb_property(%s): not found
+Calibration signature matches.
+FAILfailed to revoke ap dev key 0x%x, %s
+unable to parse RSA public key
+Trusty device should be initialized before connecting to hwbcc.
+Data size needs to be 32 bytes (sha256 hash)
+INFO            yellow,olive,lime,green,aqua,teal,
+failed to set trusty api version %u != %u
+avb_veritymode
+avb_custom_key
+avb-hastree-error-mode
+Updating GSA AR failed, ret=%d
+Failed to shut down trusty device: %d
+Error clearing avb.managed_verity_mode.
+androidboot.vbmeta.avb_version
+androidboot.veritymode
+GSA get sram key failed (%d)
+GSC AVB app error (%d) 
+Signature mismatch %d
+%s: chan %d: send unblocked cb returned (%d)
+%s: %d: trusty_ipc_close error (%d)
+androidboot.veritymode=
+INFOoem trusty runtest <test-port-name> [pin_cpu <cpu_id>]
+Invalid tag for hash descriptor.
+AVB_SLOT_VERIFY_FLAGS_NO_VBMETA_PARTITION was passed but the validate_public_key_for_partition() operation isn't implemented.
+HASH_MISMATCH
+FAILfailed to get GSC AVB state %d
+com.android.trusty.keymaster
+%s: keymaster returned error (%d)
+gsc_gsa_rescue_enter
+reboot,gsa,hard
+Last AVB: avb_ret=%s
+sota: failed to get sota csku signature ret=%d
+GSA_SSS_SYSRESETREQ
+FAILchange gsa default public key fail, ret = %d 
+check gsa fuse failed fuse_res=0x%x
+Mismatch between image version and libavb version.
+The bootloader is unlocked and software integrity cannot be guaranteed. Any data stored on the device may be available to attackers. Do not store any sensitive data on the device.
+GSA Soft Watchdog
+%sGSA_RESET_STATUS: 0x%x
+[GSA] 
+android/lib/pixel/avb/avb.c
+error calling gsc_keymaster_set_root_of_trust %d
+enable-verity
+INFOpkhash
+: Error verifying vbmeta image: unsupported AVB version
+: Digest in descriptor not of expected size.
+Embedded hash has wrong size.
+android/external/lib/trusty/ql-tipc/ipc.c
+android/external/lib/trusty/ql-tipc/arch/arm/trusty_mem.c
+FAILBlocking due to AVB device is locked
+GSA2ALIVE_HARD_RESET
+fail to notify keymasters(%d)
+avb slot data invalid
+INFOvalid public key found
+GSA Breadcrumb:
+GSA_SSS_SWDT_HOST_nRSTOUT2
+failed to update bootloader rollback indexes %d
+AVB0
+: Error verifying vbmeta image: 
+: Chain partition has invalid rollback_index_location field.
+Hash is not entirely in its block.
+$(AVB_
+FAILGSA run crypto test cmd failed (%d)
+INFOoem gsa load_app
+failed to get GSA anti-rollback counters %d
+failed to encode avb_GetLockRequest
+failed keymaster app, error code %d
+%s: failed (%d) to shutdown Trusty IPC device
+keymaster version mismatch. Expected %d, received %d
+Trusty hwbcc init failed.
+gsa-key-provision
+INFOrecent: %u, branch_name_hash: %u, build_number: %u, boottime: %llu
+trusty_km_init failed
+FAILfailed to clear dm-verity error flag %d
+INFOgsa_ar_update_disabled = %d
+INFOap_devkey_revoke: %x
+ androidboot.boottime=0BLE:%llu,1BLL:%llu,1BLE:%llu,2BLL:%llu,2BLE:%llu,3BLL:%llu,3BLE:%llu,SW:%llu,KL:%llu,KD:%llu,ODT:%llu,AVB:%llu,FWL:%llu
+android/external/lib/avb/libavb/avb_chain_partition_descriptor.c
+android/external/lib/avb/libavb/avb_descriptor.c
+Hash check failed.
+: chained vbmeta image has non-zero flags
+: Hashtree descriptor is invalid.
+PARTUUID=$(ANDROID_VBMETA_PARTUUID)
+INFOoem gsa version
+INFOoem gsa trace <dump|ping>
+gsa-fw-ar
+failed to encode avb_SetOwnerLockRequest
+failed to encode avb_LoadRequest
+Verify signature error: %d
+Signature matches.
+--- GSA LOG ---
+dm-verity device corrupted
+image (%s): rollback version %u is smaller than %u, rejected
+failed to create avb_preload_task
+blocked_read_test: expected TRUSTY_ERR_CHANNEL_CLOSED: %zu
+INFOoem dbgc sjtag-gsa [cmd]
+android/lib/android/trusty/mgmt.c
+: Invalid vbmeta size in footer.
+androidboot.vbmeta.device
+gsa-dicepubkey
+FAILGSA authenticate image cmd failed (%d)
+FAILGSA run trace dump cmd failed (%d)
+android/external/lib/trusty/ql-tipc/secretkeeper.c
+trusty_ipc_dev_connect
+trusty_ipc_dev_send_raw
+selected trusty api version: %u (requested %u)
+[GSA_LOG] 
+watchdog,apc,gsa,crashed
+locked
+error calling avb_slot_verify %d
+android/external/lib/avb/libavb/avb_cmdline.c
+INFOoem gsa ar
+INFOAVB device lock = %u
+fastboot_signature_validation
+failed to call clear rollback index %d %d
+android/lib/trusty/tipc-test.c
+blocked_read_test
+GSA_CA32_WARMRSTREQ
+INFOgsa_fuse_res: 0x%x
+com.android.trusty.otp_manager.tidl
+antirollback_init
+Trusty device should be initialized before connecting to keymint.
+: Too many vbmeta images.
+androidboot.vbmeta.hash_alg
+androidboot.vbmeta.digest
+Failed to acquire GSA wakelock (%d)
+FAILGSA get dice chain failed (%d)
+INFOoem gsa log [id]
+FAILfailed to get gsc avb lock %d
+com.android.trusty.hwbcc
+android/external/lib/trusty/ql-tipc/hwbcc.c
+trusty_ipc_dev_send
+Locked
+Fastboot/OrangeWarning1080.bmp
+trusty_init failed
+error calling gsc_keymaster_set_boot_state %d
+FAILpublic key is not fused %llx
+pkhash
+FAILget pkhash fail, ret = %d 
+Error writing to avb.managed_verity_mode.
+Failed to release GSA wakelock (%d)
+FAILGSA run ping cmd failed (%d)
+INFOoem gsa runtest <test-port-name>
+failed to encode avb_SetDeviceLockRequest
+avb_verify_error_parts
+gsa_bl1
+failed to update rollback indexes %d
+FAILfailed to enable ramdump sha256 dump
+avb.managed_verity_mode
+ampersand
+Invalid tag for hashtree descriptor.
+Cannot use A/B with a persistent root digest.
+Hash does not match!
+INFOoem gsa wakelock acquire
+INFOoem gsa get_dice_chain
+failed to encode avb_ResetRequest
+Fastboot/YellowWarning1080.bmp
+sota: failed to verify signature.
+avb_preload_task
+fail to get AVB_LOCK_CARRIER state (%d)
+INFOSignature      - INVALID, GSA error %d
+INFOsignature validation:%s
+INFOgsa otp config error: 0x%x
+android/external/lib/avb/libavb/avb_slot_verify.c
+trusty_ipc_poll_for_event
+android/external/lib/trusty/ql-tipc/keymaster.c
+INFOGSA-GSC secure link state is %d
+Last AVB: avb_veritymode=%s
+failed to wipe sota csku signature ret=%d
+invalid avb context
+INFOget public key fail
+Failed to initialize trusty tidl runtime: %d
+Trusty device should be initialized before connecting to secretkeeper.
+Unbalanced GSA wakelock refcounter
+INFOGSA BL1 anti-rollback counter: %d
+failed to encode avb_GetOwnerKeyRequest
+INFOoem gsc avb lock <index> [val]
+trusty_ipc_dev_create
+INFOoem boottime hash [string]
+avb_verify_ret
+Last AVB: avb_error_parts=%s
+failed to display avb flashing lock menu %d
+FAILoem command (%s) is not allowed when locked
+fastboot_avb
+FAILnot valid vbmeta partition found
+Cannot use A/B with a persistent digest.
+Unexpected number of bytes read from avb.managed_verity_mode.
+android/external/lib/avb/libavb/avb_vbmeta_image.c
+androidboot.vbmeta.invalidate_on_error
+unsupported trusty api version %u > %u
+gsc_gsa_rescue_leave
+INFOavb custom key: no image provided
+: Public key used to sign data rejected.
+androidboot.vbmeta.public_key_digest
+failed to encode avb_SetBootLockRequest
+avb_menu_delay_orange
+com.android.trusty.secretkeeper.bootloader
+trusty_std_call32
+INFOimage (%s): rejected, anti-rollback
+FAILcommand (%s) is not allowed when locked
+%s androidboot.verifiedbootstate=%s
+FAILchange ap default public key fail, ret = %d 
+Failed to create trusty ipc device: %d
+Signature length does not match key length.
+Public key is not entirely in its block.
+$(ANDROID_VERITY_MODE)
+GSA wakelock refcounter is too high (%u)
+FAILGSA runtest failed (%d)
+GSC AVB app error 0x%x
+error deconding app_avb_GetResetChallengeResponse
+[GSC-AVB] 
+AVB:read_bytes bytes left (%zu) bigger than bytes buffer (%zu)
+trusty_ipc_dev_recv_raw
+Signature1
+failed to allocate memory for sha256 buffer
+unlocked
+yellow
+FAILfailed to write to vbmeta partition %d
+trusty_init failed (%d).
+Unable to load signature
+Failed to get secretkeeper public key (%d), skipping setting property
+AVBf
+Requested partitions cannot be empty when using AVB_SLOT_VERIFY_FLAGS_NO_VBMETA_PARTITION
+: Public key used to sign data does not match key in chain partition descriptor.
+: Error while checking public key used to sign data.
+SIGNATURE_MISMATCH
+androidboot.vbmeta.device_state
+FAILGSA wakelock acquire failed (%d)
+INFOGSC AVB state:
+error calling KEYMASTER_PARAM_SET_ROT 0x%x
+%s: %d: read_revoke_key_status failed - %s(%d).
+GSA2ALIVE_SOFT_RESET
+avb:
+INFOavb custom key: flash %s
+blocked_read
+GSA_SWRESET
+INFO gsa-sjtag authentication pass 
+com.android.build.microdroid-vendor.root_digest
+fail to add gsa_sram_key.lst to ramdump sub-file, %d
+error calling KEYMASTER_PARAM_BOOT_STATE 0x%x
+trusty_ipc_recv
+%s: %d: trusty::aidl::ipc::connect ERROR: device not initialised.
+reboot,dm-verity_device_corrupted
+vbmeta_system
+INFOramdump sha256_dump [enable|disable]
+sha256_dump
+files.sha256
+green
+FAILfailed to read from vbmeta partition %d
+Invalid rollback index location value.
+Public key metadata is not entirely in its block.
+Unknown AvbVBMetaVerifyResult value.
+_ROOT_DIGEST)
+FAILGSA get anti-rollback failed (%d)
+FAILfailed to write rollback index %d
+trusty_ipc_dev_recv
+watchdog,gsa,hard
+INFOsha256 dump %s
+trusty_tests_runner...
+gsa_resp = 0x%x 
+failed to get microdroid vendor hashtree digest from avb property, skip appending value
+android/external/lib/avb/libavb/avb_rsa.c
+INFOoem gsc avb rb <slot> [val]
+Software integrity cannot be guaranteed with a custom OS, so any data stored on the device while the bootloader is unlocked may be at risk. To prevent unauthorized access to your personal data, unlocking the bootloader will also delete all personal data on your device.
+FAILerror getting device locked state %d
+INFOdm-verity error flag not found
+INFOavb custom key: erase %s
+Second initialization of Trusty dev
+GSA_WDTRESET
+FAILError command, usage: oem fuse revokedevkey [enforce]
+android/external/lib/avb/libavb/avb_kernel_cmdline_descriptor.c
+ERROR_ROLLBACK_INDEX
+: Image rollback index is less than the stored rollback index.
+avb.persistent_digest.
+androidboot.vbmeta.size
+trusty_ipc_dev_close
+gsa_log.lst
+GSA Hard Watchdog
+Fastboot/OrangeWarning1440.bmp
+Fastboot/YellowWarning1440.bmp
+FAILfailed to disable ramdump sha256 dump
+image (%s): contains testkey signature, rejected
+Invalid GPT signature (0x%llx)
+trusty_set_boot_patchlevel failed
+orange
+Failed to initialize trusty device: %d
+read gsa key status mbox failed ret=%x
+: Error getting rollback index for location.
+Error reading from avb.managed_verity_mode.
+INFOoem gsa wakelock release
+error deconding app_avb_GetStateResponse
+%s: failed to allocate Trusty IPC device
+android/external/lib/trusty/ql-tipc/trusty_dev_common.c
+notify keymaster failed %d, retcode %d
+failed to write rollback index %d %d
+INFOoem trusty version
+FAILget pkhash fail, ret =  %d 
+revokegsatestkey
+android/external/lib/avb/libavb/avb_footer.c
+Persistent values required for AVB_HASHTREE_ERROR_MODE_MANAGED_RESTART_AND_EIO but are not implemented in given AvbOps.
+sha256
+: Persistent digest is not of expected size.
+android/lib/gsa/gsa_mbox.c
+android/lib/gsa/fb_cmds.c
+FAILLength (%d) of public key does not match expectation (%d)
+INFOoem avb_menu_delay orange [delay_seconds]
+INFOhash("%s") = %u
+failed to reset AVB rollback indexes %d
+avb value %s, is corrupted. removing...
+Failed to initialize trusty ipc device: %d
+revoke gsa root pkhash2 mbox failed ret=%x
+android/external/lib/avb/libavb/avb_property_descriptor.c
+Unknown AvbSlotVerifyResult value.
+gsa_sram_key.lst
+FAILLoad GSA APP cmd failed (%d)
+failed to encode avb_StoreRequest
+trusty_ipc_connect
+GSA1
+GSAF
+Fastboot/OrangeWarning1080.bmp.lz4
+Fastboot/OrangeWarning1440.bmp.lz4
+Fastboot/YellowWarning1080.bmp.lz4
+Fastboot/YellowWarning1440.bmp.lz4
+GHASH for ARMv8, derived from ARMv4 version by <appro@openssl.org>
+SHA256 block transform for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+ #&),/258;>ADGJMPSVYb\\\\\\\\\\\\\icom.android.trusty.boot_done.tidl
+com.android.trusty.otp_manager.tidl

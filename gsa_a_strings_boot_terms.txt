@@ -1,0 +1,193 @@
+### gsa_a_strings_boot_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/gsa_a.img' | grep -Ei 'boot|abl|bl1|pbl|bl2|bl31|tz|trusty|gsa|avb|vbmeta|dtb|dtbo|fdt|kernel|ramdisk|cmdline|fastboot|recovery|usb|ufs|uefi|efi|lk|little kernel|edk|smc|hvc|el1|el2|el3|psci|gic|mmu|dram|memory|slot|rollback|signature|rsa|sha256|verity|disable-verification|disable-verity|orange|locked|unlocked' | head -3000
+
+GSAF
+ELF program headers table out of bounds
+panic (caller %p): kernel stack overflow, can't return
+panic (caller %p): Unable to start gsa ktipc server
+plat_data->size >= sizeof(GsaAliveSramLayout)
+pmu_boot_done
+mmu.c
+bootstrap2
+com.android.gsa.kdn
+%s:%d: rw access denied. arch_mmu_flags=0x%x, phys_obj->flags=0x%x
+trusty_app_symbolize
+ns_gsa_version
+gsa_ktipc_server_init
+%s:%d: exec access denied. arch_mmu_flags=0x%x, phys_obj->flags=0x%x
+trusty_app.c
+Failed to allocate memory for manifest mmio %d of app %u, %s
+Not executing in any thread, backtrace not available!
+archarmmmu
+initializing trusty (%s)
+trusty_thread
+trusty_app_create: ELF header out of bounds
+arm_gic_check_init
+com.android.gsa.gsc.passthrough
+com.android.gsa.memdump
+%s:%d: Unable to create ssmt service port
+%s:%d: Unable to create sysctrl service port
+msg_write_locked
+gsa_ktipc_server
+panic (caller %p): CMU: pad clk is not supported
+%s:%d: Unable to create gpio service port
+arch_mmu_map
+com.android.gsa.dice
+Failed to allocate memory for manifest port %s of app %u, %s
+pm_st->magic == PM_STATE_MAGIC
+trusty_app_%d_%08x-%04x-%04x
+undefined abort, halting
+blk_id == SSMT_BLK_GSA
+failed to allocate trusty thread for %s
+trusty_app %d uuid: 0x%08xx 0x%04xx 0x%04xx 0x%02x%02x 0x%02x%02x%02x%02x%02x%02x
+trusty_app_create: ELF header not found
+panic (caller %p): failed (%d) to start dpc-tz-mbox queue
+int arch_mmu_map(arch_aspace_t *, addr_t, paddr_t, size_t, uint)
+%s:%d: failed to allocate pagetable
+arm_gic_suspend_cpu
+gic_v3.c
+%s:%d: ARCH_MMU_FLAG_NS should come from vmm_obj, not from caller
+int arch_mmu_unmap(arch_aspace_t *, vaddr_t, size_t)
+panic (caller %p): bad page table paddr 0x%lx
+panic (caller %p): %s: tried to exit runnable kernel test thread
+trusty_app.h
+panic (caller %p): spot_in_gap() called on a region with no available mappings
+dpc-tz-mbox
+%s:%d: attempted to allocate secure and non-secure pages in the same l2 pagetable
+arm_gic_resume_cpu
+bootalloc.c
+cannot allocate memory for message queue
+arch_tagging_enabled()
+boot_alloc_end
+boot args 0x%lx 0x%lx 0x%lx 0x%lx
+mmio_id %u not allowed for loadable app %u, %s
+trusty_app: failed to allocate memory for trusty app
+panic (caller %p): failed (%d) to alloc als slot
+tz_dma_region
+com.android.gsa.sjtag
+cannot allocate memory for message queue buf
+libtrusty_apps
+mmio_id %u bad arch_mmu_flags 0x%x of app %u, %s
+failed to load trusty_app: trusty_app heap creation error
+panic (caller %p): Failed to start bootstrap completion thread
+mbox_post_boot_init
+slot < als_slot_cnt
+com.android.gsa.otp
+%s:%d: Unable to create otp service port
+panic (caller %p): TZ has created overflows or overlaps in UASC protected regions
+tz-mbox
+libtrusty
+%s:%d: failed to grow kernel heap by 0x%zx bytes
+boot-diary
+%s:%d: Unable to create slc service port
+plat_data->blk_id == SSMT_BLK_GSA
+status_t arch_mmu_query(arch_aspace_t *, vaddr_t, paddr_t *, uint *)
+arm_gic_init_percpu
+trusty_app_exit_etc
+vmm_map_obj_locked
+(disabled)
+%s: %d: hwcrypto_sha256() fail rc = %d 
+gsa_noise_gen_ec_p256_key_pair
+%s: %d: hwcrypto_hkdf_sha256() fail! (%d)
+Unable to get valid checksum on app %d reply data
+com.android.gsa.gsc.passthrough
+%s: %d: Failed (%d) to get GSA-GSC PSK 
+gsa_noise_mix_hash_sha256
+gsa_noise_decrypt_aes_gcm
+%s: %d: GSA-GSC PSK are all zero! 
+com.android.gsa.gsc
+%s: %d: GSC: AP rebooting returned 0x%x
+trusty_nanosleep
+h_size == NOISE_SHA256_DIGEST_SIZE
+com.android.gsa.hwcrypto.gsa
+gsa_noise_hkdf_sha256
+hwcrypto-gsa-client
+%s: %d: Failed (%d) to register shared memory
+%s: %d: noise_mix_hash_sha256() fail rc = %d 
+Unable to get valid checksum on app %d status
+%s: %d: Failed (%d) to create share memory handle
+%s: %d: noise_hkdf_sha256() fail! (%d)
+gsa_noise_encrypt_aes_gcm
+gsa_noise_ecdh_p256
+0123456789ABCDEFIllegal byte sequence
+Result not representable
+Out of memory
+Resource temporarily unavailable
+Host is unreachable
+No file descriptors available
+No locks available
+State not recoverable
+No data available
+Protocol not available
+Address not available
+Network unreachable
+No buffer space available
+GS201_GSA_GSC_v1
+Noise_NNpsk0_P256_AESGCM_SHA256
+(disabled)
+%s: %d: RSAES-OAEP encryption failed. rc = %d
+%s: %d: P256 hash must be SHA256
+%s: %d: crypto_derive_and_load_tz_l1_ss_key failed: %d
+%s: %d: gsacore sysregs mmap failed
+%s: %d: Target key slot too large: %d
+signature && is_buf_u32_aligned(signature, signature_len)
+trusty_nanosleep
+com.android.gsa.hwcrypto.gsa
+com.android.gsa.hwcrypto.sss.kdn
+get_gsa_ec_calc_public_key
+signature && is_ptr_u32_aligned(signature)
+(disabled)
+%s: %d: Revoke gsa fw pkhash 1 failed (%d)
+%s: %d: ARs are locked
+rc == sizeof(signature)
+rkp_get_signed_tzsw_ar_counter
+%s: %d: HWBCC get DICE artifacts command received before GSA BL1 DICE data is received
+com.android.gsa.memdump
+%s: %d: tzpc mmap failed
+%s: %d: Unsupported GSA version %u vs. %u
+%s: %d: Region locked
+com.android.gsa.dice
+%s: %d: Signature verification failed (%d)
+%s: %d: Haven't received GSA BL1 DICE data
+%s: %d: Failed (%d) to check provision enabled
+otp_read_gsa_gsc_pre_shared_key
+%s: %d: Failed to enable the region
+%s: %d: Image rollback verison (%d) is smaller than OTP rollback version (%d)
+%s: %d: Failed (%d) to create shared memory
+%s: %d: Secure Boot Debug Policy is invalid
+com.android.gsa.gsc
+%s: %d: gsa fw revoke bits are not all zero!
+%s: %d: The region is not enabled
+%s: %d: Failed to grab GSA ownership for UASC region
+req_cmd == GSA_MB_CMD_AUTH_IMG
+release_memory_protection
+%s: %d: GSA-GSC PSK key provision not allowed
+%s: %d: gsa sjtag mmap failed
+%s: %d: Invalid bootloader params: off=%u len=%u
+com.android.gsa.sjtag
+com.android.gsa.hwcrypto.gsa
+%s: %d: Unsupported rollback version (%u)
+%s: %d: Failed to mmap ap boot diary
+hwcrypto-gsa-client
+%s: %d: Failed (%d) to register shared memory
+%s: %d: Already cached Secure Boot debug policy
+otp_provision_gsa_gsc_pre_shared_key
+%s: %d: Protected memory regions overlap
+%s: %d: Failed (%d) to unregister shared memory
+com.android.gsa.otp
+%s: %d: Revoke gsa fw pkhash 0 failed (%d)
+%s: %d: Fusing GSA PKHASH%d
+key_len == GSA_GSC_PSK_SIZE
+%s: %d: GSA-GSC PSK mismatch !
+%s: %d: hwcrypto_rsaes_oaep_4096_encrypt_shm() fail! (%d)
+%s: %d: Error: failed to fuse GSA PKHASH%d! ret=0x%x
+igsarkpkdfinp|%R~
+jSignature1C
+jSignature1D
+(disabled)
+com.android.gsa.kdn
+%s: %d: Invalid (%u) slot
+hwcrypto-gsa-client
+com.android.gsa.hwcrypto.sss.kdn
+%s: %d: Invalid UFS descr type
+Project: ripcurrent-gsa, Build: 14506243, Built: 12:40:23 Nov 27 2025

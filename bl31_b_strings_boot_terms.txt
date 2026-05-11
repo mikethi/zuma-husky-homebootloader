@@ -1,0 +1,103 @@
+### bl31_b_strings_boot_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/bl31_b.img' | grep -Ei 'boot|abl|bl1|pbl|bl2|bl31|tz|trusty|gsa|avb|vbmeta|dtb|dtbo|fdt|kernel|ramdisk|cmdline|fastboot|recovery|usb|ufs|uefi|efi|lk|little kernel|edk|smc|hvc|el1|el2|el3|psci|gic|mmu|dram|memory|slot|rollback|signature|rsa|sha256|verity|disable-verification|disable-verity|orange|locked|unlocked' | head -3000
+
+BL31
+fiq_sgi: skip for EL2
+trusty_get_reg_base
+trusty_shmem_convert_mtd_to_v1_0
+gicv3_driver_init
+%s: rx buffer not in valid memory: %lx
+trusty_shmem_convert_shmem_obj_from_v1_0
+trusty_ffa_mem_retrieve_req
+trusty_fast_uuid
+%s: called on object with corrupted memory region descriptor
+trusty_ffa_mem_frag_rx
+spmd_ffa_smc_handler
+%s: custom memory region for message not supported
+trusty_shmem_validate_mtd_start
+GICv3 implementation doesn't support routing ANY
+GS BL31 early platform setup
+%s: Composite memory region extends beyond descriptor: 0x%llx > 0x%zx
+trusty: delivering fiq to linux is not supported
+LDFW panic cpu=%u slot=%u lr=%lx
+trusty: Could not find bl32 image info
+trusty_shmem_check_obj
+trusty_generic_platform_smc
+trusty_ffa_fill_desc
+trusty_init start
+fiq_wdt: skip for EL2
+trusty: Found unknown image, 0x%x
+BL31: %s
+[SSS] TRNG dual mode is enabled
+trusty_ffa_rxtx_map
+trusty_fast
+trusty_ffa_mem_share
+trusty_ffa_mem_reclaim
+Share state bitmaps too small for available RAM
+trusty_shared_mem_init was not called
+No GICR base frame found for Primary CPU
+%s(0x%x) unknown smc
+trusty_shmem_obj_alloc
+Trusty: Switch bl33 from EL2 to EL1 (spsr 0x%x -> 0x%x)
+trusty_init done (%d us)!
+%s(0x%x, 0x%lx) unknown smc
+Trusty: non-secure image missing.
+%s: tx buffer not in valid memory: %lx
+%s: invalid object, unaligned composite memory region descriptor offset %u.
+Not enough memory to map region:
+trusty_shmem_populate_ffa_v1_0_descriptor
+No GICR base frame found for CPU 0x%lx
+%s: custom memory region not supported
+trusty_ffa_mem_frag_tx
+trusty_std
+%s(0x%x, 0x%lx) unsupported ffa smc
+trusty_ffa_rxtx_unmap
+trusty_ffa_mem_relinquish
+gicc_hppir
+gicc_ahppir
+gicc_ctlr
+icc_hppir0_el1
+icc_hppir1_el1
+icc_ctlr_el3
+gicd_ispendr regs (Offsets 0x200-0x278)
+scr_el3
+sctlr_el3
+cptr_el3
+tcr_el3
+mair_el3
+spsr_el3
+elr_el3
+ttbr0_el3
+esr_el3
+far_el3
+spsr_el1
+elr_el1
+sctlr_el1
+actlr_el1
+cpacr_el1
+csselr_el1
+sp_el1
+esr_el1
+ttbr0_el1
+ttbr1_el1
+mair_el1
+amair_el1
+tcr_el1
+tpidr_el1
+par_el1
+mpidr_el1
+afsr0_el1
+afsr1_el1
+contextidr_el1
+vbar_el1
+cntkctl_el1
+isr_el1
+PANIC in EL3.
+Unhandled Exception in EL3.
+Unhandled Interrupt Exception in EL3.
+cpuectlr_el1
+cpuectlr_el1
+cpuectlr_el1
+dbg_mem_enable
+seclog_enable
+ERXPFG_enable

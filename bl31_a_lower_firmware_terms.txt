@@ -1,0 +1,61 @@
+### bl31_a_lower_firmware_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/bl31_a.img' | grep -Ei 'BL1|PBL|BL2|BL31|TF-A|trusted|trusty|tz|secure|dram|ddr|ufs|gsa|smc|hvc|el3|el2|psci|panic|watchdog|boot|entry|jump|load|verify|signature|rollback|hash|rsa|sha256' | head -3000
+
+BL31
+fiq_sgi: skip for EL2
+trusty_get_reg_base
+trusty_shmem_convert_mtd_to_v1_0
+trusty_shmem_convert_shmem_obj_from_v1_0
+trusty_ffa_mem_retrieve_req
+trusty_fast_uuid
+trusty_ffa_mem_frag_rx
+spmd_ffa_smc_handler
+trusty_shmem_validate_mtd_start
+GS BL31 early platform setup
+trusty: delivering fiq to linux is not supported
+LDFW panic cpu=%u slot=%u lr=%lx
+[   %u.%06u] secure os: 
+trusty: Could not find bl32 image info
+trusty_shmem_check_obj
+trusty_generic_platform_smc
+trusty_ffa_fill_desc
+trusty_init start
+fiq_wdt: skip for EL2
+trusty: Found unknown image, 0x%x
+BL31: %s
+trusty_ffa_rxtx_map
+%s: invalid object, address in region descriptor %zu not 4K aligned (got 0x%016llx)
+%s: %zu/%zu: failed to set shared %d secure %d for %lx (%x)
+trusty_fast
+[   %u.%06u] non-secure os: 
+trusty_ffa_mem_share
+Invalid ipc_ch pointer address
+trusty_ffa_mem_reclaim
+trusty_shared_mem_init was not called
+%s(0x%x) unknown smc
+trusty_shmem_obj_alloc
+Trusty: Switch bl33 from EL2 to EL1 (spsr 0x%x -> 0x%x)
+trusty_init done (%d us)!
+%s(0x%x, 0x%lx) unknown smc
+Trusty: non-secure image missing.
+trusty_shmem_populate_ffa_v1_0_descriptor
+trusty_ffa_mem_frag_tx
+trusty_std
+%s(0x%x, 0x%lx) unsupported ffa smc
+trusty_ffa_rxtx_unmap
+trusty_ffa_mem_relinquish
+icc_ctlr_el3
+scr_el3
+sctlr_el3
+cptr_el3
+tcr_el3
+mair_el3
+spsr_el3
+elr_el3
+ttbr0_el3
+esr_el3
+far_el3
+PANIC in EL3.
+Unhandled Exception in EL3.
+Unhandled Interrupt Exception in EL3.
+PANIC at PC : 0x

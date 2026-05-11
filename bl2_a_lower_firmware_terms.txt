@@ -1,0 +1,57 @@
+### bl2_a_lower_firmware_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/bl2_a.img' | grep -Ei 'BL1|PBL|BL2|BL31|TF-A|trusted|trusty|tz|secure|dram|ddr|ufs|gsa|smc|hvc|el3|el2|psci|panic|watchdog|boot|entry|jump|load|verify|signature|rollback|hash|rsa|sha256' | head -3000
+
+GSA Load FW Req: 
+identify dram - 
+dmc ipc: boot fail (more than once)
+ boot_lv: 
+DBGCORE ('booted' magic confirmed) 
+dvfs to boot freq.
+dram pre-emphasis not supported
+boot_freq: 
+[BL2] 
+GSA Breadcrumb:
+, addr: 0x
+dram dfe not supported
+ starting lpddr5 dmc initialization ========
+apply dram pre-emphasis
+dmc ipc: boot fail
+dram per-pin dfe training
+BL2 panic from: 0x
+GSA Load FW Res: 
+BL2 Pass
+dram dfe training
+dram per-pin dfe not supported
+GSA Load DPM Res: 
+GOV_TZ_V3
+G_noTZ
+address
+TZMIF2++
+TZMIF2--
+TZMIF3++
+TZMIF3--
+dramini+
+dramini-
+ddr_rdwrs
+ddr_rds
+ddr_wrs
+TZSLC1++
+TZSLC1--
+tmutzid
+set smc DSM status 
+toogle cs & set smc self refresh status
+smc aref enable 
+dram zq cal 
+dramaddr
+____boot
+Trig'd - reboot in %d sec
+dram
+bootloader
+reboot
+dumpaddr
+mapaddr
+dbg_boot
+reg_boot
+DumpAddr
+HWAddrEn
+dram

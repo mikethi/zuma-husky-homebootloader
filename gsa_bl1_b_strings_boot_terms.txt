@@ -1,0 +1,32 @@
+### gsa_bl1_b_strings_boot_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/gsa_bl1_b.img' | grep -Ei 'boot|abl|bl1|pbl|bl2|bl31|tz|trusty|gsa|avb|vbmeta|dtb|dtbo|fdt|kernel|ramdisk|cmdline|fastboot|recovery|usb|ufs|uefi|efi|lk|little kernel|edk|smc|hvc|el1|el2|el3|psci|gic|mmu|dram|memory|slot|rollback|signature|rsa|sha256|verity|disable-verification|disable-verity|orange|locked|unlocked' | head -3000
+
+GSA1
+GSAF
+pm_st->magic == PM_STATE_MAGIC
+bl1/sysram.c
+%s: Invalid address range (0x%08llX, 0x%08X) is within GSA!
+recovery
+Debug not available for this image!
+non-recovery
+Failed to enable UASC
+bl1/sysram.c
+GSA BL1 AR version %d needs to be between %d and %d
+ECDSA authentication disabled!
+Secure boot is bypassed by DPM
+Invalid header magic
+gsaMailboxSetResponse
+CMU: pad clk is not supported
+Not received boot info from AP
+Anti-rollback update is bypassed by DPM
+Image version %d is larger than the maximum OTP anti-rollback counter %d
+HelloGsaBl1
+Invalid RSA scheme
+RSA verification failed
+%s: Invalid address range (0x%08llX, 0x%08X) is within GSA!
+Image encryption not enabled!
+Anti-rollback check is bypassed by DPM
+Invalid RSA key size
+bl1/gme.c
+USB should be disabled!
+jSignature1D

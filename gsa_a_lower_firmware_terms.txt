@@ -1,0 +1,293 @@
+### gsa_a_lower_firmware_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/gsa_a.img' | grep -Ei 'BL1|PBL|BL2|BL31|TF-A|trusted|trusty|tz|secure|dram|ddr|ufs|gsa|smc|hvc|el3|el2|psci|panic|watchdog|boot|entry|jump|load|verify|signature|rollback|hash|rsa|sha256' | head -3000
+
+GSAF
+rc == sizeof(alive->Context.Body.Gme.StateHash)
+panic (caller %p): failed(%d) to terminate app %u, %s
+panic (caller %p): failed to invoke shutdown notifier for %s
+pa != (paddr_t)-1
+panic (caller %p): Could not find pa for va 0x%lx
+panic (caller %p): kernel stack overflow, can't return
+panic (caller %p): Unable to start gsa ktipc server
+plat_data->size >= sizeof(GsaAliveSramLayout)
+pmu_boot_done
+panic (caller %p): Unexpected UASC ch ownership
+bootstrap2
+panic (caller %p): start_app thread creation failed
+panic (caller %p): somehow fell through thread_exit()
+com.android.gsa.kdn
+panic (caller %p): copy_to_user failed %d
+trusty_app_symbolize
+panic (caller %p): failed 0x%08x to export black key: 
+ns_gsa_version
+gsa_ktipc_server_init
+panic (caller %p): failed to enter sleep
+!(dst_pa >> ADDR_EXTN_WIDTH)
+panic (caller %p): ref overflow
+trusty_app.c
+panic (caller %p): Failed to create app manager thread
+arena->kvaddr
+panic (caller %p): timer %p already in list
+initializing trusty (%s)
+panic (caller %p): spot_in_gap() called on a 0-size region
+panic (caller %p): spot_in_gap() with an index with no mapping option
+load bias %lx
+trusty_thread
+panic (caller %p): failed(%d) to start app %u, %s
+panic (caller %p): unknown state %u for app %u, %s
+segment %u image address 0x%lx in not page aligned for app %u, %s
+trusty_app_create: ELF header out of bounds
+panic (caller %p): failed to start default dpc queue
+%s: %d: Waiting for HASH status=0x%08x timedout
+panic (caller %p): ASSERT FAILED at (%s:%d): %s
+!(src_pa >> ADDR_EXTN_WIDTH)
+com.android.gsa.gsc.passthrough
+com.android.gsa.memdump
+%s:%d: Attempted to load segment beneath user address space
+gsa_ktipc_server
+panic (caller %p): CMU: pad clk is not supported
+Failed(%d) to allocate address space for %s
+panic (caller %p): Bad clock tree configuration
+segment %u load address 0x%lx in not page aligned for app %u, %s
+panic (caller %p): %s:%u unimplemented
+thread_exit_from_panic
+panic (caller %p): Unexpected state: 0x%x
+com.android.gsa.dice
+uaddr_p
+panic (caller %p): stack underflow while initializing user space
+panic (caller %p): weak arch_clear_pages_and_tags called
+trusty_app_%d_%08x-%04x-%04x
+failed(%d) to load address map for %s
+panic (caller %p): failed (%d) to start dpc-ns-mbox queue
+blk_id == SSMT_BLK_GSA
+failed to allocate trusty thread for %s
+panic (caller %p): failed (%d) to register uctx notifier
+%s: %d: manifest missing APPLOADER_FLAGS value of app %s
+panic (caller %p): failed (%d) to create %s device
+panic (caller %p): Invalid (%u) security domain
+mmio_id %d address/size too large of app %u, %s
+trusty_app %d uuid: 0x%08xx 0x%04xx 0x%04xx 0x%02x%02x 0x%02x%02x%02x%02x%02x%02x
+load_kvaddr
+trusty_app_create: ELF header not found
+Failed to allocate physical address array
+panic (caller %p): failed (%d) to start dpc-tz-mbox queue
+int arch_mmu_map(arch_aspace_t *, addr_t, paddr_t, size_t, uint)
+panic (caller %p): handle_set_wait failed: %d
+int arch_mmu_unmap(arch_aspace_t *, vaddr_t, size_t)
+panic (caller %p): bad page table paddr 0x%lx
+panic (caller %p): fault
+panic (caller %p): crash notifier failed(%d) for app %u, %s
+panic called with thread lock held
+panic (caller %p): heap init failed
+panic (caller %p): mutex_acquire_timeout: thread %p (%s) tried to acquire mutex %p it already owns.
+panic (caller %p): %s: tried to exit runnable kernel test thread
+trusty_app.h
+panic (caller %p): Could not alloc pa 0x%lx
+panic (caller %p): spot_in_gap() called on a region with no available mappings
+dpc-tz-mbox
+DFAR 0x%x (fault address)
+IFAR 0x%x (fault address)
+%s:%d: attempted to allocate secure and non-secure pages in the same l2 pagetable
+panic (caller %p): %s
+bootalloc.c
+panic (caller %p): failed (%d) to create pl330 device
+panic (caller %p): failed 0x%08x to generate red key: 
+rc == sizeof(alive->Context.Hash)
+boot_alloc_end
+(readl(base + SSS_HASH_STATUS) & mask)
+boot args 0x%lx 0x%lx 0x%lx 0x%lx
+mmio_id %u not allowed for loadable app %u, %s
+trusty_app: failed to allocate memory for trusty app
+panic (caller %p): failed (%d) to alloc als slot
+tz_dma_region
+com.android.gsa.sjtag
+libtrusty_apps
+panic (caller %p): register_int_handler: vector out of range %d
+panic (caller %p): Unclean exit from critical app
+failed to load trusty_app: trusty_app heap creation error
+panic (caller %p): Failed to start bootstrap completion thread
+rc == sizeof(pm_st->siphash_key)
+mbox_post_boot_init
+panic (caller %p): %s: exited(%d) with dma active
+vaddr == p_vaddr
+panic (caller %p): floating point code in irq context. pc 0x%x
+com.android.gsa.otp
+panic (caller %p): TZ has created overflows or overlaps in UASC protected regions
+panic (caller %p): shutdown notifier failed(%d) for app %u, %s
+alloc_address_map
+tz-mbox
+libtrusty
+panic (caller %p): Invalid builtin function entry
+panic (caller %p): Failed to start app manager thread
+paddr_to_kvaddr(pa)
+panic (caller %p): Corrupt or invalid thread cookie detected for thread: %s.
+boot-diary
+plat_data->blk_id == SSMT_BLK_GSA
+panic (caller %p): Failed to create builtin apps
+panic (caller %p): pl330: add manager thread fault handler
+ns_img_loader
+rc == sizeof(alive->Context.Body.HashRestoreCode)
+status_t arch_mmu_query(arch_aspace_t *, vaddr_t, paddr_t *, uint *)
+panic (caller %p): NS mem is not supported
+panic (caller %p): mutex_release: thread %p (%s) tried to release mutex %p it doesn't own. owned by %p (%s)
+panic (caller %p): nonce hash mismatch
+trusty_app_exit_etc
+%s: %d: hwcrypto_sha256() fail rc = %d 
+%s: %d: Failed (%d) to send secure link state to GSC
+%s: %d: secure_transport_reset_and_handshake() failed
+secure_transport_nos_call
+%s: %d: noise_mix_hash() failed (%d)
+gsa_noise_gen_ec_p256_key_pair
+secure-transport.c
+%s: %d: hwcrypto_hkdf_sha256() fail! (%d)
+%s: %d: secure_transport_initialize_noise_session() failed (%d)
+%s: %d: secure_transport_usecase_handshake() failed (%d)
+%s: %d: noise_decrypt_and_hash() failed (%d)
+secure_transport_gsc_get_secure_link_state
+com.android.gsa.gsc.passthrough
+%s: %d: Failed (%d) to get GSA-GSC PSK 
+%s: %d: GSC: secure link state report cmd returned 0x%x
+secure_transport_nos_ciphertext_transmission
+%s: %d: noise_message_b_payload mismatch !
+gsa_noise_mix_hash_sha256
+gsa_noise_decrypt_aes_gcm
+%s: %d: noise_encrypt_and_hash() failed (%d)
+%s: %d: GSA-GSC PSK are all zero! 
+com.android.gsa.gsc
+%s: %d: noise_mix_key_and_hash() failed (%d)
+%s: %d: secure_transport_init() failed (%d)
+tipc_hset_add_entry
+%s: %d: GSC: AP rebooting returned 0x%x
+%s: %d: hset_remove_entry failed (%d)
+trusty_nanosleep
+tipc_hset_mod_entry
+h_size == NOISE_SHA256_DIGEST_SIZE
+com.android.gsa.hwcrypto.gsa
+gsa_noise_hkdf_sha256
+hwcrypto-gsa-client
+%s: %d: noise_mix_hash_sha256() fail rc = %d 
+%s: %d: noise_hkdf_sha256() fail! (%d)
+gsa_noise_encrypt_aes_gcm
+secure-transport
+gsa_noise_ecdh_p256
+Address in use
+No such device or address
+Bad address
+Destination address required
+Address family not supported by protocol
+Address not available
+GS201_GSA_GSC_v1
+Noise_NNpsk0_P256_AESGCM_SHA256
+%s: %d: RSAES-OAEP encryption failed. rc = %d
+hash_phys
+%s: %d: P256 hash must be SHA256
+%s: %d: crypto_derive_and_load_tz_l1_ss_key failed: %d
+%s: %d: Fail to get aad address
+sss-hash
+%s: %d: Waiting for HASH status=0x%08x timedout
+sss_hash_status_wait_for_any_bit
+%s: %d: gsacore sysregs mmap failed
+%s: %d: P384 hash must be SHA384
+hash_shm
+ecdsa_verify
+%s: %d: HASH err = %d
+tipc_hset_add_entry
+%s: %d: hset_remove_entry failed (%d)
+signature && is_buf_u32_aligned(signature, signature_len)
+trusty_nanosleep
+tipc_hset_mod_entry
+%s: %d: Fail to get source address
+com.android.gsa.hwcrypto.gsa
+com.android.gsa.hwcrypto.sss.kdn
+(size_t)rc == hash_len
+get_gsa_ec_calc_public_key
+%s: %d: Fail to get destination address
+%s: %d: Invalid hash id
+%s: %d: ECDSA_verify_digest failed (%d)
+signature && is_ptr_u32_aligned(signature)
+%s: %d: Failed (%d) to absorb hash
+hash_size >= OTP_CUSTOM_PK_HASH_SIZE
+%s: %d: Fusing APM PKHASH%d
+%s: %d: Revoke gsa fw pkhash 1 failed (%d)
+(address % 32) == 0
+%s: %d: Load address doesn't match image body address: %08X != %08llx
+%s: %d: Firmware are not all loaded
+rc == sizeof(signature)
+is_u32_aligned(hash)
+rkp_get_signed_tzsw_ar_counter
+idx < OTP_CUSTOM_PK_HASH_CNT
+%s: %d: HWBCC get DICE artifacts command received before GSA BL1 DICE data is received
+otp_pk_hash_compare
+%s: %d: TPU fw is already loaded
+%s: %d: Failed (%d) to calculate body hash
+com.android.gsa.memdump
+%s: %d: AOC fw is already loaded
+%s: %d: Image body: hash mismatch
+%s: %d: otp data mismatch, address = 0x%x
+%s: %d: tzpc mmap failed
+dsp_fw_load_complete
+%s: %d: Unsupported GSA version %u vs. %u
+otp_get_custom_pk_hash
+%s: %d: Error: failed to fuse APM PKHASH%d! ret=0x%x
+uasc_entry_init
+com.android.gsa.dice
+%s: %d: Failed (%d) to calc pub key hash
+%s: %d: Signature verification failed (%d)
+%s: %d: Haven't received GSA BL1 DICE data
+%s: %d: Failed (%d) to set authority hash
+idx < OTP_ROOT_PK_HASH_CNT
+hash_size == OTP_ROOT_PK_HASH_SIZE
+address + (data_len * 8) <= (OTP_GET_BANK_NUM(address) + 1) * OTP_BANK_SIZE
+otp_read_gsa_gsc_pre_shared_key
+%s: %d: Image rollback verison (%d) is smaller than OTP rollback version (%d)
+%s: %d: Secure Boot Debug Policy is invalid
+com.android.gsa.gsc
+%s: %d: gsa fw revoke bits are not all zero!
+otp_get_sjtag_pub_key_hash
+%s: %d: Failed (%d) to get root hash sel
+%s: %d: Failed to grab GSA ownership for UASC region
+tipc_hset_add_entry
+req_cmd == GSA_MB_CMD_AUTH_IMG
+%s: %d: hset_remove_entry failed (%d)
+%s: %d: Failed to absorb hash into hash chain
+tipc_hset_mod_entry
+%s: %d: GSA-GSC PSK key provision not allowed
+%s: %d: gsa sjtag mmap failed
+%s: %d: FW is not loaded
+%s: %d: Invalid bootloader params: off=%u len=%u
+com.android.gsa.sjtag
+com.android.gsa.hwcrypto.gsa
+%s: %d: Unsupported rollback version (%u)
+%s: %d: Failed to mmap ap boot diary
+hwcrypto-gsa-client
+uasc_entry_unlock
+uasc_entry_lock
+%s: %d: Top address of UASC region should located at the end of a page
+%s: %d: Failed (%d) to calc image hdr hash
+%s: %d: Already cached Secure Boot debug policy
+size >= OTP_SJTAG_KEY_HASH_WCNT * sizeof(uint32_t)
+otp_provision_gsa_gsc_pre_shared_key
+%s: %d: otp_read_32() SECURE_FAIL
+address < OTP_ADDRESS_MAX
+%s: %d: Secure region accessed
+com.android.gsa.otp
+%s: %d: DSP fw is already loaded
+%s: %d: Revoke gsa fw pkhash 0 failed (%d)
+%s: %d: Fusing GSA PKHASH%d
+key_len == GSA_GSC_PSK_SIZE
+%s: %d: GSA-GSC PSK mismatch !
+%s: %d: hwcrypto_rsaes_oaep_4096_encrypt_shm() fail! (%d)
+%s: %d: Error: failed to fuse GSA PKHASH%d! ret=0x%x
+%s: %d: Base address of UASC region should be page-aligned
+%s: %d: Public key hash mismatch
+igsarkpkdfinp|%R~
+jSignature1C
+jSignature1D
+com.android.gsa.kdn
+tipc_hset_add_entry
+%s: %d: hset_remove_entry failed (%d)
+tipc_hset_mod_entry
+hwcrypto-gsa-client
+com.android.gsa.hwcrypto.sss.kdn
+%s: %d: Invalid UFS descr type
+Project: ripcurrent-gsa, Build: 14506243, Built: 12:40:23 Nov 27 2025

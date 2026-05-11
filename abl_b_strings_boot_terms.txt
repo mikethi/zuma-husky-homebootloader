@@ -1,0 +1,1583 @@
+### abl_b_strings_boot_terms
+### strings '/data/data/com.termux/files/home/downloads/pixel8pro_windows_arm/task_01_boot_chain/task_01_03_abl_replacement_feasibility/firmware_recon_2026-05-11_06-43-30/raw_partitions/abl_b.img' | grep -Ei 'boot|abl|bl1|pbl|bl2|bl31|tz|trusty|gsa|avb|vbmeta|dtb|dtbo|fdt|kernel|ramdisk|cmdline|fastboot|recovery|usb|ufs|uefi|efi|lk|little kernel|edk|smc|hvc|el1|el2|el3|psci|gic|mmu|dram|memory|slot|rollback|signature|rsa|sha256|verity|disable-verification|disable-verity|orange|locked|unlocked' | head -3000
+
+LKijkxj.
+Z_ALk
+watchdog,apc,bl31,crashed
+reboot,thermal,tj
+OCP Reboot (%s%s)
+GSA Soft Reboot
+fastbootd
+regulator IC recovery failed
+regulator recovery failed
+Reboot Info:
+SCAN2DRAM_SCANDUMP_REQ_NOCL1A
+failed to active etm2dram: %s
+failed to boot android %d
+ufshc: bBootLunEn 0x%0x
+failed to allocate memory for the UTRL
+failed to read bRefClkFreq attr %d
+Enabling CC_STATUS ALERT failed. ret: %d
+INFO    param_6: [<enable quick scan>]
+FDT_ERR_NOTFOUND
+INFOramdump sha256 dump enabled
+boot_done init failed.
+Failed to allocate pages for avb preload of %s. Will load avb images on demand
+disable-verification
+bl31_log_reserved
+fail to get AVB_LOCK_DEVICE state (%d)
+GSA_INTERMEDIATE_RESET
+GSA_SSS_HALTED
+sjtag-gsa
+INFO gsa-sjtag authentication fail 
+dsim%d DPHY PLL is already stable
+Failed one fixup in ufdt_do_one_fixup
+ufdt_overlay_apply
+ufdt_overlay_apply_fragments
+Trusty device init failed.
+bootmode:%s
+usb.debugging
+FAILfailed to reset fastboot max ram size
+: Invalid rollback_index_location.
+INFOoem gsa auth_img
+Unlock the bootloader
+INFOoem menu_dimming [enable|disable]
+MZS UFS Provisioning is no longer supported
+FAILfailed to enable ufs zufs
+gsc_gsa_rescue
+INFOoem gsc gsa-key-provision
+/reserved-memory/debug_snapshot/log_s2d
+%s enabled
+watchdog,gsa,soft
+ androidboot.primary_panel_drv=panel-%s exynos_drm.panel_name=dsim%d:%s exynos_drm.sec_panel_name=dsim%d:%s
+reboot,uvlo,pmic,if%s
+boot
+thermal shutdown: wipe NS memory and shutdown
+Invalid secondary cpu num %d, SMP_MAX_CPUS %d, secondary_bootstrap_thread_count %d
+recovery-user-request
+[GIC] 
+failed to startup UFS link %d
+UFS device not found
+bLUEnable               0x%x
+INFOramdump enabled (USB)
+BLK_CHAIN_HEADER_HINT_MAGIC:
+disable-charge
+bl31_dram
+bl31_crash7.lst
+bl31_crash8.lst
+Invalid bl31 log reserved region: bypass
+INFOenabled
+FAILfailed to handle uart disable command with error %d
+virt-disable
+sota: failed to disable sota %d
+INFOsota: enabled
+pbl_hdr.lst
+Unable to create pub point.
+trusty_tests_runner done rc=%d
+ufdt_node_construct
+ufdt_node_pool_destruct
+ufdt_get_fixup_location
+ufdt_apply_overlay
+failed to allocate memory for DTB blob with overlays
+ufdt_prop_dict: failed to find new index when enlarging.
+FAILfailed to revoke gsa dev key 0x%x, %s
+INFOprovision_enable: %x
+FAILmissing slot
+slot-unbootable:
+ androidboot.hypervisor.vm_dtbo_idx=%zu
+bad DTB address or size
+INFOoem boottrace [enable|disable]
+failed to get property from source fdt, error:%s
+Padding length does not match hash and signature lengths.
+Signature is not entirely in its block.
+INFOflashing partition table for Lun = %u
+UART: disabled
+Your device has entered USB ramdump mode. Options:
+FAILfailed to disable ufs_provision
+boottime_table
+faied to set pd-disable to device %d
+failed to get eUSB revision %d
+%sReboot mode: 0x%x - %s
+ROM Recovery
+ufs4
+Can't init GSA mbox twice w/ different configuration!
+FAILfailed to get boot.img %d
+arm_gic_resume_cpu
+UFS device doesn't support Write Booster
+[LZ4 Error] Header magic mismatch. Expected %08X Actual %08X
+FAILfailed to reset fastboot oem setting%d
+FAILfail to reset disable-usb-debugging %d
+sha256 dump time   : %llu ms
+invalid ramdump enable magic = %08X
+invalid format signature
+ androidboot.verifiedbooterror=
+invalid bl31 dram region
+bl31_crash2.lst
+ androidboot.dpm_state=0x%04x
+nfcc disable failed. Status = %d
+fb_trusty
+trusty_tests_runner
+ufdt_get_node_by_path_len
+fdt_to_ufdt_tree
+Bad fdt size!
+FAILfailed to fuse revoke_gsa_testkey 0x%x, %s
+INFOgsa_devkey_revoke: %x
+secure-boot
+SMC otp_check_soc_fuse_condition failed, ret=%lx
+FAILinvalid slot
+Insufficient space to fit boot images...
+target failed to update FDT %d
+kernel text_offset exceeds kernel allocation size
+kernel: text_offset:%llx
+ androidboot.cdt_hwid=0x%08x%08x%08x
+INFOplease reboot device, and execute 
+failed to add /avf/reference in fdt, error:%s
+It is unsafe to boot with a trusty device still open, dying.
+android/external/lib/avb/libavb/avb_hashtree_descriptor.c
+Fastboot Mode
+fastboot oem ramdump stage_file
+gsc ro_a prefix is not found
+--- GSA LOG END ---
+Boot/SplashDark1440.bmp
+pd-disable
+kernel_panic
+reboot,longkey,pmic_cold
+Scan done, magic verified
+APC Watchdog BL31 Crashed
+SCAN2DRAM_SCANDUMP_REQ_GSA
+Synchronous External abort, on translation table walk, level 2
+index < MMU_KERNEL_PAGE_TABLE_ENTRIES_TOP
+FAILno previous kernel cmdline
+lk/dev/timer/arm_generic/arm_generic_timer.c
+faled to enable UFSHC %d
+bBootEnable             0x%x
+FDT_ERR_BADSTATE
+disable-on-wipe is set
+Ramdump process result: ibh magic=0x%08x flag=0x%x(%s) error=%u(%s) time=%u secs
+Invalid abl log hist reserved region: bypass
+disable-verity
+INFOSignature      - OK
+nfcc enable failed. Status = %d
+failed to add DRAM region (addr: 0x%lx, size: %zx) to NS mem exclusion list
+Unable to allocate BN
+android/lib/trusty/trusty.c
+FAILcmd_trusty_runtest pin_cpu invalid argument
+FAILTrusty get version failed (%d)
+The following tests are available:
+   blocked_read - test blocked read
+   send-fd      - transmit dma_buf to trusty, use as shm
+liblpc: invalid metadata: sizeof(LpMetadataBlockDevice) != header->block_devices.entry_size
+check gsa fuse mbox failed %d
+using init_boot ramdisk
+bad vendor_kernel_boot ramdisk or size
+ androidboot.hardware=%s androidboot.revision=%s
+ androidboot.hardware.radio.subtype=%u
+ androidboot.hw.soc.sec-ar=%u
+FAILfailed to get dtbdump status %d
+Trusty Abort
+android/external/lib/avb/libavb/avb_hash_descriptor.c
+Error allocating memory.
+: Error loading vbmeta data.
+INVALID_VBMETA_HEADER
+FAILGSA runtest init failed (%d)
+INFOGSA FW anti-rollback counter: %d
+failed to decode avb_LoadResponse
+INFOoem gsc avb state
+Do not lock the bootloader
+android/external/lib/trusty/ql-tipc/ipc_dev.c
+FAILgsa-gsc pre-shared key provision fail %d
+INFOfailed to allocate memory for gpt entries
+FAILFailed to reset AVB locks %d
+reboot,gsa,soft
+Kernel PANIC
+bootloader
+Fastboot/VolumeUp1080.bmp
+int arm64_mmu_unmap(vaddr_t, size_t, vaddr_t, uint, uint, uint, pte_t *, uint)
+bootloader message:%s
+failed to clean env recovery-user-request
+failed to disable VDROOP2 %d
+Temp too low enabled
+ufs_suspend
+disable-usb-debugging
+bpst_enabled
+FAILfailed to enable %s mode
+FAILfailed to disable %s
+FAILfailed to disable usb debugging %d
+INFOdisable-usb-debugging: %s
+core# type    raw-magic   elr
+unable to get a real pram. create a dummy pram buffer
+INFOramdump sha256 dump disabled
+FAILfailed to enable charge %d
+reboot-
+failed to create gpt partition table
+preload_image: failed to allocate memory for image
+bl31_crash5.lst
+INFOfailed to disable uart with error = %d
+LK build date: %s, time: %s
+trusty
+INFORunning trusty port test pinned to core %d
+/dev/trusty-ipc-dev0
+gsa_bc.lst
+GSA_PINRESET
+GSA_LOWGSACOREVOLT
+GSA_SSS_SWDT_HOST_nRSTOUT1
+Unable to find panel driver, use emul panel
+Some nodes aren't freed before ufdt_node_pool_destruct().
+FAILfailed to read gsa key status 0x%x
+failed to merge dtb and dpm
+failed to fdt_open_into %d
+failed to configure kernel load address
+bootconfig:
+fail to update padding to bootconfig (%d)
+FAILfailed to disable dtbdump %d
+INFOoem bcd read <command|status|recovery|stage>
+INFOpKVM is %s (fastboot=%s misc=%s)
+android/external/lib/avb/libavb/avb_util.c
+INFOoem gsa run_crypto_test
+gsa-bl1-ar
+INFOpacked partition table corrupted
+Secure boot: 
+avb_menu_delay
+INFOufs_provision [enable|disable]
+trusty_ipc_send
+trusty_ipc_dev_shutdown
+Update %s enabled
+failed to obtain ufs device
+Failed to reset AVB locks %d
+ androidboot.hw.soc.pkg_mode=%01x
+User Reboot(S/W Reboot)
+ABL Force Early Reboot
+Thermal Shutdown (S/W Reboot)
+   <DBGC IPC fail - no further info available>
+Fastboot/Power1440.bmp
+%slast kernel version: %s
+dram_train
+SCAN2DRAM_SCANDUMP_REQ_NOCL1B
+bad page table paddr 0x%lx
+failed to disable charger %d
+boot-fastboot
+failed to create complete boot.img %d
+INFOoem cmdline set [cmdline]
+ufshc_power_mode_change %s gear %d
+bMemoryType                 0x%x
+FAILboard_get_sota_enabled failed %d
+build info set by kernel
+INFOramdump compression enabled
+INFOramdump [enable|storage|usb]
+Unable to update flood entry hit in misc. Error code: %d
+ androidboot.ramdump.encryption=%s
+INFOimage (%s): rejected, invalid magic, your image must be signed
+memory allocation failure
+FAILunable to get surface info
+[AVB] 
+bl31_log.lst
+INFOimage (%s): rejected, invalid magic
+get-abl-enabled
+ndef_nfcee_enable failed. Status = %d
+GSA_CA32_DBGRSTREQ
+INFO gsa_resp = 0x%x 
+tzprov
+liblpc: invalid metadata: header->header_size > table->metadata_size
+failed to add more fdt into main ufdt tree.
+FAILGSA get asb package failed (%d) ret=%x
+CM PROVISION ENABLE error 0x%x
+revoke gsa fw pkhash mbox failed ret=%x
+androidboot.
+FAILfailed to disable kcmdline-test %d
+ trace_event=sched:sched_switch,sched:sched_blocked_reason,sched:sched_waking,power,dalvik,pm
+invalid avf_boot_mode
+error from libfdt, %s (%d)
+: Error verifying vbmeta image: invalid vbmeta header
+FAILInvalid GSA log id (%u)
+FAILGSA get version failed (%d)
+FAILGSA get dice public key failed (%d)
+failed to decode avb_GetLockResponse
+FAILfailed to read rollback index %d
+Dram: 
+Unknown provisioning magic %#x
+%s: failed (%d) to create Trusty IPC device
+Trusty secretkeeper init failed.
+ androidboot.bootcrumbs
+reboot,early,abl
+reboot
+APC Watchdog GSA Crashed
+ufs0
+failed to create gs101 UFSHCI device
+early abl, wipe NS memory and reboot
+sota: empty signature.
+ramdump is disabled: secure device
+failed to update fastboot ok flag %d
+failed to disable VDROOP1 %d
+wSupportedMemoryTypes           0x%x
+DWC_USB3_DEVICE_NUM_INT is 0
+FDT_ERR_TRUNCATED
+enable-factory-lock
+INFOdevice is already locked
+enable-on-wipe
+FAILfailed to get disable-usb-debugging status %d
+Unable to read flood entries in misc. Error code: %d
+Failed to read partition during avb preload of %s. Will load avb images on demand
+enable-verification
+clear-dm-verity-error
+bootloader.pixel.MTE_FORCE_ON
+pbl_log.lst
+Unable to set key group.
+Calibration signature mismatch
+INFOsignature checked
+%s:repeat %u: msgsize %u: variable %s
+  -v, --variable        variable message size
+boot_diary_platform_early_init
+could not get slot data for A
+FAILunitialized slot:%d, abort
+malloc(%lu) failed for kcmdline_test
+FAILfailed to disable boot trace
+invalid VM DTBO. malformed header
+$(ANDROID_VBMETA_PARTUUID)
+androidboot.veritymode.managed
+FAILGSA wakelock release failed (%d)
+Bootloader ver.: 
+Bootloader Ver.: 
+Secure Boot: 
+ androidboot.zufs_provisioned=%s
+failed to set bBootLunEn %d
+ufs_provision_skip
+trusty_ipc_dev_get_event
+INFOoem boottime add [branch name] [build number] [boottime]
+reboot,tsd,pmic,sub
+reboot,smpl_timeout,pmic,main
+Reboot/Boot to Recovery
+Unlocked
+reboot,ocp,pmic,if%s
+GSA Hard Reboot
+vbmeta
+vbmeta_vendor
+running from secondary boot device: skip load_secure_payload
+no valid stored boot.img to merge with header v2
+INFOinvalid boot magic
+Logical Unit %u is invalid
+ufs_worker
+FAILfailed to allocate memory
+FDT_ERR_BADMAGIC
+INFObpst [enable|disable]
+WARN: Invalid table_base addr: 0x%llx
+INFOThen use fastboot oem draw_bmp staged_img [x] [y] [surface]
+avb_property(%s): not found
+sota: failed to enable sota %d
+[PBLLOG] 
+Calibration signature matches.
+ufs_call_cal
+Couldn't find '%s' symbol in main dtb
+Couldn't find '%s' path in main dtb
+ufdt_overlay_local_ref_update
+FAILno staged data, use fastboot stage <key file>
+bootreason
+failed to delete dtbdump flag
+kernel header size validation failed
+kernel magic validation failed
+unable to parse RSA public key
+ androidboot.boottime_extra=PKD:%llu,RKD:%llu,DISP:%llu,DISP_PE:%llu,DISP_WAIT:%llu,KL_VB:%llu,KL_BOOT:%llu,KL_INTB:%llu,KL_VBS:%llu,KL_VBV:%llu,KL_DTBO:%llu,KL_PVMFW:%llu,KL_VDRB:%llu,KL_VDRKB:%llu,ODT_DOARD:%llu,ODT_DEVICE:%llu,ODT_DPM:%llu,DRAM_TRAIN:%llu
+linux,pkvm-guest-firmware-memory
+Trusty device should be initialized before connecting to hwbcc.
+Overflow while computing size of boot image.
+Data size needs to be 32 bytes (sha256 hash)
+INFOfailed to flash partition table %d
+Bootloader Revision: 
+Bootloader revs: 
+INFOinvalid magic
+failed to set trusty api version %u != %u
+ufs_ffu
+--- ABL BACKTRACE END ---
+avb_veritymode
+usbradio
+watchdog-disable
+failed to enable sota ret=%d
+FAILmissing boot.img
+failed to disable watchdog %d
+Failed to read bAvailableWBBufferSize
+failed to allocate memory for the TMRL
+bMemoryType             0x%x
+bRPMBRegionEnable       0x%x
+encoding failure in fastboot_print
+failed to alloc memory for event buffers
+FDT_ERR_BADSTRUCTURE
+disable-on-wipe
+FAILfailed to enable faceauth_eval %d
+avb_custom_key
+avb-hastree-error-mode
+INFO %s	 enabled = %u	 virt-enabled = N/A	 baudrate = %u
+INFOoem dpm get-abl-enabled <property_name>
+INFOno staged data, use fastboot stage <file>
+device: %s %s%sabled ret=%d
+INFOsilentota enabled
+INFOsilentota [enable|disable|status]
+Unable to configure pub key.
+Unable to get panel rev, default to latest
+liblpc: API error: logical_partition->api_check != LPC_LOGICAL_PARTITION_CHECK
+liblpc: invalid metadata: geometry->magic != LP_METADATA_GEOMETRY_MAGIC
+ufdt_overlay_do_fixups
+_ufdt_prop_dict_enlarge_if_needed
+SMC call failed, ret=%lx
+slot-fastboot-ok:
+AR update disabled, skipping
+Updating GSA AR failed, ret=%d
+ androidboot.hypervisor.vm.supported=1
+bad ramdisk or size
+target failed late updates to FDT %d
+INFO"fastboot get_staged dtbdump.bin"
+FAILfailed to allocate %zu bytes of memory
+INFOoem bcd write <command|status|recovery|stage> <value>
+FAILfailed to enable boot trace 
+failed to get /avf in fdt, error:%s
+Failed to shut down trusty device: %d
+Error clearing avb.managed_verity_mode.
+androidboot.vbmeta.avb_version
+androidboot.veritymode
+GSA get sram key failed (%d)
+GSC AVB app error (%d) 
+Bootloader ver: 
+Signature mismatch %d
+ ufs_pixel_fips140.fips_first_lba=%llu ufs_pixel_fips140.fips_last_lba=%llu ufs_pixel_fips140.fips_lu=0 ufs_pixel_fips140.use_hw_keys=%s
+%s: chan %d: send unblocked cb returned (%d)
+%s: %d: trusty_ipc_close error (%d)
+INFOboottime: %llu
+ufs%u
+sysrq_always_enabled
+force-usb-pd
+reboot,factory
+failed to get in_early_reboot_loop
+failed to clear in_early_reboot_loop
+S2D Magic didn't detect - s2d validity check failed!
+regulator no IC recovery
+ufs6
+memory-ext
+/etm2dram
+disable
+Overriding charge disabled
+ufshc: failed to change power mode, UPMCRS=0x%x
+UFS device %s %s version %u.%u
+FAILfailed to provision UFS password
+kcmdline: %s
+INFOramdump encryption disable cancelled
+ androidboot.ramdump=%s
+FAILfailed to disable faceauth_eval %d
+is-logical:
+androidboot.veritymode=
+failed to allocate memory for modem header
+sota: failed to disable nfc wake %d
+FAILsota: failed to disable sota %d
+INFOoem trusty runtest <test-port-name> [pin_cpu <cpu_id>]
+ufdt_overlay_get_target
+FAILTUSCANY_DEBUG_DISABLE_MP should be set: %d, %d
+bootargs
+Ramdisk copy error no memory left
+boottime_metrics_extra size isn't enough, nchars: %d, buffer size: %zu
+metrics-test enabled
+AVB_SLOT_VERIFY_FLAGS_NO_VBMETA_PARTITION was passed but the validate_public_key_for_partition() operation isn't implemented.
+FAILfailed to get GSC AVB state %d
+(unlockable)
+Bootloader Rev.: 
+Bootloader Revs: 
+INFOufs_zufs [enable|disable]
+com.android.trusty.keymaster
+gsc_gsa_rescue_enter
+hdr->magic          : %08x (Dauntless)
+reboot,master_dc,reset
+reboot,gsa,hard
+BL2 Force Early Reboot
+%s(c0 psci:0x%x)
+--- ABL BACKTRACE ---
+failed to allocate memory for sec cpus stack
+Last AVB: avb_ret=%s
+Fastboot/Power1080.bmp
+Fastboot/RedWarning1080.bmp
+%sReboot reason: 0x%x - %s
+enable
+INFO  oem etm2dram [%s|%s]
+failed to get current slot %d
+boot failure
+sota: failed to get sota csku signature ret=%d
+FAILsize (%zu) less han boot header size
+dtbo image too big (%zu) to save
+failed to disable buck meter %d
+failed to write bRefClkFreq attr %d
+ufshc_notify done
+dExtUFSFeaturesSupport  0x%x
+INFOmultiple error history buffers available. Please specify one:
+FAILfailed to obtain ufs error history
+INFO    param_5: [<disable Dcache>]
+FAILfailed to query current slot %d
+FAILfailed to disable force-fastboot %d
+INFOramdump encryption disabled already
+INFOdisable-charge:%d
+version-bootloader
+abl_log_hist_reserved
+FAILfailed to handle uart virt-enable command with error %d
+INFOoem uart virt-enable [selection]
+image (%s): rejected, invalid magic
+--- PBL LOG END ---
+GSA_SSS_SYSRESETREQ
+FAILchange gsa default public key fail, ret = %d 
+%s already called by BOOTLOADER
+liblpc: LpcZalloc() failed: LpcLogicalPartition
+FAILfailed to fuse cm_provision_enable 0x%x, %s
+check gsa fuse failed fuse_res=0x%x
+INFOoem avf-mode disable
+unsupported boot image version %u
+ramdisk copy
+ androidboot.dtbo_idx=%zu
+ androidboot.user_preferred_resolution=%s
+failed to delete kcmdline_test flag (%d)
+androidboot.console
+no avf VM DTBO, because nothing matches with the platform id nor product id
+Mismatch between image version and libavb version.
+The bootloader is unlocked and software integrity cannot be guaranteed. Any data stored on the device may be available to attackers. Do not store any sensitive data on the device.
+Recovery Mode
+FAILerror no memory
+dump_table
+INFOoem boottime get_mean
+INFOinvalid partition table name
+memory alloc error
+sec_dram
+reboot,sys_ldo_ok,pmic,sub
+GSA Soft Watchdog
+%sGSA_RESET_STATUS: 0x%x
+BL1 requested
+[GSA] 
+etm2dram-disable
+index < MMU_USER_PAGE_TABLE_ENTRIES_TOP
+force-fastboot
+ABL start time (METRICS_BL3): %llums
+disabling TCPC interrupts
+INFOno ufs error history available
+enable Dcache
+FAILfailed to verify the boot images %d
+FIQ_EL2
+FAILfailed to disable ramdump compression
+FAILvariable (%s) not found
+android/lib/pixel/avb/avb.c
+enable-verity
+bl31_crash1.lst
+Invalid bl31 log region: bypass
+INFOenabled %u
+INFOap_ar_update_disabled = %d
+MTE cmdline override ON
+FAILsota: failed to enable sota %d
+INFOsota: disabled(%d, %d)
+failed to add secure page table region (addr: 0x%lx, size: %zx) to NS mem exclusion list
+%s:repeat %u: burst %u: msgsize %u: variable %s
+DSI Master clock isn't disabled.
+is_compatible is not defined!
+could not get slot data for B
+failed to read fastboot avf boot mode %d, mode: %d
+Ramdisk load size with padding: %zu
+ androidboot.secure_boot=%s
+ro.boot.hardware.cpu.pagesize=%u
+BOOTCONFIG_MAX_SIZE isn't enough
+failed to uncompress lz4 kernel %d
+boottime: %llu
+FAILmetrics-test [enable|disable]
+: Error verifying vbmeta image: unsupported AVB version
+ufsfwupdate
+INFOinvalid packed magic
+Bootloader version: 
+android/external/lib/trusty/ql-tipc/ipc.c
+%s: failed to get shared memory attributes
+android/external/lib/trusty/ql-tipc/arch/arm/trusty_mem.c
+FAILBlocking due to AVB device is locked
+INFOufs firmware: copy %s
+ sysrq_always_enabled
+reboot,master_dc,fault_n
+reboot,fastboot
+ESR_EL1=0x%08llx 
+Recovery
+vendor_boot
+Setting the LK entry time (METRICS_BL3) to %u msecs
+GSA2ALIVE_HARD_RESET
+[ETM2DRAM] 
+bBootLunID                  0x%x
+FDT_ERR_BADPATH
+failed to create memory pool for partition backup library
+INFOramdump compression disabled
+failed to allocate memory for encryption buffer
+invalid bcp num blocks available
+BLK_CHAIN_HEADER_MAGIC:
+Invalid handle MAGIC provided
+avb slot data invalid
+bl31_crash4.lst
+FAILfailed to handle uart enable command with error %d
+dtb version %d
+INFObootloader_imgs_secureboot_disabled = %d
+There are only %d cpus available
+variable
+GSA Breadcrumb:
+GSA_SSS_SWDT_HOST_nRSTOUT2
+INFOoem dbgc uart-console [enable|disable]
+_ufdt_get_property_nameoff
+disabletuscanydebug
+failed to update bootloader rollback indexes %d
+abl time: %llu
+failed to add boottime entry: branch_name = %s, build_number = %u, boottime = %llu
+[PKVM_FDT] 
+AVB0
+: Error verifying vbmeta image: 
+: Chain partition has invalid rollback_index_location field.
+$(AVB_
+FAILGSA run crypto test cmd failed (%d)
+INFOoem gsa load_app
+failed to get GSA anti-rollback counters %d
+failed to encode avb_GetLockRequest
+failed to decode SetBootStateResponse
+Restart Bootloader
+FastBoot Mode
+%s: failed (%d) to shutdown Trusty IPC device
+Trusty hwbcc init failed.
+gsa-key-provision
+INFOWARNING: Recommend to wipe userdata by fastboot -w after GSC rescue complete!
+%s:%d: failed to grow kernel heap by 0x%zx bytes
+INFOrecent: %u, branch_name_hash: %u, build_number: %u, boottime: %llu
+INFObuild_number: %u, boottime: %llu
+reboot,warm
+Reboot/Boot to fastbootd
+reboot,recovery
+Reboot/Boot to ROM Recovery
+%saosp kernel version: %s
+boot_diary_init
+SCAN2DRAM_SCANDUMP_REQ_NOCL0
+SCAN2DRAM_SCANDUMP_REQ_NOCL2AB
+force ABL into fastboot
+boot-cmd-fastboot
+failed to read dtb from stored boot.img %d
+ enabled
+UFS device total size %llu
+insufficient buffer space in fastboot_print
+USB disconnect event
+FAILerror removing bpst_enabled(%d)
+build info set by ABL %s
+FAILfailed to enable ramdump compression
+ androidboot.ramdump.usb=enabled
+Memory allocation failed
+fastboot
+[ABLHIST] 
+trusty_km_init failed
+FAILfailed to clear dm-verity error flag %d
+virt-enable
+INFOgsa_ar_update_disabled = %d
+failed to set prop memory reg base or size %d
+could not get slot data for inactive slot
+kcmdline-test enabled
+console is enabled (%un8)
+invalid bootconfig block
+ androidboot.boottime=0BLE:%llu,1BLL:%llu,1BLE:%llu,2BLL:%llu,2BLE:%llu,3BLL:%llu,3BLE:%llu,SW:%llu,KL:%llu,KD:%llu,ODT:%llu,AVB:%llu,FWL:%llu
+failed on libfdt while constructing VM reference DT, error:%s
+android/external/lib/avb/libavb/avb_chain_partition_descriptor.c
+android/external/lib/avb/libavb/avb_descriptor.c
+: chained vbmeta image has non-zero flags
+PARTUUID=$(ANDROID_VBMETA_PARTUUID)
+INFOoem gsa version
+INFOoem gsa trace <dump|ping>
+gsa-fw-ar
+failed to encode avb_SetOwnerLockRequest
+failed to encode avb_LoadRequest
+Lock the bootloader
+Boot slot: 
+Verify signature error: %d
+Signature matches.
+bBootEnable
+fb_ptable_init
+--- GSA LOG ---
+recovery
+/reserved-memory/debug_snapshot/log_kevents
+dm-verity device corrupted
+Regulator failure. Recovery failed
+ufs2
+ufs3
+Rebooting in 5 seconds, press 'c' to cancel: 5
+SCAN2DRAM_SCANDUMP_REQ_NOCL2AA
+etm2dram.bin
+boot voltage threshold=%umV
+staging dtbo image
+ufs erase only supports offset/len block aligned
+[UFS] 
+INFOoem ufs desc <device|config|unit|string|geometry|health|intc> [index]
+FDT_ERR_EXISTS
+FAILforce-fastboot [on|off]
+unexpected vendor kernel version: %s
+INFOramdump compression [enable|disable]
+FAILfailed to disable ramdump %d
+failed to allocate memory for AES blob
+ androidboot.ramdump_2mb_blocks=true
+image (%s): rollback version %u is smaller than %u, rejected
+failed to create avb_preload_task
+INFOoem dpm verify-image (use fastboot stage <file> before)
+blocked_read_test: expected TRUSTY_ERR_CHANNEL_CLOSED: %zu
+INFOoem dbgc sjtag-gsa [cmd]
+Unhandled ufshc_event %#x
+Panel override for dsim%d: disable
+ufdt_install_blob
+Unable to resolve target for %s
+SMC otp_get_cm_status failed, ret=%lx
+boottrace
+boottrace-enabled
+fastboot.boottrace
+unable to allocate memory
+boot_metrics_test size isn't enough, bmidx:%zu, buffer size: %zu
+android/lib/android/trusty/mgmt.c
+: Invalid vbmeta size in footer.
+Boot image location and length mismatch.
+androidboot.vbmeta.device
+gsa-dicepubkey
+FAILGSA authenticate image cmd failed (%d)
+FAILGSA run trace dump cmd failed (%d)
+Bootloader vers: 
+Secure-Boot: 
+DRAM: 
+FAILfailed to enable ufs_provision
+android/external/lib/trusty/ql-tipc/secretkeeper.c
+trusty_ipc_dev_connect
+trusty_ipc_dev_send_raw
+selected trusty api version: %u (requested %u)
+[GSA_LOG] 
+watchdog,apc,gsa,crashed
+Core stat at previous(KERNEL)
+abl.log
+usbuwb
+ufs7
+com.android.build.boot.fingerprint
+running on DRAM by trace32: skip load_secure_payload
+int arm64_mmu_map_pt(vaddr_t, vaddr_t, paddr_t, size_t, pte_t, uint, uint, pte_t *, uint)
+staging dtb image
+staging vendor kernel boot image
+device does not support UFS purge
+entering ufs vendor mode failed: val %x
+ufshc_read_buffer failed
+Disabling auto discharge failed. ret: %d
+INFO    param_7: [<Memory DVFS level>]
+FAILerror setting bpst_enabled value(%d)
+vendor magic_number must be 0x%08x but 0x%08x
+magic_number must be 0x%08x but 0x%08x
+FAILfailed to enable ramdump encryption
+ramdump_usb_thread
+FAILfailed to write data to usb %d
+locked
+error calling avb_slot_verify %d
+failed to set boot_done for otp_mgr:%d
+[BL31] 
+invalid bl31 log region
+[FDT] 
+silentota enabled
+silentota disabled
+--- PBL LOG ---
+Unable to allocate curve.
+zuma_ufs_device_init_done
+logicalnot
+liblpc: API error: table->api_check != LPC_PARTITION_TABLE_CHECK
+liblpc: API error: slot
+liblpc: invalid metadata: !LPC_IS_SECTOR_SIZE_MULTIPLE(geometry->logical_block_size)
+liblpc: invalid metadata: header->tables_checksum
+No node __symbols__ in main dtb.
+boot_diary_thread_init_early
+ androidboot.hypervisor.protected_vm.supported=0
+failed to reset misc avf boot mode
+bad vendor boot image
+bad init_boot ramdisk or size
+ androidboot.hardware.cpu.pagesize=%u
+ androidboot.serialconsole=0
+#BOOTCONFIG
+Error: empty or corrupted eagleEye bootloader message.
+malloc(%u) failed for dtb
+failed to read fastboot avf boot mode %d %d
+android/external/lib/avb/libavb/avb_cmdline.c
+INFOoem gsa ar
+FastBoot mode
+%s: %d: set_boot_done failed - %s(%d).
+INFOAVB device lock = %u
+secure dram base 0x%lx, size 0x%zx
+APC Watchdog PBL Crashed
+early bl2, wipe NS memory and reboot
+%s:%d: page table entry already in use, index 0x%lx, 0x%llx
+fastboot enter reason: %s
+Both slots (A and B) are invalid
+ramdump_usb
+failed to disable protection %d
+ufshc_copy_firmware
+Temp too high enabled
+[thread: %u, core: %u, round: %u] %s: Unable to map PA %p to VA: %d
+FDT_ERR_BADVERSION
+FAILfailed to reset fastboot oem setting (full)%d
+unable to append bl_log
+failed to allocate memory for rmw buffer
+ androidboot.ramdump.compression=%s
+fastboot_signature_validation
+failed to call clear rollback index %d %d
+[BL31_DRAM] 
+FAILno staged data, use fastboot stage <file>
+android/lib/trusty/tipc-test.c
+blocked_read_test
+GSA_CA32_WARMRSTREQ
+liblpc: invalid metadata: overlapping tables or gaps
+Not enough space for string table.
+INFOgsa_fuse_res: 0x%x
+com.android.trusty.otp_manager.tidl
+slot data b: 0x%08x
+slot-count
+slot-suffixes
+current-slot
+antirollback_init
+invalid boot magic
+user kcmdline: %s
+Error: ramdump_message in earlyEye bootloader message too long
+boot_metrics_test size isn't enough, bmidx: %zu, buffer size: %zu
+Trusty device should be initialized before connecting to keymint.
+: Too many vbmeta images.
+androidboot.vbmeta.hash_alg
+androidboot.vbmeta.digest
+Failed to acquire GSA wakelock (%d)
+FAILGSA get dice chain failed (%d)
+INFOoem gsa log [id]
+FAILfailed to get gsc avb lock %d
+failed to encode SetBootStateRequest
+fastboot get_staged <region>
+com.android.trusty.hwbcc
+android/external/lib/trusty/ql-tipc/hwbcc.c
+trusty_ipc_dev_send
+reboot,rom_recovery
+Locked
+S2D GPR parsing disabled through setting - using DumpReg instead
+Fastboot/OrangeWarning1080.bmp
+Normal Boot
+/reserved-memory/log_bcm:/reserved-memory/debug_snapshot/log_bcm
+Page Domain Fault, used only for faults reported in the PAR_EL1
+lk/arch/arm64/mmu.c
+other slot boot ok, mark other slot as active and reboot
+FAILCannot boot in USB ramdump mode
+kcmdline
+INFOoem cmdline show
+failed to enable meter %d
+failed to enable buck meter meter: %d
+Unable to map PA %p to VA: %d
+Thread: %u worker started successfully on core %u testing DRAM partition starting at physical address 0x%llx with length 0x%x for %u rounds.
+Unable to allocate ctx
+trusty_init failed
+error calling gsc_keymaster_set_boot_state %d
+preload_image: could not find free preload image slot
+bl31_crash0.lst
+INFOGet spi trace enable: %d
+Unable to allocate sig object
+liblpc: invalid metadata: table extends past header->tables_size
+ufdt_node_pool_free
+cm_provision_enable
+FAILfailed to disable tuscany debug 0x%x, %s
+otp_fuse_platinfo smc call failed, ret=%x
+no active slot fallback to boot slot
+slot-successful:
+slot_suffix
+failed to set bootargs %d
+WXN has been disabled.
+FAILdtbdump [enable|disable]
+INFO"fastboot oem dmesg"
+INFOrecovery: %s
+INFOoem pkvm enable
+Error writing to avb.managed_verity_mode.
+Failed to release GSA wakelock (%d)
+FAILGSA run ping cmd failed (%d)
+INFOoem gsa runtest <test-port-name>
+failed to encode avb_SetDeviceLockRequest
+Bootloader revision: 
+USB RAMDUMP Mode
+Skipping %s image on %s UFS device. ZUFS provisioning is %s
+boottime
+reboot,longkey,master_dc
+Disabled
+Regulator HW failure. IC recovery failed
+avb_verify_error_parts
+tzsw
+gsa_bl1
+ Unexpected maximum(%d) of boot metrics header
+failed to update rollback indexes %d
+ramdump2usb is disabled: secure device
+invalid stored boot magic
+unable to update boot image: use unmerged
+ZUFS supported
+failed to allocate memory
+Enabling bleed discharge failed. ret: %d
+FDT_ERR_BADOFFSET
+FDT_ERR_INTERNAL
+kcmdline buffer has no space left for '%s'. Current index: %zu, Max size: %d
+INFOramdump disabled
+FAILfailed to enable ramdump sha256 dump
+failed to allocate memory %d
+logical-block-size
+avb.managed_verity_mode
+--- BL31 LOG END ---
+INFOfailed to enable uart with error = %d
++kernel_once
+ampersand
+Cannot find property name in string table: %s
+boot_diary_target_early_init
+could not get slot data for active slot
+fastboot_ab_init
+ androidboot.hypervisor.protected_vm.supported=1
+android boot blocker is detected, %s
+console is disabled
+FAILkcmdline-test [enable|disable]
+Error: log_entry in earlyEye bootloader message too long
+FAILfailed to read bcd recovery %d
+insufficient max size for padding before VM DTBO
+Unable to init ramoops cipher ctx
+INFOoem gsa wakelock acquire
+INFOoem gsa get_dice_chain
+failed to encode avb_ResetRequest
+If you lock the bootloader you will not be able to install custom operating system software on this device.
+To prevent unauthorized access to your personal data, locking the bootloader will also delete all personal data on your device.
+Bootloader Ver: 
+: Reboot after finishing
+ ufs_exynos_core.use_kdn=0 ufs_exynos_gs.use_kdn=0 androidboot.fstab_suffix=%s-fips
+INFOfailed to read bBootLunEn attr %d
+INFOfailed to provision ufs
+FAILunable to read fuse
+%s: %d: disable_tuscany_debug failed - %s(%d).
+reboot,uvlo,pmic,main
+Regulator HW failure? - no IC recovery
+S2D Magic Detected - s2d validity check passed.
+Fastboot/YellowWarning1080.bmp
+boot slot: %s
+reboot bootloader
+Synchronous External abort, on translation table walk, level 0
+sota: failed to verify signature.
+failed to add subnode in reserved_memory (%d)
+INFOramdump encryption disabled
+avb_preload_task
+fail to get AVB_LOCK_CARRIER state (%d)
+/fragment@0/__overlay__/abl
+INFOSignature      - INVALID, GSA error %d
+/memory@%llx
+sota: failed to enable nfc wake %d
+failed to add secure memory region to NS mem exclusion list
+Invalid pbl log reserved region: bypass
+INFOsignature validation:%s
+failed to add zuma UFSHC device %d
+zuma_ufs_pre_link_startup
+Check DPHY values about HS clk.
+liblpc: LpcZalloc() failed: LpcPartitionTable
+liblpc: LpcZalloc() failed: tables
+Failed to dump the device tree to out_fdt_header
+INFOgsa otp config error: 0x%x
+FAILTUSCANY_DEBUG_DISABLE should be set: %d, %d
+slot data a: 0x%08x
+using vendor_kernel_boot ramdisk
+vendor kernel ramdisk copy
+vendor ramdisk copy
+failed to set ramdisk start address %d
+cmdline(full):
+Starting Linux kernel ...
+ androidboot.cdt_hwid=0x%08x%08x%08x%08x
+INFOdtbdump %s
+FAILfailed to enable dtbdump %d
+android/external/lib/avb/libavb/avb_slot_verify.c
+INFOfailed to flash partition tables %d
+Press power key to reboot.
+Using %s image on %s UFS device. ZUFS provisioning is %s
+INFOfips [enable|disable]
+trusty_ipc_poll_for_event
+android/external/lib/trusty/ql-tipc/keymaster.c
+gsc rw_a prefix is not found
+INFOGSA-GSC secure link state is %d
+INFOoem boottime find_entry [branch name]
+INFOufs firmware: no image provided
+Reboot/Boot to Factory Mode
+%s: unable to find the reset pin
+failed to get bl2_force_early_reboot
+Long Press Power Key Reboot (MASTER DISCONNECT)
+PSCI Breadcrumbs(v%u.%u):
+Last AVB: avb_veritymode=%s
+master disconnect, wipe NS memory and %s
+memory
+SCAN2DRAM_SCANDUMP_REQ_AOC
+INFO  oem watchdog [enable|disable]
+lk/top/init.c
+welcome to lk/MP
+failed to wipe sota csku signature ret=%d
+FAILfailed to allocate memory for kernel cmdline
+fastboot_flash_boot
+failed to resume ufs for shutdown
+%s: ffu memory alloc error!!!
+UFS device found
+FAILdisable-usb-debugging [reset|show]
+kcmdline buffer has no space left. Current index: %zu, Max size: %d
+Invalid kall_info memory to set build id 
+disable-with-wipe
+FAILfailed to disable ramdump encryption
+INFOramdump encryption [enable|disable]
+FAILfaceauth-eval [enable|disable]
+dbg_mem_enable
+invalid avb context
+bl31_crash6.lst
+Invalid UFS Manufacturer ID (%u), please add it if it is valid
+fastboot_devinfo_validation
+FAILavailable cpus numbered from 0 to %d
+ACPM DUMP GPR - AVAILABLE
+failed to initialize USB phy %d
+%s:%d undefined blending mode
+dsim%d is already enabled in bootloader
+sfnt-table
+[dwc3_dptx] Fail usbdp phy init(Not check cal done)
+failed to reset fastboot avf boot mode
+invalid boot.img size
+invalid soc dtb
+ androidboot.bootloader=%s
+failed to find /chosen in FDT
+INFOoem bcd upload recovery
+INFO"fastboot get_staged metrics-test.bin" or 
+Failed to initialize trusty tidl runtime: %d
+Trusty device should be initialized before connecting to secretkeeper.
+Unbalanced GSA wakelock refcounter
+INFOGSA BL1 anti-rollback counter: %d
+failed to encode avb_GetOwnerKeyRequest
+INFOoem gsc avb lock <index> [val]
+Bootloader rev.: 
+UFS: 
+We now have enough logs to resolve this issue. If you would still like to upload a ramdump, press power key to resume ramdump within 15 seconds, otherwise the device will reboot. 
+bLUEnable
+trusty_ipc_dev_create
+INFOoem boottime lookup_by_branch_name [branch name]
+INFOoem boottime hash [string]
+[BOOT] 
+reboot,tsd,pmic,main
+reboot,ocp,%s%s
+Long Press Power Key Reboot
+Long Press Power Key Reboot (PMIC COLD)
+avb_verify_ret
+Last AVB: avb_error_parts=%s
+reboot-bl1rec
+reboot-rom
+google,etm2dram
+bcm_rmem-enable
+%s:%d: page table is NULL
+%s:%d: failed to allocate page table
+failed to display avb flashing lock menu %d
+arm_gic_suspend_cpu
+disabled
+Enabled LUNs found %u
+failed to allocate memory for the UTR slots
+timeout waiting for for xfer slot, packet discarded!
+FDT_ERR_BADLAYOUT
+INFOforce-fastboot %s
+FAILfailed to enable force-fastboot %d
+Unable to update flood entry skip in misc. Error code: %d
+FAILoem command (%s) is not allowed when locked
+fastboot_avb
+FAILnot valid vbmeta partition found
+INFOSet spi trace enable: %d
+The CLK lane doesn't be switched to LP mode
+ufdt_prop_dict: failed to find new index when adding.
+ androidboot.hypervisor.version=kvm.arm-nvhe
+bad kernel address or size
+adding boottime entry: branch_name = %s, build_number = %u, boottime = %llu
+Unexpected number of bytes read from avb.managed_verity_mode.
+android/external/lib/avb/libavb/avb_vbmeta_image.c
+androidboot.vbmeta.invalidate_on_error
+Ufs: 
+bBootLunID
+bLogicalBlockSize
+ufs_zufs
+unsupported trusty api version %u > %u
+boot_done_client
+gsc_gsa_rescue_leave
+Boot Time table is corrupted (magic value is 0x%x, expected 0x%x). Resetting table.
+failed to clear bl2_force_early_reboot
+bl31
+Fastboot/VolumeUp1440.bmp
+init_boot
+dtbo
+APC Bootmetrics:
+etm2dram
+fdt_delprop('%s') failed: %s
+Synchronous External abort, on translation table walk, level 3
+FAILfailed to query current slot
+failed to disable hs mode %d
+Invalid usb speed %u
+Invalid PGTABLE_LEVELS(%d), set default %d
+SGI_EL2
+INFOramdump encryption enabled
+Invalid header magic
+abl@%x
+ablhist.lst
+INFOavb custom key: no image provided
+liblpc: unable to open partition
+MTE bootloader and Android state mismatch: %d != %d
+sota: failed to enable device flag %d
+INFO  - "panel none" cmd uses emul on DSIM0 and disables DSIM1
+FAILError command, usage: oem fuse cm_provision_enable [commit]
+ androidboot.hypervisor.version=kvm.arm-protected
+ androidboot.ddr_info=%s androidboot.ddr_size=%zuGiB androidboot.hardware.ddr=%zuGiB,%s,%s,%04x
+FAILfailed to get kcmdline-test status %d
+INFOoem pkvm disable
+: Kernel cmdline descriptor is invalid.
+androidboot.vbmeta.public_key_digest
+failed to encode avb_SetBootLockRequest
+avb_menu_delay_orange
+Boot-slot: 
+failed to retrieve fips partition for ufs fips module
+Error: unable to read fuse
+com.android.trusty.secretkeeper.bootloader
+%s: failed to allocate shared memory
+trusty_std_call32
+/reserved-memory/debug_snapshot/log_itmon
+watchdog,apc,pbl,crashed
+       ||/- IRQ        - O:enabled X:disabled _:n/a
+bootmode
+Set EUSB Ref clock auto
+Synchronous External abort, on translation table walk, level 1
+decrement active slot boot retry & force ABL into fastboot
+ufs%d
+dOptimalLogicalBlockSize        0x%x
+qLogicalBlockCount          0x%llx
+FAILno UFS device present
+FAILfailed to get force-fastboot status %d
+failed to allocate memory for saving %s partition
+INFO  !!! encryption disable triggers device factory reset !!!
+bcp magic:                 %08x
+INFOimage (%s): rejected, anti-rollback
+FAILcommand (%s) is not allowed when locked
+abldmp.lst
+%s androidboot.verifiedbootstate=%s
+INFOoem uart virt-disable [selection]
+dbgc-uart-console-disable
+failed to merge dtb and device dtbo
+ androidboot.force_normal_boot=1
+ androidboot.hw.soc.nonsec-ar=%u
+dtbdump enabled
+off-mode-charge is not enabled
+INFOoem bcd wipe <command|status|recovery|stage>
+FAILfailed to enable metrics-test %d
+no /reserved-memory found %d
+Failed to create trusty ipc device: %d
+Signature length does not match key length.
+$(ANDROID_VERITY_MODE)
+GSA wakelock refcounter is too high (%u)
+FAILGSA runtest failed (%d)
+GSC AVB app error 0x%x
+error deconding app_avb_GetResetChallengeResponse
+[GSC-AVB] 
+AVB:read_bytes bytes left (%zu) bigger than bytes buffer (%zu)
+UART: enabled %u
+Boot Slot: 
+INFO%sabled
+bRPMBRegionEnable
+INFOalready enabled
+trusty_ipc_dev_recv_raw
+Signature1
+reboot,bootloader
+[EUSB] 
+boot to OS in POR status
+Bootloader
+failed to change bBootLunEn %d
+bootonce-bootloader
+boot-rescue
+failed to get boot slot %d
+boot_a
+FAILfailed to set kcmdline env value
+INFOoem cmdline del <cmdline>
+staging vendor boot image
+ufshc_get_device_desc failed %d
+Enabling auto discharge failed. ret: %d
+FAILunable to get slot info
+INFO%s [enable|disable]
+failed to allocate memory for sha256 buffer
+invalid bcp magic = %08X
+unlocked
+boot_state: %06d:%04d:%04d
+FAILfailed to write to vbmeta partition %d
+INFO %s	 enabled = %u	 virt-enabled = %d	 baudrate = %u
+trusty_init failed (%d).
+Unable to allocate ec point.
+Unable to load signature
+malloc(%lu) failed for bootconfig padding
+INFO"fastboot get_staged kcmdline-test.bin" or 
+insufficient max size for VM DTBO, VM DTBO size=%zu, max_size=%zu
+Magic is incorrect.
+AVBf
+Invalid tag for kernel cmdline descriptor.
+Requested partitions cannot be empty when using AVB_SLOT_VERIFY_FLAGS_NO_VBMETA_PARTITION
+SIGNATURE_MISMATCH
+androidboot.vbmeta.device_state
+FAILGSA wakelock acquire failed (%d)
+INFOGSC AVB state:
+Bootloader Vers: 
+Boot-Slot: 
+This will take up to 5 minutes and you will be prompted to upload it once your device boots into Android.
+Double tap <VOL_UP> and <VOL_DOWN> to skip ramdump and continue booting.
+skip writing bBootLunEn
+failed to enable new image %d
+gsc ro_b prefix is not found
+INFOmean_boottime: %llu
+Boot/Splash1440.bmp
+reboot,memory_protect,hyp
+reboot,uvlo,pmic,sub
+GSA2ALIVE_SOFT_RESET
+usb boot: skip load_secure_payload
+Synchronous External abort, not on translation table walk
+Section Domain Fault, used only for faults reported in the PAR_EL1
+status_t arch_mmu_query(arch_aspace_t *, vaddr_t, paddr_t *, uint *)
+pte_t *arm64_mmu_get_page_table(vaddr_t, uint, pte_t *)
+fail to get boot image version(%d)
+force-fastboot is on
+ramdump is disabled... rebooting
+INFOkcmdline is already empty
+INFOunable to update boot image: use unmerged...
+storage-ufs-provisioning
+enabled
+avb:
+[ABLDMP] 
+INFOavb custom key: flash %s
+--- BL31 LOG ---
+INFOoem uart enable [selection] [loglevel]
+INFOsilentota disabled
+blocked_read
+ACPM GPR DUMP - NOT AVAILABLE
+GSA_SWRESET
+INFO gsa-sjtag authentication pass 
+UFS EVT version %x
+dsim%d wait phy pll stable
+INFO<config>: [dsim0:|dsim1:]<panel name>|default|disable
+boot_diary_arch_early_init
+boot_diary_welcome_to_lk
+INFOcm_provision_enable info:
+slot-retry-count:
+failed to merge dtb and dtbo
+ bootconfig
+failed to pack fdt %d
+dtbdump
+fail to update boot metrics to bootconfig (%d)
+[DTBO] 
+bad header for dtb
+boottime_metrics size isn't enough, nchars: %d, buffer size: %zu
+$(ANDROID_BOOT_PARTUUID)
+fail to add gsa_sram_key.lst to ramdump sub-file, %d
+INFOBootloader state: %u
+error calling KEYMASTER_PARAM_BOOT_STATE 0x%x
+fastboot oem ramdump stage_file <region>
+fastboot reboot
+FAILfailed to disable ufs zufs
+trusty_ipc_recv
+%s: %d: trusty::aidl::ipc::connect ERROR: device not initialised.
+gsc rw_b prefix is not found
+INFOoem boottime dump_table
+/reserved-memory/debug_snapshot/log_s2d_extract
+ androidboot.hw.soc.id=%012llx
+Boot/Splash1080.bmp
+reboot,emergency
+shutdown,regulator,hw,ic,recovery,failed
+reboot,dm-verity_device_corrupted
+Memory Protect Hypervisor
+ESR_EL1=N/A        
+abl_last.log
+ufs5
+vbmeta_system
+SCAN2DRAM_CTI_CSSYS
+INFOoem cmdline add <cmdline>
+failed to enable HR mode count %d
+bLogicalBlockSize       0x%x
+bLUEnable                   0x%x
+zufs_zone_divisor
+ep0 cannot be disabled
+failed to set refclk input %d
+FDT_ERR_BADNCELLS
+INFOPlease disconnect usb cable to allow shutdown
+INFOramdump sha256_dump [enable|disable]
+INFOramdump enabled
+sha256_dump
+failed to allocate memory for blocks
+files.sha256
+FAILfailed to set disable-charge status %d
+FAILfailed to read from vbmeta partition %d
+bl31_crash3.lst
+bl31_log_init
++kernel
+FIXME: enable CONFIG_TARGET_DVFS_SUPPORT
+liblpc: invalid metadata: header->magic != LP_METADATA_HEADER_MAGIC
+INFOoem fuse cm_provision_enable [commit]
+failed to read fastboot avf boot mode %d
+failed to set boot args, boot mode can not be AVF_BOOT_MODE_AUTO
+fail to clean disable-usb-debugging
+kcmdline-test
+kernel: total_time:%llu
+malloc(%zu) failed for dtb
+failed to set property into target fdt, error:%s
+Invalid rollback index location value.
+Unknown AvbVBMetaVerifyResult value.
+FAILGSA get anti-rollback failed (%d)
+FAILfailed to write rollback index %d
+no new changes in provisioning data, skipping ufs provisioning
+bMemoryType
+trusty_ipc_dev_recv
+error calling NUGGET_PARAM_ENABLE_UPDATE 0x%x
+ androidboot.bootdevice=%lx.ufs
+ androidboot.hw.soc.rev=%u
+reboot,early,bl2
+watchdog,gsa,hard
+reboot,sys_ldo_ok,pmic,main
+Regular Reboot/Boot
+ androidboot.primary_panel_drv=panel-%s exynos_drm.panel_name=%s
+Scan done but no magic found
+failed to clean force_dram_training
+Safe Kernel PANIC
+Fastboot/RedWarning1440.bmp
+boot args 0x%lx 0x%lx 0x%lx 0x%lx
+bootstrap2
+failed to enabled charger %d
+dtb image to big (%zu) to save
+arm_gic_init_percpu
+ufshc_read_attr bBootLunEn, failed %d
+ZUFS
+FDT_ERR_BADVALUE
+bootstrap
+INFOsha256 dump %s
+failed to allocate memory for compress buffer
+Not enough capacity to perform ramdump. Needed: %lu Available: %lu
+total size of partitions exceeds available capacity by %llu blocks
+INFOSBDP chip-id   - unable to verify, error %d
+failed to add memory entry @@%llx, size %u
+trusty_tests_runner...
+gsa_resp = 0x%x 
+liblpc: API error: table->hold < 1
+ufdt_node_add_child
+invalid dtb image
+failed to update cmdline %d
+ramdisk dst addr: %p src addr: %p size: 0x%zx(%zu)
+INFOkcmdline-test %s
+FAILfailed to enable kcmdline-test %d
+failed to get microdroid vendor hashtree digest from avb property, skip appending value
+android/external/lib/avb/libavb/avb_rsa.c
+INFOoem gsc avb rb <slot> [val]
+The device will not boot.
+If you unlock the bootloader, you will be able to install custom operating system software on this device. A custom OS is not subject to the same level of testing as the original OS, and can cause your device and installed applications to stop working properly.
+Software integrity cannot be guaranteed with a custom OS, so any data stored on the device while the bootloader is unlocked may be at risk. To prevent unauthorized access to your personal data, unlocking the bootloader will also delete all personal data on your device.
+Fastboot mode
+INFOufshc not found
+ufshc_reset failed (%d)
+INFOoem boottime lookup_by_build_number [build number]
+Boot/SplashDark1080.bmp
+invalid secure dram region
+shutdown,regulator,recovery,failed
+Forced Reboot(S/W Reboot)
+Fastboot/VolumeDown1080.bmp
+ufs1
+secondarybootstrap2
+board_get_sota_enabled failed %d. Will not update NFC shipmode.
+failed to get sota enabled ret=%d
+GICv3 not found
+INFOoem ufs purge
+INFODont forget to adb shell echo 0 > /proc/sys/kernel/printk
+FAILfailed to enable-on-wipe, %d
+PCSR iteration magic is invalid: %02x%02x%02x
+failed to allocate memory for linux debug
+/reserved-memory
+ androidboot.init_fatal_panic=true
+FAILerror getting device locked state %d
+ androidboot.verifyerrorpart=
+INFOdm-verity error flag not found
+INFOavb custom key: erase %s
+INFOoem uart disable [selection]
+INFO[loglevel]      - Linux kernel log level, only valid for apc
+disabled (reason: missing PD)
+sota: failed to disable device flag %d
+pbl_log_reserved
+Second initialization of Trusty dev
+GSA_WDTRESET
+FAILstaged pubkey incorrect,use fastboot stage <pubkey file>
+liblpc: invalid metadata: gap after tables
+_ufdt_output_property_to_fdt
+ufdt_prop_dict_add
+otp_fuse_platinfo smc call failed, ret=%lx
+FAILfailed to set active slot %d
+failed to update dtb
+firstboot
+sota: failed to disable sota ret=%d
+failed to add /avf/reference/avf in fdt, error:%s
+Footer magic is incorrect.
+android/external/lib/avb/libavb/avb_kernel_cmdline_descriptor.c
+ERROR_ROLLBACK_INDEX
+: Image rollback index is less than the stored rollback index.
+: Kernel cmdline is not valid UTF-8.
+avb.persistent_digest.
+androidboot.vbmeta.size
+Bootloader rev: 
+ufs_provision
+trusty_ipc_dev_close
+%s: %d: binder_get_free_channel failed, no available channel
+magic is incorrect (0x%08x)
+gsa_log.lst
+reboot,longkey
+reboot,pin
+Reboot/Boot to Bootloader
+GSA Hard Watchdog
+Fastboot/OrangeWarning1440.bmp
+Fastboot/YellowWarning1440.bmp
+usb boot
+int arm64_mmu_map(vaddr_t, paddr_t, size_t, pte_t, vaddr_t, uint, uint, uint, pte_t *, uint)
+active slot boot ok
+decrement active slot boot retry
+ramdump2usb
+FAILinvalid args: cmdline del requires 1 arg
+cmdline
+boot_
+INFOsize (%zu) less than boot header size
+failed to disable HR mode count %d
+INFOoem ufs ahit [new_value | timer_scale timer_value]
+INFOWARNING: This enables oem factory-lock command which will
+Please disconnect usb cable to allow shutdown
+FAILfailed to  disable-on-wipe, %d
+suspend_log_item is disabled
+unable to create a dummy pram header
+unable to insert bl_prev_log
+INFOramdump disable
+INFOramdump encryption disable-with-wipe
+FAILfailed to disable ramdump sha256 dump
+bcp num_blocks_available:  %08x
+image (%s): contains testkey signature, rejected
+EFI PART
+Invalid GPT signature (0x%llx)
+--- DEBUG BOOT HISTORY ---
+abl_hist_init
+trusty_set_boot_patchlevel failed
+orange
+bl31_hdr.lst
+Failed to initialize trusty device: %d
+FAILfastboot pubkey set
+zuma_ufs_pre_power_mode_change
+[DPP%d] Undefined CSC Type!(std=%d)
+dsim%d, (rx_fifo=0x%x) Check DPHY values about HS clk.
+liblpc: invalid metadata: header->table_sizes is too large
+_ufdt_output_strtab_to_fdt
+read gsa key status mbox failed ret=%x
+kernel
+kernel image_size exceeds kernel allocation size
+DTBO match: id 0x%x, rev 0x%x
+: Error getting rollback index for location.
+Error reading from avb.managed_verity_mode.
+INFOoem gsa wakelock release
+error deconding app_avb_GetStateResponse
+Bootloader Version: 
+Bootloader Rev: 
+invalid memory type %u
+FAILfailed to disable fips mode
+%s: failed to allocate Trusty IPC device
+android/external/lib/trusty/ql-tipc/trusty_dev_common.c
+gsc flavor prefix is not found
+shutdown,regulator,hw,no,ic,recovery
+       |||/- FIQ       - O:enabled X:disabled _:n/a
+Fastboot/VolumeDown1440.bmp
+kernel.log
+log_bcm fdt '%s' not found: %s
+failed to set env recovery-user-request
+boot_b
+boot-cmd-recovery
+ufshc_read_attr bRefClkGatingWaitTime, failed %d
+bUFSFeaturesSupport     0x%x
+bLogicalBlockSize           0x%x
+Unable to retrieve cc status
+no /reserved-memory found (%d)
+INFOramdump misc information not available: %d
+out-of-memory
+INFOFirst, use fastboot stage <file.bmp>
+failed to write rollback index %d %d
+failed to create memory node (%s) %d
+INFOoem trusty version
+liblpc: invalid metadata: geometry->logical_block_size == 0
+BL31
+USB Pipe3 Initialization...
+revokegsatestkey
+INFOWARN: failed to reset slot '%s': %d
+has-slot:
+invalid SoC dtb size
+failed to decompress kernel, ret %d, kd_ret %d
+kernel: addr:%p, size:%zx
+unable to encrypt blob
+bad dtb blob size or offset
+android/external/lib/avb/libavb/avb_footer.c
+Persistent values required for AVB_HASHTREE_ERROR_MODE_MANAGED_RESTART_AND_EIO but are not implemented in given AvbOps.
+sha256
+android/lib/gsa/gsa_mbox.c
+android/lib/gsa/fb_cmds.c
+INFOoem avb_menu_delay orange [delay_seconds]
+/reserved-memory/debug_snapshot/log_array_reset
+vendor_kernel_boot
+non-ufs boot, %s skipped
+WXN has been enabled.
+booting in ramdump mode: skip load_secure_payload
+Address size fault, level 0 of translation or translation table base register
+failed to reset AVB rollback indexes %d
+FAILinvalid boot magic
+vendor_boot size %zu bigger than staging area %u
+failed to read ramdisk from stored boot.img %d
+failed to enable hs mode %d
+ufs password provision response val %x
+Write Booster: available buffer=0x%x lifetime=0x%x current buffer=0x%x
+bBootLunID              0x%x
+FDT_ERR_NOSPACE
+FAILfactory-reset [enable-on-wipe|disable-on-wipe|show]
+ androidboot.%s=%s
+OKAYinvalid reboot option
+avb value %s, is corrupted. removing...
+INFOdisabled
+FAILfailed to handle uart virt-disable command with error %d
+Is boot from NFC? %s
+Unable to allocate pubkey.
+Failed to initialize trusty ipc device: %d
+ufdt_apply_fragment
+revoke gsa root pkhash2 mbox failed ret=%x
+ androidboot.hardware.%s=%zuGB,%s
+ androidboot.theme=1
+failed to set ramdisk end address %d
+kernel allocation size is too small
+SOC DTB: index:%zu
+FAILfailed to disable metrics-test %d
+android/external/lib/avb/libavb/avb_property_descriptor.c
+Unknown AvbSlotVerifyResult value.
+Failed to allocate memory.
+gsa_sram_key.lst
+FAILLoad GSA APP cmd failed (%d)
+failed to encode avb_StoreRequest
+Do not unlock the bootloader
+Secure-boot: 
+INFOalready disabled
+FAILfailed to enable fips mode
+trusty_ipc_connect
+ufs_internal
+APBL
+BL31
+GSA1
+GSAF
+EPBL
+TZSW
+/*          No kernel logs          */
+Boot/Splash1080.bmp.lz4
+Boot/Splash1440.bmp.lz4
+Boot/SplashDark1080.bmp.lz4
+Boot/SplashDark1440.bmp.lz4
+Fastboot/OrangeWarning1080.bmp.lz4
+Fastboot/OrangeWarning1440.bmp.lz4
+Fastboot/Power1080.bmp.lz4
+Fastboot/Power1080r270.bmp.lz4
+Fastboot/Power1440.bmp.lz4
+Fastboot/RedWarning1080.bmp.lz4
+Fastboot/RedWarning1440.bmp.lz4
+Fastboot/VolumeDown1080.bmp.lz4
+Fastboot/VolumeDown1080r270.bmp.lz4
+Fastboot/VolumeDown1440.bmp.lz4
+Fastboot/VolumeUp1080.bmp.lz4
+Fastboot/VolumeUp1080r270.bmp.lz4
+Fastboot/VolumeUp1440.bmp.lz4
+Fastboot/YellowWarning1080.bmp.lz4
+Fastboot/YellowWarning1440.bmp.lz4
+-/PLk	
+DlkTse1O
+SHA256 block transform for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+,Cdtbdump
+kcmdline-test
+boottrace-enabled
+ #&),/258;>ADGJMPSVYb\\\\\\\\\\\\\icom.android.trusty.boot_done.tidl
+com.android.trusty.otp_manager.tidl
+fastboot
+WINUSB
