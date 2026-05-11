@@ -1,0 +1,243 @@
+[  415.340919] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  415.355123] google_charger: usbchg=USB typec=C usbv=4825 usbc=488 usbMv=5000 usbMc=500 usbOc=488
+[  415.360055] google_battery: MSC_DIN chg_state=1f40fde03010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4062 icl=500
+[  415.361018] google_battery: MSC_FAST vt=4350000 vb=4062656 ib=317500 fv_uv=4350000->4350000 vchrg=4062 cv_cnt=1 no_back=0
+[  415.368140] logbuffer_pcie0: [  249] L0(0x11)
+[  421.153358] type=1400 audit(1778426610.616:112): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  425.209496] google_battery: MSC_TTF: est:26844(447min), max_ratio:1891 [0:6,222,496][1:0,0,0][2:0,0,0]
+[  425.220220] healthd: battery l=66 v=4065 t=26.8 h=2 st=2 c=395937 fc=4670000 cc=639 chg=u
+[  429.098803] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  429.127172] logbuffer_pcie0: [  250] L0(0x11)
+[  431.189800] type=1400 audit(1778426620.652:113): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  433.123751] panel-google-hk3 19440000.drmdsim.0: exynos_panel_normal_mode_work
+[  434.295357] st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 6a073, ntf=0
+[  442.859356] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  442.887598] logbuffer_pcie0: [  251] L0(0x11)
+[  445.368714] google_charger: usbchg=USB typec=C usbv=4825 usbc=490 usbMv=5000 usbMc=500 usbOc=490
+[  445.372041] google_battery: MSC_DIN chg_state=1f40fe203010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4066 icl=500
+[  445.373057] google_battery: MSC_FAST vt=4350000 vb=4066718 ib=395312 fv_uv=4350000->4350000 vchrg=4066 cv_cnt=1 no_back=0
+[  450.549346] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  451.185402] type=1400 audit(1778426640.648:114): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  451.313389] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  456.622687] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  456.652448] logbuffer_pcie0: [  252] L0(0x11)
+[  461.222126] type=1400 audit(1778426650.684:115): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  463.845244] panel-google-hk3 19440000.drmdsim.0: exynos_panel_normal_mode_work
+[  470.381727] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  470.408151] logbuffer_pcie0: [  253] L0(0x11)
+[  475.383070] google_charger: usbchg=USB typec=C usbv=4825 usbc=487 usbMv=5000 usbMc=500 usbOc=487
+[  475.386905] google_battery: MSC_DIN chg_state=1f40fe303010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4067 icl=500
+[  475.388105] google_battery: MSC_FAST vt=4350000 vb=4067656 ib=402187 fv_uv=4350000->4350000 vchrg=4067 cv_cnt=1 no_back=0
+[  481.216312] type=1400 audit(1778426670.680:116): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  484.141981] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  484.170164] logbuffer_pcie0: [  254] L0(0x11)
+[  485.205584] google_battery: MSC_TTF: est:24246(404min), max_ratio:1714 [0:7,245,497][1:0,0,0][2:0,0,0]
+[  485.214977] healthd: battery l=66 v=4066 t=26.6 h=2 st=2 c=392500 fc=4670000 cc=639 chg=u
+[  491.254791] type=1400 audit(1778426680.720:117): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  494.565491] panel-google-hk3 19440000.drmdsim.0: exynos_panel_normal_mode_work
+[  494.783795] st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 78cbc, ntf=0
+[  497.900807] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  497.928154] logbuffer_pcie0: [  255] L0(0x11)
+[  505.394916] google_charger: usbchg=USB typec=C usbv=4825 usbc=486 usbMv=5000 usbMc=500 usbOc=486
+[  505.398708] google_battery: MSC_DIN chg_state=1f40fe403010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4068 icl=500
+[  505.400018] google_battery: MSC_FAST vt=4350000 vb=4068437 ib=391562 fv_uv=4350000->4350000 vchrg=4068 cv_cnt=1 no_back=0
+[  509.959821] cpif: pcie_send_ap2cp_irq: Reserve doorbell interrupt: PCI not powered on
+[  509.965211] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  509.992791] logbuffer_pcie0: [  256] L0(0x11)
+[  510.063244] cpif: pcie_send_ap2cp_irq: Reserve doorbell interrupt: PCI on/off working
+[  510.070717] type=1400 audit(1778426699.536:118): avc:  denied  { read } for  comm="binder:4825_4" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=93 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  510.119234] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  510.146736] logbuffer_pcie0: [  257] L0(0x11)
+[  510.271986] cpif: pcie_send_ap2cp_irq: Reserve doorbell interrupt: PCI on/off working
+[  510.299762] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  510.328110] logbuffer_pcie0: [  258] L0(0x11)
+[  510.541273] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  510.774180] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  510.802819] logbuffer_pcie0: [  259] L0(0x11)
+[  510.934512] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  510.962703] logbuffer_pcie0: [  260] L0(0x11)
+[  511.200258] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  511.227894] logbuffer_pcie0: [  261] L0(0x11)
+[  511.249367] type=1400 audit(1778426700.716:119): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  511.310321] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  512.489078] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  512.517477] logbuffer_pcie0: [  262] L0(0x11)
+[  513.865728] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  513.894084] logbuffer_pcie0: [  263] L0(0x11)
+[  515.204093] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  515.232257] logbuffer_pcie0: [  264] L0(0x11)
+[  516.489388] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  516.519185] logbuffer_pcie0: [  265] L0(0x11)
+[  517.869010] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  517.898893] logbuffer_pcie0: [  266] L0(0x11)
+[  519.322274] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  519.353449] logbuffer_pcie0: [  267] L0(0x11)
+[  520.697206] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  520.725702] logbuffer_pcie0: [  268] L0(0x11)
+[  521.144393] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  521.174389] logbuffer_pcie0: [  269] L0(0x11)
+[  521.280330] type=1400 audit(1778426710.748:120): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  523.741291] cpif: pcie_send_ap2cp_irq: Reserve doorbell interrupt: PCI not powered on
+[  523.747574] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  523.775731] logbuffer_pcie0: [  270] L0(0x11)
+[  525.283648] panel-google-hk3 19440000.drmdsim.0: exynos_panel_normal_mode_work
+[  527.981053] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  528.008160] logbuffer_pcie0: [  271] L0(0x11)
+[  531.919809] max1720x i2c-max1720x_fg: 0x524D 06:4200 FF:41C7 1F:05B7 05:05BC 10:088F 35:08B1 23:091F 4C:FFAA 4D:FCA8 45:04F9 46:6CFE 0C:0000 3D:1008 28:207E 39:1402 29:0613 0F:05B7 4A:0607 09:CB66 0A:0500 38:0886 17:F980 CC:2926000
+[  531.920271] google,charger google,charger: chg_psy_changed name=maxfg evt=0
+[  531.944162] google_battery: MSC_TTF: est:23341(389min), max_ratio:1660 [0:8,253,497][1:0,0,0][2:0,0,0]
+[  531.951823] healthd: battery l=66 v=4067 t=26.5 h=2 st=2 c=400000 fc=4670000 cc=639 chg=u
+[  535.406040] google_charger: usbchg=USB typec=C usbv=4825 usbc=484 usbMv=5000 usbMc=500 usbOc=484
+[  535.410153] google_battery: MSC_DIN chg_state=1f40fe303010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4067 icl=500
+[  535.411571] google_battery: MSC_FAST vt=4350000 vb=4067812 ib=390937 fv_uv=4350000->4350000 vchrg=4067 cv_cnt=1 no_back=0
+[  541.281996] type=1400 audit(1778426730.748:121): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  541.743729] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  541.772270] logbuffer_pcie0: [  272] L0(0x11)
+[  545.205972] google_battery: MSC_TTF: est:22629(377min), max_ratio:1609 [0:8,261,497][1:0,0,0][2:0,0,0]
+[  545.216652] healthd: battery l=66 v=4068 t=26.4 h=2 st=2 c=382500 fc=4670000 cc=639 chg=u
+[  548.294085] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  551.313820] type=1400 audit(1778426740.780:122): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  555.260160] st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 878f8, ntf=0
+[  555.501721] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  555.529808] logbuffer_pcie0: [  273] L0(0x11)
+[  556.003957] panel-google-hk3 19440000.drmdsim.0: exynos_panel_normal_mode_work
+[  565.420584] google_charger: usbchg=USB typec=C usbv=4825 usbc=494 usbMv=5000 usbMc=500 usbOc=494
+[  565.424321] google_battery: MSC_DIN chg_state=1f40fe603010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4070 icl=500
+[  565.425667] google_battery: MSC_FAST vt=4350000 vb=4070468 ib=380000 fv_uv=4350000->4350000 vchrg=4070 cv_cnt=1 no_back=0
+[  569.264512] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  569.292682] logbuffer_pcie0: [  274] L0(0x11)
+[  570.543377] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  571.313408] type=1400 audit(1778426760.780:123): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  571.314038] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  581.346800] type=1400 audit(1778426770.812:124): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  582.704132] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  582.731992] logbuffer_pcie0: [  275] L0(0x11)
+[  586.724068] panel-google-hk3 19440000.drmdsim.0: exynos_panel_normal_mode_work
+[  595.431311] google_charger: usbchg=USB typec=C usbv=4825 usbc=488 usbMv=5000 usbMc=500 usbOc=488
+[  595.435073] google_battery: MSC_DIN chg_state=1f40fe803010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4072 icl=500
+[  595.436472] google_battery: MSC_FAST vt=4350000 vb=4072031 ib=398125 fv_uv=4350000->4350000 vchrg=4072 cv_cnt=1 no_back=0
+[  596.464867] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  596.493085] logbuffer_pcie0: [  276] L0(0x11)
+[  601.341933] type=1400 audit(1778426790.808:125): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  605.207646] google_battery: MSC_TTF: est:21476(357min), max_ratio:1532 [0:9,274,497][1:0,0,0][2:0,0,0]
+[  605.220094] healthd: battery l=66 v=4071 t=26.2 h=2 st=2 c=383437 fc=4670000 cc=639 chg=u
+[  610.226294] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  610.254808] logbuffer_pcie0: [  277] L0(0x11)
+[  611.382180] type=1400 audit(1778426800.844:126): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  615.731796] st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 96530, ntf=0
+[  617.445479] panel-google-hk3 19440000.drmdsim.0: exynos_panel_normal_mode_work
+[  624.623515] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  624.651850] logbuffer_pcie0: [  278] L0(0x11)
+[  625.444410] google_charger: usbchg=USB typec=C usbv=4825 usbc=486 usbMv=5000 usbMc=500 usbOc=486
+[  625.447783] google_battery: MSC_DIN chg_state=1f40fe403010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4068 icl=500
+[  625.448975] google_battery: MSC_FAST vt=4350000 vb=4068906 ib=305937 fv_uv=4350000->4350000 vchrg=4068 cv_cnt=1 no_back=0
+[  630.549363] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  631.319728] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  631.374770] type=1400 audit(1778426820.840:127): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  638.387168] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  638.415750] logbuffer_pcie0: [  279] L0(0x11)
+[  641.412161] type=1400 audit(1778426830.876:128): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  648.167682] panel-google-hk3 19440000.drmdsim.0: exynos_panel_normal_mode_work
+[  652.145342] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  652.171939] logbuffer_pcie0: [  280] L0(0x11)
+[  655.454383] google_charger: usbchg=USB typec=C usbv=4825 usbc=480 usbMv=5000 usbMc=500 usbOc=480
+[  655.457671] google_battery: MSC_DIN chg_state=1f40fe803010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4072 icl=500
+[  655.459021] google_battery: MSC_FAST vt=4350000 vb=4072656 ib=389687 fv_uv=4350000->4350000 vchrg=4072 cv_cnt=1 no_back=0
+[  661.400093] type=1400 audit(1778426850.864:129): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  665.205827] google_battery: MSC_TTF: est:20879(347min), max_ratio:1494 [0:10,281,498][1:0,0,0][2:0,0,0]
+[  665.216337] healthd: battery l=66 v=4073 t=26.1 h=2 st=2 c=392812 fc=4670000 cc=639 chg=u
+[  665.226640] servicemanager: Caller(pid=2181,uid=10238,sid=u:r:systemui_app:s0:c238,c256,c512,c768) Found vendor.google.google_battery.IGoogleBattery/default in device VINTF manifest.
+[  665.227409] servicemanager: Caller(pid=2181,uid=10238,sid=u:r:systemui_app:s0:c238,c256,c512,c768) Found vendor.google.google_battery.IGoogleBattery/default in device VINTF manifest.
+[  665.585947] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  665.614632] logbuffer_pcie0: [  281] L0(0x11)
+[  667.754579] init: processing action (vendor.pixel.system.phenotype.Perf__zram_comp_algorithm_experiment=default) from (/vendor/etc/init/pixel-zram-comp-algorithm-experiment.rc:13)
+[  667.801517] cpif: pcie_send_ap2cp_irq: Reserve doorbell interrupt: PCI not powered on
+[  667.806987] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  667.828688] servicemanager: Caller(pid=2312,uid=10269,sid=u:r:pixelsystemservice_app:s0:c13,c257,c512,c768) Found android.frameworks.stats.IStats/default in framework VINTF manifest.
+[  667.829396] servicemanager: Caller(pid=2312,uid=10269,sid=u:r:pixelsystemservice_app:s0:c13,c257,c512,c768) Found android.frameworks.stats.IStats/default in framework VINTF manifest.
+[  667.830885] servicemanager: Caller(pid=2312,uid=10269,sid=u:r:pixelsystemservice_app:s0:c13,c257,c512,c768) Found android.frameworks.stats.IStats/default in framework VINTF manifest.
+[  667.832094] servicemanager: Caller(pid=2312,uid=10269,sid=u:r:pixelsystemservice_app:s0:c13,c257,c512,c768) Found android.frameworks.stats.IStats/default in framework VINTF manifest.
+[  667.832348] servicemanager: Caller(pid=2312,uid=10269,sid=u:r:pixelsystemservice_app:s0:c13,c257,c512,c768) Found android.frameworks.stats.IStats/default in framework VINTF manifest.
+[  667.832577] servicemanager: Caller(pid=2312,uid=10269,sid=u:r:pixelsystemservice_app:s0:c13,c257,c512,c768) Found android.frameworks.stats.IStats/default in framework VINTF manifest.
+[  667.833049] servicemanager: Caller(pid=2312,uid=10269,sid=u:r:pixelsystemservice_app:s0:c13,c257,c512,c768) Found android.frameworks.stats.IStats/default in framework VINTF manifest.
+[  667.835736] logbuffer_pcie0: [  282] L0(0x11)
+[  667.968566] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  667.995803] logbuffer_pcie0: [  283] L0(0x11)
+[  668.350409] cpif: pcie_send_ap2cp_irq: Reserve doorbell interrupt: PCI not powered on
+[  668.351265] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  668.379164] logbuffer_pcie0: [  284] L0(0x11)
+[  668.419053] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  668.509418] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  668.537449] logbuffer_pcie0: [  285] L0(0x11)
+[  668.871999] cpif: pcie_send_ap2cp_irq: Reserve doorbell interrupt: PCI on/off working
+[  668.920104] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  668.948142] logbuffer_pcie0: [  286] L0(0x11)
+[  669.074824] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  669.077136] cpif: pcie_send_ap2cp_irq: Reserve doorbell interrupt: PCI on/off working
+[  669.102895] logbuffer_pcie0: [  287] L0(0x11)
+[  670.096116] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  670.124294] logbuffer_pcie0: [  288] L0(0x11)
+[  671.446191] type=1400 audit(1778426860.912:130): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  671.528688] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  671.557195] logbuffer_pcie0: [  289] L0(0x11)
+[  672.975368] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  673.003365] logbuffer_pcie0: [  290] L0(0x11)
+[  674.466047] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  674.494491] logbuffer_pcie0: [  291] L0(0x11)
+[  675.290488] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  675.319042] logbuffer_pcie0: [  292] L0(0x11)
+[  675.963672] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  675.993696] logbuffer_pcie0: [  293] L0(0x11)
+[  676.205279] st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: a5169, ntf=0
+[  677.432880] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  677.461369] logbuffer_pcie0: [  294] L0(0x11)
+[  678.885543] panel-google-hk3 19440000.drmdsim.0: exynos_panel_normal_mode_work
+[  678.943392] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  678.972045] logbuffer_pcie0: [  295] L0(0x11)
+[  679.158930] cpif: pcie_send_ap2cp_irq: Reserve doorbell interrupt: PCI not powered on
+[  679.160198] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  679.187931] logbuffer_pcie0: [  296] L0(0x11)
+[  679.320662] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  679.348596] logbuffer_pcie0: [  297] L0(0x11)
+[  685.468448] google_charger: usbchg=USB typec=C usbv=4825 usbc=490 usbMv=5000 usbMc=500 usbOc=490
+[  685.472184] google_battery: MSC_DIN chg_state=1f40fe803010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4072 icl=500
+[  685.473529] google_battery: MSC_FAST vt=4350000 vb=4072031 ib=370312 fv_uv=4350000->4350000 vchrg=4072 cv_cnt=1 no_back=0
+[  688.625272] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  688.651865] logbuffer_pcie0: [  298] L0(0x11)
+[  690.546578] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  691.314125] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  691.422668] type=1400 audit(1778426880.888:131): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  701.478211] type=1400 audit(1778426890.944:132): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  702.386725] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  702.415102] logbuffer_pcie0: [  299] L0(0x11)
+[  705.431302] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  709.603765] panel-google-hk3 19440000.drmdsim.0: exynos_panel_normal_mode_work
+[  715.477882] google_charger: usbchg=USB typec=C usbv=4825 usbc=479 usbMv=5000 usbMc=500 usbOc=479
+[  715.480585] google_battery: MSC_DIN chg_state=1f40fea03010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4074 icl=500
+[  715.481588] google_battery: MSC_FAST vt=4350000 vb=4074531 ib=386562 fv_uv=4350000->4350000 vchrg=4074 cv_cnt=1 no_back=0
+[  716.146914] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  716.175381] logbuffer_pcie0: [  300] L0(0x11)
+[  721.456623] type=1400 audit(1778426910.920:133): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  725.204526] google_battery: MSC_TTF: est:20158(335min), max_ratio:1453 [0:11,289,498][1:0,0,0][2:0,0,0]
+[  725.215133] healthd: battery l=66 v=4074 t=25.9 h=2 st=2 c=396562 fc=4670000 cc=639 chg=u
+[  729.587302] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  729.617215] logbuffer_pcie0: [  301] L0(0x11)
+[  731.509219] type=1400 audit(1778426920.976:134): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  736.683583] st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: b3da8, ntf=0
+[  738.045702] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  738.075177] init: Untracked process (pid: 7707 name: (magiskd) ppid: 1 pgrp: 915 state: Z) exited with status 0
+[  738.075214] init: Untracked process (pid: 7707 name: (magiskd) ppid: 1 pgrp: 915 state: Z) did not have an associated service entry and will not be reaped
+[  740.325495] panel-google-hk3 19440000.drmdsim.0: exynos_panel_normal_mode_work
+[  740.388694] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  742.062606] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  743.347722] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  743.375799] logbuffer_pcie0: [  302] L0(0x11)
+[  745.490285] google_charger: usbchg=USB typec=C usbv=4825 usbc=491 usbMv=5000 usbMc=500 usbOc=491
+[  745.493548] google_battery: MSC_DIN chg_state=1f40fea03010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4074 icl=500
+[  745.494908] google_battery: MSC_FAST vt=4350000 vb=4074218 ib=396562 fv_uv=4350000->4350000 vchrg=4074 cv_cnt=1 no_back=0
+[  750.547202] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  751.311068] exynos-decon[0]: update decon bts for mode: 1008x2244x120(0:314640)(bts fps:120 mode:120 op:120)
+[  751.485591] type=1400 audit(1778426940.952:135): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+[  757.108464] exynos-pcie-rc 12100000.pcie: Updated MSI Control Addr: 0x00000000f6200000
+[  757.138390] logbuffer_pcie0: [  303] L0(0x11)
+[  761.542542] type=1400 audit(1778426951.008:136): avc:  denied  { write } for  comm="TracingMuxer" name="traced_producer" dev="tmpfs" ino=1371 scontext=u:r:hal_neuralnetworks_darwinn:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
