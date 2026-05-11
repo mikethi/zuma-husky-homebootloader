@@ -1,0 +1,4 @@
+GPIO ranges handled:
+0: gph0 GPIOS [87 - 90] PINS [87 - 90]
+1: gph1 GPIOS [91 - 98] PINS [91 - 98]
+2: gph2 GPIOS [99 - 102] PINS [99 - 102]

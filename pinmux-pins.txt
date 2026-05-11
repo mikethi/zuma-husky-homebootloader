@@ -1,0 +1,18 @@
+Pinmux settings per pin
+Format: pin (name): mux_owner gpio_owner hog?
+pin 87 (gph0-0): 12100000.pcie (GPIO UNCLAIMED) function pcie0_perst group gph0-0
+pin 88 (gph0-1): 12100000.pcie (GPIO UNCLAIMED) function pcie0_clkreq group gph0-1
+pin 89 (gph0-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 90 (gph0-3): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 91 (gph1-0): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 92 (gph1-1): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 93 (gph1-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 94 (gph1-3): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 95 (gph1-4): 9-003c (GPIO UNCLAIMED) function wc_en group gph1-4
+pin 96 (gph1-5): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 97 (gph1-6): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 98 (gph1-7): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 99 (gph2-0): 0-0043 (GPIO UNCLAIMED) function hapt-amp-trig group gph2-0
+pin 100 (gph2-1): spi19.1 (GPIO UNCLAIMED) function cs35l41-2-rst group gph2-1
+pin 101 (gph2-2): (MUX UNCLAIMED) (GPIO UNCLAIMED)
+pin 102 (gph2-3): 0-0043 (GPIO UNCLAIMED) function hapt-amp1-rst group gph2-3

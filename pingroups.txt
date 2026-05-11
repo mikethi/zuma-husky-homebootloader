@@ -1,0 +1,49 @@
+registered pin groups:
+group: gph0-0
+pin 87 (gph0-0)
+
+group: gph0-1
+pin 88 (gph0-1)
+
+group: gph0-2
+pin 89 (gph0-2)
+
+group: gph0-3
+pin 90 (gph0-3)
+
+group: gph1-0
+pin 91 (gph1-0)
+
+group: gph1-1
+pin 92 (gph1-1)
+
+group: gph1-2
+pin 93 (gph1-2)
+
+group: gph1-3
+pin 94 (gph1-3)
+
+group: gph1-4
+pin 95 (gph1-4)
+
+group: gph1-5
+pin 96 (gph1-5)
+
+group: gph1-6
+pin 97 (gph1-6)
+
+group: gph1-7
+pin 98 (gph1-7)
+
+group: gph2-0
+pin 99 (gph2-0)
+
+group: gph2-1
+pin 100 (gph2-1)
+
+group: gph2-2
+pin 101 (gph2-2)
+
+group: gph2-3
+pin 102 (gph2-3)
+
